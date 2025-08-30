@@ -57,3 +57,41 @@ events_by_day/
 # Temporary files
 *.tmp
 temp/
+/tmp/
+
+# Scraped/parsed data files (these can be regenerated)
+19hz_events_*.html
+19hz_events_*.json
+events_*.json
+events-*.json
+events_organized.json
+events_tba.json
+events_all_geocoded.json
+events_friday_geocoded.json
+events_saturday_geocoded.json
+geocode_cache.json
+tba_resolutions_*.json
+update_tba_map.html
+
+# Test HTML samples
+/tmp/19hz_sample.html
+*.html
+
+# But keep the main index files
+!index.html
+!index_v2.html
+
+# SQLite database files
+events.db
+events.db-shm
+events.db-wal
+*.db-shm
+*.db-wal
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Poetry local config
+poetry.toml

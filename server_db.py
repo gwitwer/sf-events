@@ -67,15 +67,23 @@ async def startup_event():
     # Create database if it doesn't exist
     create_database("events.db")
     
-    # Run initial scraping
-    logger.info("Running initial scraping on startup...")
-    try:
-        await scrape_and_update()
-        logger.info("Initial scraping completed successfully")
-    except Exception as e:
-        logger.error(f"Initial scraping failed: {e}")
+    # Schedule initial scraping to run in background (don't block startup)
+    async def initial_scrape():
+        """Run initial scraping after a short delay"""
+        await asyncio.sleep(5)  # Give the server time to start
+        logger.info("Running initial scraping...")
+        try:
+            await scrape_and_update()
+            logger.info("Initial scraping completed successfully")
+        except Exception as e:
+            logger.error(f"Initial scraping failed: {e}")
     
-    # Start background scraping task
+    # Start initial scraping in background
+    task = asyncio.create_task(initial_scrape())
+    background_tasks.add(task)
+    task.add_done_callback(background_tasks.discard)
+    
+    # Start periodic scraping task
     task = asyncio.create_task(run_periodic_scraping())
     background_tasks.add(task)
     task.add_done_callback(background_tasks.discard)
@@ -529,15 +537,20 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8001))
     is_production = os.environ.get("RENDER", False)
     
+    logger.info(f"Starting server on port {port}")
+    
     if not is_production:
         print("🚀 Starting SF Events API server (SQLite)...")
         print(f"📍 API docs: http://localhost:{port}/docs")
         print(f"🗺️  Map view: http://localhost:{port}")
         print("🗄️  Database: events.db")
+    else:
+        print(f"Starting production server on port {port}")
     
     uvicorn.run(
         "server_db:app", 
         host="0.0.0.0", 
         port=port, 
-        reload=not is_production
+        reload=not is_production,
+        log_level="info"
     )

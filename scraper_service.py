@@ -282,7 +282,7 @@ class DatabaseUpdater:
                 venue.is_approximate = coordinates.get('approximate', False)
             
             self.session.add(venue)
-            self.session.flush()
+            # Don't flush here - let it happen with the event
         elif coordinates and not venue.latitude:
             # Update coordinates if venue exists but lacks them
             venue.latitude = coordinates.get('lat')
@@ -303,7 +303,7 @@ class DatabaseUpdater:
         if not genre:
             genre = Genre(name=genre_name)
             self.session.add(genre)
-            self.session.flush()
+            # Don't flush here - let it happen with the event
         
         self.genre_cache[genre_name] = genre
         return genre
@@ -318,7 +318,7 @@ class DatabaseUpdater:
         if not promoter:
             promoter = Promoter(name=promoter_name)
             self.session.add(promoter)
-            self.session.flush()
+            # Don't flush here - let it happen with the event
         
         self.promoter_cache[promoter_name] = promoter
         return promoter
@@ -411,6 +411,8 @@ class DatabaseUpdater:
                         event.extra_links.append(link)
                 
                 self.session.add(event)
+                # Flush after adding the event with all its relationships
+                self.session.flush()
                 logger.info(f"Created new event: {event.title}")
                 return True  # New event
                 
@@ -451,24 +453,30 @@ async def scrape_and_update():
             if i % 10 == 0:
                 logger.info(f"Processing event {i}/{len(events)}...")
             
-            # Geocode venue if needed
-            coordinates = None
-            if event_data.get('venue') and 'TBA' not in event_data['venue']:
-                coordinates = scraper.geocode_venue(
-                    event_data['venue'],
-                    event_data.get('city', 'San Francisco')
-                )
-            
-            # Update or create event
-            is_new = updater.update_or_create_event(event_data, coordinates)
-            if is_new:
-                new_count += 1
-            else:
-                updated_count += 1
-            
-            # Commit periodically
-            if i % 20 == 0:
-                session.commit()
+            try:
+                # Geocode venue if needed
+                coordinates = None
+                if event_data.get('venue') and 'TBA' not in event_data['venue']:
+                    coordinates = scraper.geocode_venue(
+                        event_data['venue'],
+                        event_data.get('city', 'San Francisco')
+                    )
+                
+                # Update or create event
+                is_new = updater.update_or_create_event(event_data, coordinates)
+                if is_new:
+                    new_count += 1
+                else:
+                    updated_count += 1
+                
+                # Commit periodically
+                if i % 20 == 0:
+                    session.commit()
+                    
+            except Exception as e:
+                logger.error(f"Error processing event {i}: {e}")
+                session.rollback()
+                continue
         
         # Final commit
         session.commit()

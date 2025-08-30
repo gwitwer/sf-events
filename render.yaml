@@ -10,7 +10,7 @@ services:
       - key: DATABASE_URL
         value: sqlite:///events.db
       - key: RENDER
-        value: true
+        value: "true"
     autoDeploy: false
 
   # Cron job to trigger scraping via API
