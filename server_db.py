@@ -9,6 +9,9 @@ from fastapi import FastAPI, HTTPException, Query, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse, HTMLResponse
+import os
+import asyncio
+import logging
 from pydantic import BaseModel
 from sqlalchemy import create_engine, and_, or_, func
 from sqlalchemy.orm import Session, sessionmaker, joinedload
@@ -18,6 +21,11 @@ from models import (
     Event, Venue, Genre, Promoter, EventLink, TBAVenueHint,
     EventQueries, create_database, get_session
 )
+from scraper_service import scrape_and_update, run_periodic_scraping
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # Initialize FastAPI app
 app = FastAPI(
@@ -40,6 +48,9 @@ DATABASE_URL = "sqlite:///events.db"
 engine = create_engine(DATABASE_URL, echo=False)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
+# Background task reference
+background_tasks = set()
+
 # Dependency to get DB session
 def get_db():
     db = SessionLocal()
@@ -47,6 +58,40 @@ def get_db():
         yield db
     finally:
         db.close()
+
+@app.on_event("startup")
+async def startup_event():
+    """Run on application startup"""
+    logger.info("Starting up SF Events API...")
+    
+    # Create database if it doesn't exist
+    create_database("events.db")
+    
+    # Run initial scraping
+    logger.info("Running initial scraping on startup...")
+    try:
+        await scrape_and_update()
+        logger.info("Initial scraping completed successfully")
+    except Exception as e:
+        logger.error(f"Initial scraping failed: {e}")
+    
+    # Start background scraping task
+    task = asyncio.create_task(run_periodic_scraping())
+    background_tasks.add(task)
+    task.add_done_callback(background_tasks.discard)
+    logger.info("Background scraping task started (runs every 12 hours)")
+
+@app.on_event("shutdown")
+async def shutdown_event():
+    """Clean up on shutdown"""
+    logger.info("Shutting down SF Events API...")
+    
+    # Cancel background tasks
+    for task in background_tasks:
+        task.cancel()
+    
+    # Wait for tasks to complete cancellation
+    await asyncio.gather(*background_tasks, return_exceptions=True)
 
 # Pydantic models for API responses
 class EventResponse(BaseModel):
@@ -463,10 +508,36 @@ async def health_check(db: Session = Depends(get_db)):
             "timestamp": datetime.now().isoformat()
         }
 
+@app.post("/api/scrape")
+async def trigger_scrape():
+    """Manually trigger a scraping run"""
+    try:
+        logger.info("Manual scraping triggered via API")
+        await scrape_and_update()
+        return {
+            "status": "success",
+            "message": "Scraping completed successfully",
+            "timestamp": datetime.now().isoformat()
+        }
+    except Exception as e:
+        logger.error(f"Manual scraping failed: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 # Run with: poetry run python server_db.py
 if __name__ == "__main__":
-    print("🚀 Starting SF Events API server (SQLite)...")
-    print("📍 API docs: http://localhost:8001/docs")
-    print("🗺️  Map view: http://localhost:8001")
-    print("🗄️  Database: events.db")
-    uvicorn.run("server_db:app", host="0.0.0.0", port=8001, reload=True)
+    import os
+    port = int(os.environ.get("PORT", 8001))
+    is_production = os.environ.get("RENDER", False)
+    
+    if not is_production:
+        print("🚀 Starting SF Events API server (SQLite)...")
+        print(f"📍 API docs: http://localhost:{port}/docs")
+        print(f"🗺️  Map view: http://localhost:{port}")
+        print("🗄️  Database: events.db")
+    
+    uvicorn.run(
+        "server_db:app", 
+        host="0.0.0.0", 
+        port=port, 
+        reload=not is_production
+    )
