@@ -122,14 +122,21 @@ class EventScraper:
         
         # Parse venue and city
         # The venue comes after @ and city is in parentheses
-        event_text = event_cell.get_text(' ', strip=True)
-        venue_match = re.search(r'@\s+([^()]+?)(?:\s*\(([^)]+)\))?(?:\s|$)', event_text)
+        # Note: HTML may be malformed with missing </td> tags
+        event_html = str(event_cell)
+        
+        # Try to extract venue from raw HTML first (more reliable with malformed HTML)
+        venue_match = re.search(r'@\s+([^(<]+?)(?:\s*\(([^)]+)\))?(?:<|$)', event_html)
         if venue_match:
             event['venue'] = venue_match.group(1).strip()
-            # Remove any trailing TD tag text
-            if event['venue'].endswith('<td>'):
-                event['venue'] = event['venue'][:-4].strip()
             event['city'] = venue_match.group(2).strip() if venue_match.group(2) else 'San Francisco'
+        else:
+            # Fallback to text extraction
+            event_text = event_cell.get_text(' ', strip=True)
+            venue_match = re.search(r'@\s+([^()]+?)(?:\s*\(([^)]+)\))?', event_text)
+            if venue_match:
+                event['venue'] = venue_match.group(1).strip()
+                event['city'] = venue_match.group(2).strip() if venue_match.group(2) else 'San Francisco'
         
         # Third cell: Genres
         if len(cells) > 2:
