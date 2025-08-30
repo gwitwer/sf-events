@@ -2,11 +2,26 @@ services:
   - type: web
     name: sf-events
     runtime: python
-    buildCommand: "./build.sh"
+    buildCommand: "chmod +x build.sh && ./build.sh"
     startCommand: "uvicorn server_db:app --host 0.0.0.0 --port $PORT"
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.0
       - key: DATABASE_URL
         value: sqlite:///events.db
+      - key: RENDER
+        value: true
     autoDeploy: false
+
+  # Cron job to trigger scraping via API
+  - type: cron
+    name: sf-events-scraper
+    runtime: python
+    schedule: "0 */12 * * *"  # Every 12 hours at minute 0
+    buildCommand: "pip install requests"
+    command: "python run_scraper.py"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: SERVICE_URL
+        value: https://sf-events.onrender.com  # Update with your actual URL
