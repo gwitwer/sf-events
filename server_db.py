@@ -50,6 +50,8 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 # Background task reference
 background_tasks = set()
+# Scraping status
+scraping_status = {"is_scraping": False, "last_scrape": None, "events_count": 0}
 
 # Dependency to get DB session
 def get_db():
@@ -72,11 +74,19 @@ async def startup_event():
         """Run initial scraping after a short delay"""
         await asyncio.sleep(5)  # Give the server time to start
         logger.info("Running initial scraping...")
+        scraping_status["is_scraping"] = True
         try:
             await scrape_and_update()
             logger.info("Initial scraping completed successfully")
+            scraping_status["last_scrape"] = datetime.now().isoformat()
+            # Get event count
+            db = SessionLocal()
+            scraping_status["events_count"] = db.query(Event).count()
+            db.close()
         except Exception as e:
             logger.error(f"Initial scraping failed: {e}")
+        finally:
+            scraping_status["is_scraping"] = False
     
     # Start initial scraping in background
     task = asyncio.create_task(initial_scrape())
@@ -496,6 +506,37 @@ async def get_tba_json(db: Session = Depends(get_db)):
     """Get TBA events as JSON"""
     return await get_tba_events(db)
 
+@app.get("/status")
+async def status_check(db: Session = Depends(get_db)):
+    """Detailed status check"""
+    try:
+        event_count = db.query(Event).count()
+        venue_count = db.query(Venue).count()
+        
+        # Check for specific venue fix
+        bar_part_time = db.query(Venue).filter(Venue.name == "Bar Part Time").first()
+        bar_only = db.query(Venue).filter(Venue.name == "Bar").first()
+        
+        return {
+            "status": "operational",
+            "database": {
+                "events": event_count,
+                "venues": venue_count
+            },
+            "scraping": scraping_status,
+            "venue_check": {
+                "bar_part_time_exists": bar_part_time is not None,
+                "bar_only_exists": bar_only is not None
+            },
+            "timestamp": datetime.now().isoformat()
+        }
+    except Exception as e:
+        return {
+            "status": "error",
+            "error": str(e),
+            "timestamp": datetime.now().isoformat()
+        }
+
 @app.get("/health")
 async def health_check(db: Session = Depends(get_db)):
     """Health check endpoint"""
@@ -506,6 +547,7 @@ async def health_check(db: Session = Depends(get_db)):
             "status": "healthy",
             "database": "connected",
             "events": event_count,
+            "scraping": scraping_status,
             "timestamp": datetime.now().isoformat()
         }
     except Exception as e:
@@ -519,17 +561,35 @@ async def health_check(db: Session = Depends(get_db)):
 @app.post("/api/scrape")
 async def trigger_scrape():
     """Manually trigger a scraping run"""
+    if scraping_status["is_scraping"]:
+        return {
+            "status": "already_running",
+            "message": "Scraping is already in progress",
+            "timestamp": datetime.now().isoformat()
+        }
+    
     try:
         logger.info("Manual scraping triggered via API")
+        scraping_status["is_scraping"] = True
         await scrape_and_update()
+        scraping_status["last_scrape"] = datetime.now().isoformat()
+        
+        # Get event count
+        db = SessionLocal()
+        scraping_status["events_count"] = db.query(Event).count()
+        db.close()
+        
         return {
             "status": "success",
             "message": "Scraping completed successfully",
+            "events_count": scraping_status["events_count"],
             "timestamp": datetime.now().isoformat()
         }
     except Exception as e:
         logger.error(f"Manual scraping failed: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+    finally:
+        scraping_status["is_scraping"] = False
 
 # Run with: poetry run python server_db.py
 if __name__ == "__main__":
