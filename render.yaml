@@ -19,7 +19,7 @@ services:
     runtime: python
     schedule: "0 */12 * * *"  # Every 12 hours at minute 0
     buildCommand: "pip install requests"
-    command: "python run_scraper.py"
+    startCommand: "python run_scraper.py"
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.0
