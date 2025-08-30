@@ -1,0 +1,42 @@
+[
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sun: Nov 2",
+    "timeRange": "6pm",
+    "title": "TR/ST, Martin Dupont, Xeno & Oaklander, Sacred Skin, Topographies, Skoto",
+    "url": "https://www.seetickets.us/event/id/647671",
+    "venue": "Great American Music Hall",
+    "city": "San Francisco",
+    "genres": [
+      "minimal synth",
+      "synthpop",
+      "darkwave",
+      "coldwave"
+    ],
+    "price": "$55 pre / $70",
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-02"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Nov 2",
+    "timeRange": "9pm",
+    "title": "Zamna: Meduza, Sparrow & Barbossa, Spencer Brown, Deer Jade, Elif, Qrion",
+    "url": "https://www.tixr.com/groups/midwaysf/events/zamna-152914?laylo-fid=16897ee3467f90d1adcb51080d9646d1&laylo-pid=04e75252-4d40-486a-bbc8-6558704d674d",
+    "venue": "The Midway",
+    "city": "San Francisco",
+    "genres": [
+      "progressive house",
+      "tech house"
+    ],
+    "price": null,
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-02"
+  }
+]

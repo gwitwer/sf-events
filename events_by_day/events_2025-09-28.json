@@ -1,0 +1,96 @@
+[
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sun: Sep 28",
+    "timeRange": "2pm-8pm",
+    "title": "LOVE SUPREME Summer Day Party Series: Travie Bobbito, King Most, Bella D, & Friends",
+    "url": "https://www.seetickets.us/event/LOVE-SUPREME-Summer-Day-Party-Series/656374",
+    "venue": "The Chapel",
+    "city": "San Francisco",
+    "genres": [
+      "afrobeats",
+      "amapiano",
+      "baile funk",
+      "dancehall",
+      "house",
+      "r&b",
+      "reggaeton",
+      "soul"
+    ],
+    "price": "$14.84+",
+    "age": "21+",
+    "promoters": [
+      "Love Supreme"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-28"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sun: Sep 28",
+    "timeRange": "6pm-9pm",
+    "title": "Future Perfect - Mister Unruly, Aquamoon, A.K.Aye, Minus Man, David Leikam,  DJ Clairity, Pixelpusher",
+    "url": "https://ra.co/events/2243795",
+    "venue": "Noc Noc",
+    "city": "San Francisco",
+    "genres": [
+      "techno psytrance experimental hiphop synth"
+    ],
+    "price": "free",
+    "age": "21+",
+    "promoters": [
+      "Future Perfect"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/futureperfect_sf/"
+      }
+    ],
+    "dateISO": "2025-09-28"
+  },
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Sun: Sep 28",
+    "timeRange": "7pm-11pm",
+    "title": "Disclosure (Live), Villager",
+    "url": "https://www.axs.com/uk/events/990227/disclosure-live-tickets",
+    "venue": "Frost Amphitheater",
+    "city": "Palo Alto",
+    "genres": [
+      "house",
+      "uk garage"
+    ],
+    "price": null,
+    "age": "18+",
+    "promoters": [
+      "Goldenvoice & Stanford Live"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-28"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sun: Sep 28",
+    "timeRange": "8pm",
+    "title": "Anime Rave",
+    "url": "https://wetouchgrass.kydlabs.com/e/EVf34520ec-2db0-4027-9083-5bd29d71c75b?referral_id=g-9014649f-0ea7-4cd0-bb8d-d9bfe9ccfea7",
+    "venue": "Temple Nightclub",
+    "city": "San Francisco",
+    "genres": [
+      "anime groove",
+      "EDM"
+    ],
+    "price": "$22+",
+    "age": "21+",
+    "promoters": [
+      "Wetouchgrass"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-28"
+  }
+]

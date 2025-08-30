@@ -1,0 +1,76 @@
+[
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Sun: Sep 14",
+    "timeRange": "2pm-7pm",
+    "title": "OMNOM Day Party",
+    "url": "https://www.tixr.com/groups/alldayallnight/events/omnom-day-party-at-social-dayclub-148939",
+    "venue": "Social Dayclub Rooftop",
+    "city": "Sacramento",
+    "genres": [
+      "tech house"
+    ],
+    "price": "$15-30",
+    "age": "21+",
+    "promoters": [
+      "All Day All Night",
+      "Earth1"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DLSx8hryTh5/"
+      }
+    ],
+    "dateISO": "2025-09-14"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Sun: Sep 14",
+    "timeRange": "2pm-9pm",
+    "title": "A Sunset Party At The Ruins w/ Francis Mercier",
+    "url": "https://www.ticketweb.com/event/francis-mercier-the-ruins-tickets/13902204?pl=BNPRUINS",
+    "venue": "The Ruins, 1 Mallen Wy",
+    "city": "American Canyon",
+    "genres": [
+      "afro house"
+    ],
+    "price": "$47-120",
+    "age": "21+",
+    "promoters": [
+      "Dj Dials",
+      "All Day All Night",
+      "Konnekted"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-14"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Sun: Sep 14",
+    "timeRange": "3:30pm-8:30pm",
+    "title": "Soulovely Leather & Lace",
+    "url": "https://www.tickettailor.com/events/soulovely/1704447",
+    "venue": "7th West",
+    "city": "Oakland",
+    "genres": [
+      "hip-hop",
+      "beats",
+      "r&b",
+      "house"
+    ],
+    "price": "$17-44",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/wearesoulovely/"
+      }
+    ],
+    "dateISO": "2025-09-14"
+  }
+]

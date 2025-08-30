@@ -1,0 +1,53 @@
+[
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Thu: Nov 20",
+    "timeRange": "9:30pm-2am",
+    "title": "Fish56octagon",
+    "url": "https://ra.co/events/2216641",
+    "venue": "Audio",
+    "city": "San Francisco",
+    "genres": [
+      "tech trance",
+      "eurodance",
+      "techno"
+    ],
+    "price": "$17 pre",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-20",
+    "coordinates": {
+      "lat": 37.7713709,
+      "lon": -122.4138077,
+      "display_name": "Audio Nightclub, 316, 11th Street, West SoMa, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Thu: Nov 20",
+    "timeRange": "8pm",
+    "title": "Kerala Dust",
+    "url": "https://www.ticketweb.com/event/kerala-dust-bimbos-365-club-tickets/13805314",
+    "venue": "Bimbo's 365 Club",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "synthpop"
+    ],
+    "price": "$35.54",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-20",
+    "coordinates": {
+      "lat": 37.8037307,
+      "lon": -122.4156458,
+      "display_name": "Bimbo's 365 Club, 1025, Columbus Avenue, Fisherman's Wharf, San Francisco, California, 94133, United States",
+      "approximate": false
+    }
+  }
+]

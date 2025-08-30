@@ -1,0 +1,137 @@
+[
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Thu: Sep 11",
+    "timeRange": "6pm-10pm",
+    "title": "Solkist, Denver Drake, Lucho, Mr Bounceman, Nurse Noise",
+    "url": "https://www.instagram.com/p/DN17kYg4p4s/",
+    "venue": "Abbott Square Market",
+    "city": "Santa Cruz",
+    "genres": [
+      "tech house"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [
+      "Santa Cruz DJ Sessions"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-11"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Thu: Sep 11",
+    "timeRange": "7pm",
+    "title": "Nitzer Ebb, Frontline Assembly, Clock Dva, Lead Into Gold",
+    "url": "https://www.dnalounge.com/calendar/2025/09-11.html",
+    "venue": "DNA Lounge",
+    "city": "San Francisco",
+    "genres": [
+      "EBM",
+      "industrial"
+    ],
+    "price": "$40 pre / $53",
+    "age": "All ages",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Facebook Page",
+        "href": "https://www.facebook.com/events/644961624984929/"
+      }
+    ],
+    "dateISO": "2025-09-11"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Thu: Sep 11",
+    "timeRange": "7:30pm",
+    "title": "Gray Area Festival: To the Maxx! Salome Chatriot and Star Amerasu Gray Area Festival 2025 Performances",
+    "url": "https://grayarea.org/event/2025-gray-area-festival-thursday-performances/",
+    "venue": "Gray Area",
+    "city": "San Francisco",
+    "genres": [
+      "live electronic",
+      "synthpop",
+      "experimental"
+    ],
+    "price": "$18-25 pre/ $35",
+    "age": "All ages",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DNayAtYNaUt/?img_index=1"
+      }
+    ],
+    "dateISO": "2025-09-11"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Thu: Sep 11",
+    "timeRange": "8pm-11pm",
+    "title": "Bruce Ackley & Fred Lonberg-Holmes, Jetztahora, Theresa Wong, Headboggle",
+    "url": "https://www.facebook.com/events/762212713180318/",
+    "venue": "Peacock Lounge",
+    "city": "San Francisco",
+    "genres": [
+      "experimental",
+      "live electronic"
+    ],
+    "price": "$5-1 notaflof",
+    "age": "All ages",
+    "promoters": [
+      "Pharmar Histamine"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-11"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Thu: Sep 11",
+    "timeRange": "9pm-2am",
+    "title": "Kahn & Neek  | Dub Reaper  | Self  | Reia",
+    "url": "https://www.eventbrite.com/e/kahn-neek-dub-reaper-self-reia-tickets-1583826761479",
+    "venue": "The Great Northern",
+    "city": "San Francisco",
+    "genres": [
+      "dubstep"
+    ],
+    "price": "$7-26",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Facebook Page",
+        "href": "https://www.facebook.com/events/8579681495489330/"
+      }
+    ],
+    "dateISO": "2025-09-11"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Thu: Sep 11",
+    "timeRange": "9:30pm",
+    "title": "Laszewo, me n u, Conrad",
+    "url": "https://www.axs.com/events/1071058/aszewo-tickets?skin=goldenvoice",
+    "venue": "The Regency Ballroom",
+    "city": "San Francisco",
+    "genres": [
+      "synthpop",
+      "house",
+      "pop EDM"
+    ],
+    "price": "$36.80+",
+    "age": "18+",
+    "promoters": [
+      "Goldenvoice"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-11"
+  }
+]

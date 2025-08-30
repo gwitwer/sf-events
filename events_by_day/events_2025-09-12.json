@@ -1,0 +1,580 @@
+[
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Fri: Sep 12-Sun: Sep 14",
+    "timeRange": "Fri: 1pm-Sun: 12pm",
+    "title": "Chillits 2025",
+    "url": "https://www.chillits.org/info/",
+    "venue": "Black Oak Ranch",
+    "city": "Laytonville",
+    "genres": [
+      "ambient",
+      "downtempo"
+    ],
+    "price": "$60-500",
+    "age": "All ages",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "7pm-10pm",
+    "title": "Temple Of Gold: An Ecstatic Dance Party w/ Kr3ture",
+    "url": "https://www.eventbrite.com/e/temple-of-gold-an-ecstatic-dance-party-with-kr3ture-tickets-1313060171319",
+    "venue": "The Center SF",
+    "city": "San Francisco",
+    "genres": [
+      "downtempo",
+      "bass music"
+    ],
+    "price": "$30-40",
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "7:30pm",
+    "title": "Gray Area Festival: To the Maxx! Onyx Ashanti, Ash Fure, and Briana Marela Lizarraga",
+    "url": "https://grayarea.org/event/2025-gray-area-festival-friday-performance/",
+    "venue": "Gray Area",
+    "city": "San Francisco",
+    "genres": [
+      "live electronic",
+      "experimental"
+    ],
+    "price": "$18-25 pre/ $35",
+    "age": "All ages",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DNayAtYNaUt/?img_index=1"
+      }
+    ],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "8pm",
+    "title": "Bassment Beatz: Banyan, Lazer Armageddon, A Six, Switchup!, Glitch",
+    "url": "https://www.instagram.com/p/DNtYBdgQrEd/",
+    "venue": "ReUnion Underground",
+    "city": "Sacramento",
+    "genres": [
+      "house"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [
+      "Eye Spy Events",
+      "Hydra",
+      "G4T",
+      "Bounce Beat",
+      "Earth Tones"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "8pm",
+    "title": "Toro Y Moi",
+    "url": "https://www.ticketweb.com/event/toro-y-moi-2-nights-bimbos-365-club-tickets/13910524",
+    "venue": "Bimbo's 365 Club",
+    "city": "San Francisco",
+    "genres": [
+      "synthpop"
+    ],
+    "price": "$62.58",
+    "age": "18+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "8pm-1:30am",
+    "title": "Saka, Chmura, Asau, Concow & Berkey",
+    "url": "https://www.eventbrite.com/e/saka-chmura-asau-concow-berkey-tickets-1514329011839",
+    "venue": "The Colonial Theatre",
+    "city": "Sacramento",
+    "genres": [
+      "dubstep",
+      "bass music",
+      "trap"
+    ],
+    "price": "$25.85-44.52",
+    "age": "18+",
+    "promoters": [
+      "Cymatics Events"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "9pm",
+    "title": "Supertask, Spoken Bird, Shadow Spirit, Jessiecat",
+    "url": "https://www.tixr.com/groups/midwaysf/events/supertask-141565",
+    "venue": "The Midway",
+    "city": "San Francisco",
+    "genres": [
+      "bass music",
+      "glitch-hop",
+      "trap",
+      "dubstep",
+      "drum and bass"
+    ],
+    "price": "$19-31",
+    "age": "21+",
+    "promoters": [
+      "Wormhole"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "9pm",
+    "title": "Tchami & AC Slater: Confession Vs. Night Bass",
+    "url": "https://www.tixr.com/groups/midwaysf/events/tchami-ac-slater-confession-vs-night-bass-136744",
+    "venue": "The Midway",
+    "city": "San Francisco",
+    "genres": [
+      "future house"
+    ],
+    "price": "$46-98",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "9pm",
+    "title": "Thank Goodness For House: E; Scuba, De5iance, Subcorv, Pigtails",
+    "url": "https://www.instagram.com/p/DNO9nJoSPnT/",
+    "venue": "Swig Bar",
+    "city": "San Francisco",
+    "genres": [
+      "house"
+    ],
+    "price": "free",
+    "age": "21+",
+    "promoters": [
+      "Speakerkidz",
+      "We Push Play"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/speakerkidzbayarea/"
+      }
+    ],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "9pm-1:30am",
+    "title": "Aaron F",
+    "url": "https://www.instagram.com/p/DNQzFFEzpS6/",
+    "venue": "Phonobar",
+    "city": "San Francisco",
+    "genres": [
+      "funk",
+      "chug",
+      "boogie",
+      "disco"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [
+      "Spaced Out"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/buddah4love/"
+      }
+    ],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "9pm-2:30am",
+    "title": "Cristoph",
+    "url": "https://www.eventbrite.com/e/cristoph-at-storek-cellar-tickets-1514278370369",
+    "venue": "Storek - A Npu Venue",
+    "city": "San Francisco",
+    "genres": [
+      "progressive house"
+    ],
+    "price": "$25.55-36.04",
+    "age": "21+",
+    "promoters": [
+      "All Day All Night Events"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "9pm-2am",
+    "title": "End Of Summer Party",
+    "url": "https://www.brickandmortarmusic.com/tm-event/the-end-of-summer-party/",
+    "venue": "Brick & Mortar Music Hall",
+    "city": "San Francisco",
+    "genres": [
+      "EDM",
+      "house",
+      "techno",
+      "dubstep",
+      "bass house",
+      "hard trance"
+    ],
+    "price": "$12 pre / $15-2-0",
+    "age": "21+",
+    "promoters": [
+      "Supper Club"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/supperclubofficial/"
+      }
+    ],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "9pm-2am",
+    "title": "X3butterfly",
+    "url": "https://ra.co/events/2214431",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "techno",
+      "house"
+    ],
+    "price": "$11 b4 10 / $17 b4 11 / $28-39",
+    "age": null,
+    "promoters": [
+      "program"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "9pm-3am",
+    "title": "DJ Hyperdrive, X-Coast & Oza",
+    "url": "https://www.tixr.com/groups/publicsf/events/dj-hyperdrive-x-coast-oza-presented-by-public-works-perfect-dark-bcco-151458",
+    "venue": "Public Works",
+    "city": "San Francisco",
+    "genres": [
+      "techno",
+      "house"
+    ],
+    "price": "$15-37",
+    "age": "21+",
+    "promoters": [
+      "Perfect Dark & Bcco"
+    ],
+    "extraLinks": [
+      {
+        "text": "Alternate Link",
+        "href": "https://ra.co/events/2221556"
+      }
+    ],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "9pm-3am",
+    "title": "Yamil",
+    "url": "https://www.eventbrite.com/e/yamil-moblack-pieces-of-life-at-madarae-tickets-1602970220079",
+    "venue": "Madarae",
+    "city": "San Francisco",
+    "genres": [
+      "afro house",
+      "progressive house"
+    ],
+    "price": "free",
+    "age": "21+",
+    "promoters": [
+      "All I Need Events"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/allineedevents/"
+      }
+    ],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "9:30pm",
+    "title": "Laszewo",
+    "url": "https://www.axs.com/uk/events/1006267/aszewo-tickets",
+    "venue": "The Regency Ballroom",
+    "city": "San Francisco",
+    "genres": [
+      "synthpop",
+      "house",
+      "pop EDM"
+    ],
+    "price": null,
+    "age": "18+",
+    "promoters": [
+      "Goldenvoice",
+      "DJ Dials"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "9:30pm-2:30am",
+    "title": "Otik | Tripleset | Alex Edward | grep | Visible Spectrum | Fouad | C://PLD",
+    "url": "https://www.eventbrite.com/e/otik-sf-debut-tickets-1567840807059",
+    "venue": "Monarch",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "techno",
+      "jungle",
+      "breaks"
+    ],
+    "price": "$14-25",
+    "age": "21+",
+    "promoters": [
+      "More On The Floor"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DNEW60sy8yy/"
+      }
+    ],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "9:30pm-2:30am",
+    "title": "The Warm Up - Kaytranada & Justice Tribute w/RCA, DJ Andy",
+    "url": "https://www.dnalounge.com/calendar/2025/09-12d.html",
+    "venue": "DNA Lounge",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "hip-hop",
+      "r&b",
+      "disco",
+      "funk"
+    ],
+    "price": "$10-15 pre / $22",
+    "age": "18+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "9:30pm-2am",
+    "title": "Dennis Ferrer",
+    "url": "https://ra.co/events/2210283",
+    "venue": "Audio",
+    "city": "San Francisco",
+    "genres": [
+      "house"
+    ],
+    "price": "$22-26",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Alternate Link",
+        "href": "https://www.eventbrite.com/e/dennis-ferrer-tickets-1471642906549"
+      }
+    ],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "10pm",
+    "title": "Chicken Soup for the Underground: Estellita, DJ Oshe, Estrella, Bhaounceout, Sark",
+    "url": "https://www.instagram.com/p/DNyhfld3mNs/",
+    "venue": "TBA",
+    "city": "Oakland",
+    "genres": [
+      "hip-hop",
+      "drum and bass",
+      "dubstep",
+      "bass music",
+      "latin club",
+      "hard techno"
+    ],
+    "price": "$10",
+    "age": "18+",
+    "promoters": [
+      "Eternal Return",
+      "Estellita"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "10pm",
+    "title": "Kitty Club - Seduza",
+    "url": "https://www.redlightloungesac.com/event-details-registration/kitty-club-seduza",
+    "venue": "Redlight Lounge",
+    "city": "Sacramento",
+    "genres": [
+      "baile funk",
+      "trap",
+      "house"
+    ],
+    "price": "$10",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "10pm-2:30am",
+    "title": "Wilkinson",
+    "url": "https://ra.co/events/2204502",
+    "venue": "1015 Folsom",
+    "city": "San Francisco",
+    "genres": [
+      "drum and bass"
+    ],
+    "price": "$23-31",
+    "age": "21+",
+    "promoters": [
+      "DJ Dials"
+    ],
+    "extraLinks": [
+      {
+        "text": "Alternate Link",
+        "href": "https://wl.seetickets.us/event/wilkinson/654630?afflky=1015Folsom"
+      }
+    ],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "10pm-2am",
+    "title": "Vanic",
+    "url": "https://www.tixr.com/groups/templesf/events/vanic-148377",
+    "venue": "Temple Nightclub",
+    "city": "San Francisco",
+    "genres": [
+      "pop house",
+      "trap"
+    ],
+    "price": "$14-19",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "10pm-6am",
+    "title": "Texture Summit Pres. Luca Lozano, Mr. Ho & Tommy Pickles",
+    "url": "https://shotgun.live/en/events/texture-summit-pres-luca-lozano-mr-ho-tommy-pickles",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "breaks",
+      "acid"
+    ],
+    "price": null,
+    "age": "$17+",
+    "promoters": [
+      "Texture Summit"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DLaUL9yx_2o/"
+      }
+    ],
+    "dateISO": "2025-09-12"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 12",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Friday",
+    "url": "https://posh.vip/f/1c398",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-12"
+  }
+]

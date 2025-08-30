@@ -1,0 +1,297 @@
+[
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Fri: Sep 19",
+    "timeRange": "7pm-11pm",
+    "title": "Friday Jumpoff",
+    "url": "https://www.eventbrite.com/e/friday-jumpoff-tickets-1596484420879",
+    "venue": "Legend Has It",
+    "city": "Sacramento",
+    "genres": [
+      "deep house",
+      "afro house",
+      "soulful house"
+    ],
+    "price": "free",
+    "age": "21+",
+    "promoters": [
+      "HMNI [Hello My Name Is]"
+    ],
+    "extraLinks": [
+      {
+        "text": "Alternate Link",
+        "href": "https://partiful.com/e/75uv4gaUuyaAr31PnuDI"
+      }
+    ],
+    "dateISO": "2025-09-19"
+  },
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Fri: Sep 19",
+    "timeRange": "7:30pm",
+    "title": "Voltage: Harabaz, Ecka, Goodboi, Hydro\nGaphim, Kbeez, RCQ\nFris, Ryan, Dimez, OLRazzleDazzlee\nBrandon, Abdyction, Frijol",
+    "url": "https://posh.vip/e/voltage",
+    "venue": "Senor Villa's Mexican Cantina",
+    "city": "San Jose",
+    "genres": [
+      "dubstep",
+      "bass music",
+      "trap",
+      "riddim",
+      "hard techno"
+    ],
+    "price": "$10-20",
+    "age": "18+",
+    "promoters": [
+      "Impulsive Vibes",
+      "W.I.P",
+      "Harcourt Rd."
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DNqqWQhp2Kd/"
+      }
+    ],
+    "dateISO": "2025-09-19"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 19",
+    "timeRange": "8pm",
+    "title": "Dabeull Live Band",
+    "url": "https://www.axs.com/uk/events/1024514/dabeull-live-band-tickets?skin=goldenvoice",
+    "venue": "The Regency Ballroom",
+    "city": "San Francisco",
+    "genres": [
+      "funk",
+      "r&b",
+      "boogie",
+      "synthpop"
+    ],
+    "price": "$42.28",
+    "age": "All ages",
+    "promoters": [
+      "Goldenvoice"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-19"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 19",
+    "timeRange": "8pm-1am",
+    "title": "Selekta",
+    "url": "https://posh.vip/f/3bea1?t=19hz",
+    "venue": "Guildhouse",
+    "city": "San Jose",
+    "genres": [
+      "dubstep",
+      "bass music",
+      "riddim",
+      "tearout"
+    ],
+    "price": "$10-20",
+    "age": "18+",
+    "promoters": [
+      "Basswoods",
+      "Mightyheavy"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/basswoods.events/"
+      }
+    ],
+    "dateISO": "2025-09-19"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 19",
+    "timeRange": "8pm-2am",
+    "title": "Road To Beyond Existence: Medicine Palance, Jars, Punch Fungus, Jooneytunes, Banyan",
+    "url": "https://19hz.info/theticketing.co/e/medicineplace0919?promoLink=EZ07FDYI&discountCode=true",
+    "venue": "ReUnion Underground",
+    "city": "Sacramento",
+    "genres": [
+      "dubstep",
+      "bass music"
+    ],
+    "price": "$17.84-28.14",
+    "age": "21+",
+    "promoters": [
+      "Beyond Existence",
+      "Bounce Beat",
+      "Eye Spy Events",
+      "G4T",
+      "Subciety",
+      "Hydra"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DN3wAMVZMWf/"
+      }
+    ],
+    "dateISO": "2025-09-19"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 19",
+    "timeRange": "9pm",
+    "title": "Prospa",
+    "url": "https://www.axs.com/events/1087948/prospa-tickets",
+    "venue": "The Midway",
+    "city": "San Francisco",
+    "genres": [
+      "house"
+    ],
+    "price": null,
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-19"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 19",
+    "timeRange": "9pm",
+    "title": "salute presents infinite passion w/Haai, Zero Idea",
+    "url": "https://www.axs.com/events/1087302/salute-presents-infinite-passion-tickets",
+    "venue": "Public Works",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "uk garage",
+      "techno"
+    ],
+    "price": null,
+    "age": "21+",
+    "promoters": [
+      "Goldenvoice"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-19"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 19",
+    "timeRange": "9pm-2am",
+    "title": "Bounce SF: Cargo, Dogtooth, Just Tosh",
+    "url": "https://ra.co/events/2219755",
+    "venue": "Underground",
+    "city": "San Francisco",
+    "genres": [
+      "bounce",
+      "trance",
+      "eurodance"
+    ],
+    "price": "$15-29",
+    "age": "21+",
+    "promoters": [
+      "Bounce SF"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/bouncesf"
+      }
+    ],
+    "dateISO": "2025-09-19"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 19",
+    "timeRange": "10pm",
+    "title": "Chris Lorenzo",
+    "url": "https://www.axs.com/events/1089464/chris-lorenzo-tickets",
+    "venue": "888 Marin Street",
+    "city": "San Francisco",
+    "genres": [
+      "tech house",
+      "bass house"
+    ],
+    "price": null,
+    "age": "21+",
+    "promoters": [
+      "Goldenvoice"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-19"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 19",
+    "timeRange": "10pm",
+    "title": "Saytek, Subjacent, SilentJ",
+    "url": "https://dice.fm/event/2wb7wp-saytek-live-19th-sep-halcyon-sf-san-francisco-tickets",
+    "venue": "Halcyon",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "techno"
+    ],
+    "price": "$12 b4 11 / $19-30",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-19"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 19",
+    "timeRange": "10pm-2am",
+    "title": "The Powerpop Girls: Sabrina, Chappell, Charli + Billie, Olivia",
+    "url": "https://www.eventbrite.com/e/the-powerpop-girls-sabrina-chappell-charli-billie-olivia-tickets-1573864534189",
+    "venue": "Oasis",
+    "city": "San Francisco",
+    "genres": [
+      "mashups",
+      "pop EDM"
+    ],
+    "price": "$15 pre / $20",
+    "age": "21+",
+    "promoters": [
+      "Bootie Mashup"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://instagram.com/bootiemashup"
+      }
+    ],
+    "dateISO": "2025-09-19"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 19",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Friday",
+    "url": "https://posh.vip/f/1c39b",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-19"
+  }
+]

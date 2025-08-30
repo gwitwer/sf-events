@@ -1,0 +1,69 @@
+[
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Nov 8",
+    "timeRange": "7pm",
+    "title": "Griz, Levity, Lumasi, Steller, Capochino",
+    "url": "https://www.axs.com/uk/events/974404/griz-tickets",
+    "venue": "Cow Palace",
+    "city": "San Francisco",
+    "genres": [
+      "dubstep",
+      "bass music"
+    ],
+    "price": null,
+    "age": "18+",
+    "promoters": [
+      "Goldenvoice"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-11-08"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Sat: Nov 8",
+    "timeRange": "7pm",
+    "title": "Ic3peak",
+    "url": "https://www.etix.com/ticket/p/97990282/ic3peak-berkeley-the-uc-theatre",
+    "venue": "The Uc Theatre",
+    "city": "Berkeley",
+    "genres": [
+      "industrial metal",
+      "experimental",
+      "pop punk",
+      "witch house"
+    ],
+    "price": "$78-90",
+    "age": null,
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Facebook Page",
+        "href": "https://www.facebook.com/events/3368751249926455/"
+      }
+    ],
+    "dateISO": "2025-11-08"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Nov 8",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Friday",
+    "url": "https://posh.vip/f/1c3b1",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-08"
+  }
+]

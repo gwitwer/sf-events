@@ -1,0 +1,40 @@
+[
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Nov 14",
+    "timeRange": "7:30pm",
+    "title": "Chris Lake",
+    "url": "https://www.ticketmaster.com/event/1C0062E199614A49",
+    "venue": "Bill Graham Civic Auditorium",
+    "city": "San Francisco",
+    "genres": [
+      "tech house"
+    ],
+    "price": "$63-80",
+    "age": "18+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-14"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Nov 14",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Saturday",
+    "url": "https://posh.vip/f/1c3b3",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-14"
+  }
+]

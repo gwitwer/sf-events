@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SF Bay Area Events Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+        
+        #map { height: 100vh; width: 100%; }
+        
+        .controls {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 1000;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            max-width: 350px;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+        
+        .controls h2 { 
+            margin-bottom: 15px; 
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .tba-badge {
+            background: #ff9800;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        
+        .filter-section {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .filter-section:last-child { border-bottom: none; }
+        
+        .filter-section label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        
+        select, input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        .date-selector {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 10px;
+        }
+        
+        .date-nav {
+            padding: 6px 12px;
+            background: #f0f0f0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .date-nav:hover { background: #e0e0e0; }
+        
+        .genre-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-top: 5px;
+            max-height: 200px;
+            overflow-y: auto;
+            padding: 5px;
+            border: 1px solid #eee;
+            border-radius: 4px;
+        }
+        
+        .genre-tag {
+            padding: 4px 8px;
+            background: #f0f0f0;
+            border-radius: 4px;
+            font-size: 12px;
+            cursor: pointer;
+            border: 1px solid transparent;
+            transition: all 0.2s;
+        }
+        
+        .genre-tag:hover { background: #e0e0e0; }
+        .genre-tag.selected {
+            background: #4CAF50;
+            color: white;
+            border-color: #45a049;
+        }
+        
+        .stats {
+            padding: 10px;
+            background: #f9f9f9;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #666;
+        }
+        
+        .action-buttons {
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        
+        .action-btn {
+            padding: 8px 12px;
+            background: #2196F3;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            text-align: center;
+            transition: background 0.2s;
+        }
+        
+        .action-btn:hover { background: #1976D2; }
+        .action-btn.tba { background: #ff9800; }
+        .action-btn.tba:hover { background: #fb8c00; }
+        
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            animation: fadeIn 0.3s;
+        }
+        
+        .modal.show { display: flex; align-items: center; justify-content: center; }
+        
+        .modal-content {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+            animation: slideIn 0.3s;
+        }
+        
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ff9800;
+        }
+        
+        .modal-close {
+            font-size: 24px;
+            cursor: pointer;
+            color: #999;
+            line-height: 1;
+        }
+        
+        .modal-close:hover { color: #333; }
+        
+        .tba-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .tba-item {
+            padding: 12px;
+            background: #f9f9f9;
+            border-radius: 6px;
+            border-left: 4px solid #ff9800;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .tba-item:hover {
+            transform: translateX(5px);
+            background: #f5f5f5;
+        }
+        
+        .tba-item-date {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        
+        .tba-item-title {
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+        
+        .tba-item-details {
+            font-size: 13px;
+            color: #777;
+        }
+        
+        .venue-hints {
+            margin-top: 8px;
+            padding: 8px;
+            background: #fff3e0;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        
+        .venue-hint {
+            margin: 4px 0;
+            color: #e65100;
+        }
+        
+        .event-popup {
+            max-width: 300px;
+        }
+        
+        .event-popup h3 {
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+        
+        .event-popup.tba h3 {
+            color: #ff9800;
+        }
+        
+        .event-details {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        
+        .event-details div {
+            margin-bottom: 5px;
+        }
+        
+        .event-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 6px 12px;
+            background: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+        
+        .event-link:hover { background: #45a049; }
+        
+        .loading {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            z-index: 2000;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes slideIn {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        
+        /* Custom marker for TBA events */
+        .tba-marker {
+            background: #ff9800;
+            border: 2px solid white;
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            margin: -5px 0 0 -5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    
+    <div class="controls">
+        <h2>
+            SF Bay Area Events 🎵
+            <span class="tba-badge" id="tbaCount">0 TBA</span>
+        </h2>
+        
+        <div class="filter-section">
+            <label>Date Selection</label>
+            <div class="date-selector">
+                <button class="date-nav" onclick="changeDate(-1)">← Prev</button>
+                <input type="date" id="selectedDate" />
+                <button class="date-nav" onclick="changeDate(1)">Next →</button>
+            </div>
+            <select id="datePresets">
+                <option value="">Quick Select...</option>
+                <option value="today">Today</option>
+                <option value="tomorrow">Tomorrow</option>
+                <option value="weekend">This Weekend</option>
+                <option value="week">Next 7 Days</option>
+                <option value="all">All Dates</option>
+            </select>
+        </div>
+        
+        <div class="filter-section">
+            <label for="cityFilter">City</label>
+            <select id="cityFilter">
+                <option value="">All Cities</option>
+            </select>
+        </div>
+        
+        <div class="filter-section">
+            <label>Genres (click to filter)</label>
+            <input type="text" id="genreSearch" placeholder="Search genres..." style="margin-bottom: 8px;">
+            <div class="genre-tags" id="genreTags"></div>
+            <div style="margin-top: 5px; font-size: 12px; color: #666;">
+                <span id="genreCount">0</span> genres available
+            </div>
+        </div>
+        
+        <div class="stats" id="stats">
+            Loading events...
+        </div>
+        
+        <div class="action-buttons">
+            <button class="action-btn tba" onclick="showTBAModal()">
+                View TBA Events 📍
+            </button>
+            <button class="action-btn" onclick="resetFilters()">
+                Reset Filters
+            </button>
+        </div>
+    </div>
+    
+    <!-- TBA Events Modal -->
+    <div id="tbaModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>📍 TBA Venue Events</h2>
+                <span class="modal-close" onclick="closeTBAModal()">&times;</span>
+            </div>
+            <div id="tbaModalContent" class="tba-list">
+                Loading TBA events...
+            </div>
+        </div>
+    </div>
+    
+    <div class="loading" id="loading">
+        <div>Loading events...</div>
+        <div id="loadingDetails" style="margin-top: 10px; font-size: 12px; color: #666;"></div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <script>
+        let map;
+        let markers;
+        let allEvents = [];
+        let tbaEvents = [];
+        let currentFilters = {
+            date: null,
+            city: null,
+            genres: new Set()
+        };
+        let availableFilters = {};
+        let eventIndex = {};
+        
+        // Initialize map centered on SF Bay Area
+        function initMap() {
+            map = L.map('map').setView([37.7749, -122.4194], 11);
+            
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors'
+            }).addTo(map);
+            
+            markers = L.markerClusterGroup({
+                chunkedLoading: true,
+                spiderfyOnMaxZoom: true,
+                showCoverageOnHover: false,
+                maxClusterRadius: 50
+            });
+            
+            map.addLayer(markers);
+        }
+        
+        // Load organized events data
+        async function loadEvents() {
+            try {
+                // Load the organized data
+                const response = await fetch('events_organized.json');
+                const data = await response.json();
+                
+                // Extract events
+                const eventsByDate = data.events_by_date;
+                allEvents = [];
+                for (const [date, dateEvents] of Object.entries(eventsByDate)) {
+                    allEvents.push(...dateEvents);
+                }
+                
+                // Get TBA events
+                const tbaResponse = await fetch('events_tba.json');
+                const tbaData = await tbaResponse.json();
+                // Handle both array and object format (API returns array directly)
+                tbaEvents = Array.isArray(tbaData) ? tbaData : (tbaData.events || []);
+                
+                // Store metadata
+                availableFilters = data.metadata.available_filters;
+                eventIndex = eventsByDate;
+                
+                console.log(`Loaded ${allEvents.length} total events, ${tbaEvents.length} TBA`);
+                
+                // Set initial date to today or first available date
+                const today = new Date().toISOString().split('T')[0];
+                const dates = Object.keys(eventsByDate).sort();
+                const initialDate = dates.includes(today) ? today : dates[0];
+                document.getElementById('selectedDate').value = initialDate;
+                
+                // Hide loading
+                document.getElementById('loading').style.display = 'none';
+                
+                // Initialize UI
+                updateFilters(initialDate);
+                loadDateEvents(initialDate);
+                updateTBACount(initialDate);
+                
+            } catch (error) {
+                console.error('Failed to load events:', error);
+                document.getElementById('loading').innerHTML = 
+                    '<div style="color: red;">Failed to load events</div>';
+            }
+        }
+        
+        // Update filters based on selected date
+        function updateFilters(date) {
+            if (!date || date === 'all') {
+                // Show all available filters
+                populateAllFilters();
+            } else {
+                // Get events for this date
+                const dateEvents = eventIndex[date] || [];
+                populateDateFilters(dateEvents);
+            }
+        }
+        
+        // Populate all available filters
+        function populateAllFilters() {
+            // Cities
+            const citySelect = document.getElementById('cityFilter');
+            citySelect.innerHTML = '<option value="">All Cities</option>';
+            availableFilters.cities.forEach(city => {
+                const option = document.createElement('option');
+                option.value = city;
+                option.textContent = city;
+                citySelect.appendChild(option);
+            });
+            
+            // Genres - show ALL genres, not just first 30
+            const genreTags = document.getElementById('genreTags');
+            genreTags.innerHTML = '';
+            
+            // Store all genre tags for search
+            window.allGenreTags = [];
+            
+            availableFilters.genres.forEach(genre => {
+                const tag = document.createElement('div');
+                tag.className = 'genre-tag';
+                tag.textContent = genre;
+                tag.dataset.genre = genre.toLowerCase();
+                tag.onclick = () => toggleGenre(genre, tag);
+                genreTags.appendChild(tag);
+                window.allGenreTags.push(tag);
+            });
+            
+            // Update count
+            document.getElementById('genreCount').textContent = availableFilters.genres.length;
+        }
+        
+        // Populate filters for specific date
+        function populateDateFilters(dateEvents) {
+            const visibleEvents = dateEvents.filter(e => !e.hidden);
+            
+            // Get unique values for this date
+            const cities = new Set();
+            const genres = new Set();
+            
+            visibleEvents.forEach(event => {
+                if (event.city) cities.add(event.city);
+                if (event.genres) event.genres.forEach(g => genres.add(g));
+            });
+            
+            // Update city filter
+            const citySelect = document.getElementById('cityFilter');
+            citySelect.innerHTML = '<option value="">All Cities</option>';
+            [...cities].sort().forEach(city => {
+                const option = document.createElement('option');
+                option.value = city;
+                option.textContent = city;
+                citySelect.appendChild(option);
+            });
+            
+            // Update genre tags - show ALL genres for this date
+            const genreTags = document.getElementById('genreTags');
+            genreTags.innerHTML = '';
+            
+            // Store all genre tags for search
+            window.allGenreTags = [];
+            
+            [...genres].sort().forEach(genre => {
+                const tag = document.createElement('div');
+                tag.className = 'genre-tag';
+                tag.textContent = genre;
+                tag.dataset.genre = genre.toLowerCase();
+                tag.onclick = () => toggleGenre(genre, tag);
+                genreTags.appendChild(tag);
+                window.allGenreTags.push(tag);
+            });
+            
+            // Update count
+            document.getElementById('genreCount').textContent = genres.size;
+        }
+        
+        // Load events for selected date
+        function loadDateEvents(date) {
+            markers.clearLayers();
+            
+            let eventsToShow = [];
+            
+            if (date === 'all' || !date) {
+                eventsToShow = allEvents.filter(e => !e.hidden);
+            } else {
+                eventsToShow = (eventIndex[date] || []).filter(e => !e.hidden);
+            }
+            
+            // Apply other filters
+            if (currentFilters.city) {
+                eventsToShow = eventsToShow.filter(e => e.city === currentFilters.city);
+            }
+            
+            if (currentFilters.genres.size > 0) {
+                eventsToShow = eventsToShow.filter(e => 
+                    e.genres && e.genres.some(g => currentFilters.genres.has(g))
+                );
+            }
+            
+            displayEvents(eventsToShow);
+        }
+        
+        // Display events on map
+        function displayEvents(events) {
+            markers.clearLayers();
+            
+            let displayed = 0;
+            let tbaCount = 0;
+            
+            events.forEach(event => {
+                if (event.coordinates && event.coordinates.lat && event.coordinates.lon) {
+                    const isTBA = event.venue && event.venue.includes('TBA');
+                    
+                    // Create marker with different color for TBA
+                    const marker = L.marker([event.coordinates.lat, event.coordinates.lon], {
+                        icon: isTBA ? createTBAIcon() : createDefaultIcon()
+                    });
+                    
+                    const popupContent = createPopupContent(event, isTBA);
+                    marker.bindPopup(popupContent);
+                    
+                    markers.addLayer(marker);
+                    displayed++;
+                    if (isTBA) tbaCount++;
+                }
+            });
+            
+            // Update stats
+            document.getElementById('stats').innerHTML = `
+                Showing ${displayed} events<br>
+                ${tbaCount > 0 ? `${tbaCount} with TBA venues<br>` : ''}
+                ${events.length - displayed > 0 ? `(${events.length - displayed} without coordinates)` : ''}
+            `;
+            
+            // Fit map to markers if any exist
+            if (displayed > 0) {
+                setTimeout(() => {
+                    map.fitBounds(markers.getBounds(), { padding: [50, 50] });
+                }, 100);
+            }
+        }
+        
+        // Create custom icon for TBA events
+        function createTBAIcon() {
+            return L.divIcon({
+                className: 'tba-marker',
+                iconSize: [10, 10]
+            });
+        }
+        
+        // Create default icon
+        function createDefaultIcon() {
+            return L.icon({
+                iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+                iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
+                shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+                popupAnchor: [1, -34],
+                shadowSize: [41, 41]
+            });
+        }
+        
+        // Create popup content
+        function createPopupContent(event, isTBA) {
+            const popupClass = isTBA ? 'event-popup tba' : 'event-popup';
+            
+            let html = `
+                <div class="${popupClass}">
+                    <h3>${isTBA ? '📍 TBA Venue' : event.venue}</h3>
+                    <div class="event-details">
+                        <div><strong>${event.title}</strong></div>
+                        <div>📅 ${event.dayLabel} ${event.timeRange || ''}</div>
+                        ${!isTBA ? `<div>📍 ${event.venue}</div>` : ''}
+                        <div>🏙️ ${event.city}</div>
+                        ${event.price ? `<div>💵 ${event.price}</div>` : ''}
+                        ${event.age ? `<div>🎫 ${event.age}</div>` : ''}
+                        ${event.genres && event.genres.length > 0 ? 
+                            `<div>🎵 ${event.genres.slice(0, 3).join(', ')}</div>` : ''}
+                    </div>
+            `;
+            
+            if (isTBA && event.venue_hints) {
+                html += '<div class="venue-hints">🔍 Venue hints:';
+                event.venue_hints.forEach(hint => {
+                    html += `<div class="venue-hint">• ${hint.text}</div>`;
+                });
+                html += '</div>';
+            }
+            
+            if (event.url) {
+                html += `<a href="${event.url}" target="_blank" class="event-link">More Info</a>`;
+            }
+            
+            html += '</div>';
+            
+            return html;
+        }
+        
+        // Change date
+        function changeDate(direction) {
+            const dateInput = document.getElementById('selectedDate');
+            const currentDate = new Date(dateInput.value || new Date());
+            currentDate.setDate(currentDate.getDate() + direction);
+            
+            const newDateStr = currentDate.toISOString().split('T')[0];
+            dateInput.value = newDateStr;
+            
+            updateFilters(newDateStr);
+            loadDateEvents(newDateStr);
+            updateTBACount(newDateStr);
+        }
+        
+        // Handle date presets
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('datePresets').addEventListener('change', (e) => {
+                const preset = e.target.value;
+                const dateInput = document.getElementById('selectedDate');
+                const today = new Date();
+                
+                switch(preset) {
+                    case 'today':
+                        dateInput.value = today.toISOString().split('T')[0];
+                        break;
+                    case 'tomorrow':
+                        const tomorrow = new Date(today);
+                        tomorrow.setDate(tomorrow.getDate() + 1);
+                        dateInput.value = tomorrow.toISOString().split('T')[0];
+                        break;
+                    case 'weekend':
+                        // Find next Friday
+                        const friday = new Date(today);
+                        const dayOfWeek = friday.getDay();
+                        const daysUntilFriday = (5 - dayOfWeek + 7) % 7 || 7;
+                        friday.setDate(friday.getDate() + daysUntilFriday);
+                        dateInput.value = friday.toISOString().split('T')[0];
+                        break;
+                    case 'week':
+                        dateInput.value = today.toISOString().split('T')[0];
+                        // Would need to implement week range
+                        break;
+                    case 'all':
+                        dateInput.value = '';
+                        updateFilters('all');
+                        loadDateEvents('all');
+                        updateTBACount('all');
+                        return;
+                }
+                
+                if (dateInput.value) {
+                    updateFilters(dateInput.value);
+                    loadDateEvents(dateInput.value);
+                    updateTBACount(dateInput.value);
+                }
+                
+                e.target.value = ''; // Reset select
+            });
+            
+            document.getElementById('selectedDate').addEventListener('change', (e) => {
+                updateFilters(e.target.value);
+                loadDateEvents(e.target.value);
+                updateTBACount(e.target.value);
+            });
+            
+            document.getElementById('cityFilter').addEventListener('change', (e) => {
+                currentFilters.city = e.target.value;
+                const date = document.getElementById('selectedDate').value;
+                loadDateEvents(date || 'all');
+            });
+            
+            // Genre search functionality
+            document.getElementById('genreSearch').addEventListener('input', (e) => {
+                const searchTerm = e.target.value.toLowerCase();
+                
+                if (window.allGenreTags) {
+                    window.allGenreTags.forEach(tag => {
+                        if (tag.dataset.genre.includes(searchTerm)) {
+                            tag.style.display = 'block';
+                        } else {
+                            tag.style.display = 'none';
+                        }
+                    });
+                }
+            });
+        });
+        
+        // Toggle genre filter
+        function toggleGenre(genre, element) {
+            if (currentFilters.genres.has(genre)) {
+                currentFilters.genres.delete(genre);
+                element.classList.remove('selected');
+            } else {
+                currentFilters.genres.add(genre);
+                element.classList.add('selected');
+            }
+            
+            const date = document.getElementById('selectedDate').value;
+            loadDateEvents(date || 'all');
+        }
+        
+        // Update TBA count based on selected date
+        function updateTBACount(date) {
+            let count = 0;
+            if (!date || date === 'all') {
+                count = tbaEvents.length;
+            } else {
+                count = tbaEvents.filter(e => e.dateISO === date).length;
+            }
+            document.getElementById('tbaCount').textContent = `${count} TBA`;
+        }
+        
+        // Show TBA modal
+        function showTBAModal() {
+            const modal = document.getElementById('tbaModal');
+            const content = document.getElementById('tbaModalContent');
+            const selectedDate = document.getElementById('selectedDate').value;
+            
+            // Filter TBA events by selected date
+            let filteredTBA = tbaEvents;
+            if (selectedDate && selectedDate !== 'all') {
+                filteredTBA = tbaEvents.filter(event => event.dateISO === selectedDate);
+            }
+            
+            // Sort TBA events by date
+            const sortedTBA = [...filteredTBA].sort((a, b) => 
+                (a.dateISO || '').localeCompare(b.dateISO || '')
+            );
+            
+            if (sortedTBA.length === 0) {
+                content.innerHTML = '<div style="padding: 20px; text-align: center; color: #999;">No TBA events for selected date</div>';
+                modal.classList.add('show');
+                return;
+            }
+            
+            content.innerHTML = sortedTBA.map(event => `
+                <div class="tba-item" onclick="focusEvent(${event.coordinates?.lat}, ${event.coordinates?.lon})">
+                    <div class="tba-item-date">📅 ${event.dayLabel} - ${event.dateISO}</div>
+                    <div class="tba-item-title">${event.title}</div>
+                    <div class="tba-item-details">
+                        🎵 ${event.genres ? event.genres.slice(0, 3).join(', ') : 'Unknown'}<br>
+                        ${event.promoters && event.promoters.length > 0 ? 
+                            `👥 ${event.promoters.join(', ')}<br>` : ''}
+                        ${event.price ? `💵 ${event.price}` : ''}
+                        ${event.age ? ` | 🎫 ${event.age}` : ''}
+                    </div>
+                    ${event.venue_hints && event.venue_hints.length > 0 ? `
+                        <div class="venue-hints">
+                            ${event.venue_hints.map(hint => 
+                                `<div class="venue-hint">• ${hint.text}</div>`
+                            ).join('')}
+                        </div>
+                    ` : ''}
+                </div>
+            `).join('');
+            
+            modal.classList.add('show');
+        }
+        
+        // Close TBA modal
+        function closeTBAModal() {
+            document.getElementById('tbaModal').classList.remove('show');
+        }
+        
+        // Focus on event
+        function focusEvent(lat, lon) {
+            if (lat && lon) {
+                closeTBAModal();
+                map.setView([lat, lon], 15);
+            }
+        }
+        
+        // Reset filters
+        function resetFilters() {
+            currentFilters = {
+                date: null,
+                city: null,
+                genres: new Set()
+            };
+            
+            document.getElementById('cityFilter').value = '';
+            document.querySelectorAll('.genre-tag').forEach(tag => {
+                tag.classList.remove('selected');
+            });
+            
+            const date = document.getElementById('selectedDate').value;
+            loadDateEvents(date || 'all');
+        }
+        
+        // Initialize everything
+        window.addEventListener('load', () => {
+            initMap();
+            loadEvents();
+        });
+    </script>
+</body>
+</html>

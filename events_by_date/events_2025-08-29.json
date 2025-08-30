@@ -1,0 +1,833 @@
+[
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "5pm-9pm",
+    "title": "Listen: Joseph Lee, Alkemiss Erika",
+    "url": "https://www.instagram.com/josephleefromsf/",
+    "venue": "Bergerac",
+    "city": "San Francisco",
+    "genres": [
+      "progressive house",
+      "afro house",
+      "organic house"
+    ],
+    "price": null,
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "Bergerac (approximate - city center)",
+      "approximate": true
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "10pm-2am",
+    "title": "Playa Nights",
+    "url": "https://ra.co/events/2242875",
+    "venue": "Bergerac",
+    "city": "San Francisco",
+    "genres": [
+      "progressive house",
+      "playa tech"
+    ],
+    "price": "$9.15",
+    "age": "21+",
+    "promoters": [
+      "Hey I'm Sundance Productions"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "Bergerac (approximate - city center)",
+      "approximate": true
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "6pm-10pm",
+    "title": "Housewerk w/DJ Bay B Sol",
+    "url": "https://www.instagram.com/p/DGyyYmzy6SD/",
+    "venue": "620 Jones",
+    "city": "San Francisco",
+    "genres": [
+      "afrobeats",
+      "r&b",
+      "disco",
+      "hip-hop",
+      "soulful house",
+      "latin"
+    ],
+    "price": "free",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/bayb_sol.dj/"
+      }
+    ],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7870952,
+      "lon": -122.4128807,
+      "display_name": "620 Jones, 620, Jones Street, Lower Nob Hill, South of Market, San Francisco, California, 94102, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "6:30pm-12am",
+    "title": "Tycho + Brijean",
+    "url": "https://ra.co/events/2213185",
+    "venue": "The Midway",
+    "city": "San Francisco",
+    "genres": [
+      "downtempo",
+      "IDM",
+      "house"
+    ],
+    "price": "$49.50-99.50",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Alternate Link",
+        "href": "https://www.tixr.com/groups/midwaysf/events/tycho-brijean-150522"
+      }
+    ],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7495304,
+      "lon": -122.3860944,
+      "display_name": "The Midway, 900, Marin Street, San Francisco, California, 94124, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "8pm",
+    "title": "After Dark - Pitch.Please",
+    "url": "https://partiful.com/e/jRmnhu22ccZpqnajoeOI",
+    "venue": "Buzzworks",
+    "city": "San Francisco",
+    "genres": [
+      "house"
+    ],
+    "price": "free",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DMy5_cBR-Bi/"
+      }
+    ],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7713014,
+      "lon": -122.4128948,
+      "display_name": "Buzzworks, 365, 11th Street, West SoMa, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "10pm-2am",
+    "title": "Got House?",
+    "url": "https://www.instagram.com/suavium.ent/",
+    "venue": "Buzzworks",
+    "city": "San Francisco",
+    "genres": [
+      "tech house",
+      "bass house",
+      "latin house"
+    ],
+    "price": "free",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7713014,
+      "lon": -122.4128948,
+      "display_name": "Buzzworks, 365, 11th Street, West SoMa, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "9pm-2am",
+    "title": "Discohoney",
+    "url": "https://tockify.com/elriosf2/detail/3953/1756526400000",
+    "venue": "El Rio",
+    "city": "San Francisco",
+    "genres": [
+      "house"
+    ],
+    "price": "$5",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7467604,
+      "lon": -122.4193306,
+      "display_name": "El Rio, 3158, Mission Street, Bernal Heights, Mission District, San Francisco, California, 90110, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "9pm",
+    "title": "Disco, Yes featuring Maurice Fulton, Nina Sol, Patrick Wilson",
+    "url": "https://www.tixr.com/groups/publicsf/events/disco-yes-with-elements-oakland-featuring-maurice-fulton-151442",
+    "venue": "Public Works",
+    "city": "San Francisco",
+    "genres": [
+      "deep house",
+      "soulful house",
+      "afro house"
+    ],
+    "price": "$26-37",
+    "age": null,
+    "promoters": [
+      "Elements"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7688931,
+      "lon": -122.4192651,
+      "display_name": "Public Works, 161, Erie Street, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "9pm",
+    "title": "Smile & Wav",
+    "url": "https://posh.vip/e/smilewav",
+    "venue": "Mr. Mahjong's",
+    "city": "San Francisco",
+    "genres": [
+      "trap",
+      "future bass",
+      "dubstep",
+      "bass house",
+      "uk garage"
+    ],
+    "price": "free",
+    "age": "21+",
+    "promoters": [
+      "Tropa"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "Mr. Mahjong's (approximate - city center)",
+      "approximate": true
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "9pm-2am",
+    "title": "Bay 2 The World",
+    "url": "https://ra.co/events/2238749",
+    "venue": "F8 1192 Folsom",
+    "city": "San Francisco",
+    "genres": [],
+    "price": "$5-10",
+    "age": "21+",
+    "promoters": [
+      "Groove Global",
+      "Dj Patdat"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "http://instagram.com/grooveglobal.sf"
+      }
+    ],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7752814,
+      "lon": -122.4099546,
+      "display_name": "F8, 1192, Folsom Street, West SoMa, South of Market, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "9pm-2am",
+    "title": "Washburn Bass Night: REDBLOOM, Dockmaster, Variance Krew, JYSTDOE b2b Pretty Problem, XT",
+    "url": "https://ra.co/events/2224771",
+    "venue": "F8 1192 Folsom",
+    "city": "San Francisco",
+    "genres": [
+      "dubstep",
+      "bass music",
+      "riddim",
+      "drum and bass",
+      "bass house"
+    ],
+    "price": "free w/rsvp / $5 pre / $10",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Alternate Link",
+        "href": "https://www.washburnstudio.com/collective"
+      }
+    ],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7752814,
+      "lon": -122.4099546,
+      "display_name": "F8, 1192, Folsom Street, West SoMa, South of Market, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "9pm-2am",
+    "title": "Crewdem: Xin Xin, Shapes, Sleepygoufpilot PJ DJ, Soba, PJ Sleeps",
+    "url": "https://www.instagram.com/p/DNlmfY0Srcl/",
+    "venue": "Mothership Bar",
+    "city": "San Francisco",
+    "genres": [
+      "garage",
+      "club",
+      "techno",
+      "house",
+      "breaks",
+      "jungle",
+      "dub",
+      "experimental"
+    ],
+    "price": "free",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/crewdem.oak/"
+      }
+    ],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7468805,
+      "lon": -122.4192506,
+      "display_name": "Mothership, 3152, Mission Street, Bernal Heights, Mission District, San Francisco, California, 94110, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "9pm-2am",
+    "title": "Cy Grooves",
+    "url": "https://ra.co/events/2240572",
+    "venue": "Blondie's Bar",
+    "city": "San Francisco",
+    "genres": [
+      "hip-hop",
+      "house",
+      "future beats"
+    ],
+    "price": "free",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "Blondie's Bar (approximate - city center)",
+      "approximate": true
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "9pm-2am",
+    "title": "Femtech: dogtooth,  FAUNA, Femme Jatale, moth",
+    "url": "https://ra.co/events/2235816",
+    "venue": "Underground",
+    "city": "San Francisco",
+    "genres": [
+      "techno",
+      "club"
+    ],
+    "price": "$15",
+    "age": "21+",
+    "promoters": [
+      "Perfect Dark"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.728251,
+      "lon": -122.4759334,
+      "display_name": "Underground Parking Entrance, Balboa Terrace, San Francisco, California, 94312, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "9pm-2am",
+    "title": "Global Underground w/ Profesito",
+    "url": "https://ra.co/events/2239611",
+    "venue": "Pop's Bar",
+    "city": "San Francisco",
+    "genres": [
+      "reggaeton",
+      "neoperreo",
+      "cumbia",
+      "dancehall",
+      "baile funk",
+      "afrobeats"
+    ],
+    "price": "free",
+    "age": "21+",
+    "promoters": [
+      "Clb Intrncnl"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "Pop's Bar (approximate - city center)",
+      "approximate": true
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "9pm-2am",
+    "title": "Juiced: Lonald J. Bandz, Ani Klang, ray reck, Rivs, Rau, Hellatallbaby",
+    "url": "https://www.eventbrite.com/e/juiced-tickets-1485135132159",
+    "venue": "Monarch",
+    "city": "San Francisco",
+    "genres": [
+      "160 club",
+      "jungle",
+      "drum and bass",
+      "breaks"
+    ],
+    "price": "$13.63-25.40",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7809714,
+      "lon": -122.4083336,
+      "display_name": "Monarch, 101, 6th Street, West SoMa, South of Market, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "9pm-2am",
+    "title": "Labubu Rave: Manila Vanilla, FLPN, Justin BLVCK",
+    "url": "https://www.eventbrite.com/e/labubu-rave-tickets-1603396053759",
+    "venue": "Public Works Loft",
+    "city": "San Francisco",
+    "genres": [
+      "multigenre EDM"
+    ],
+    "price": "free w/rsvp b4 10:30pm / $15",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Alternate Link",
+        "href": "https://tixr.com/groups/publicsf/labuburave"
+      }
+    ],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "Public Works Loft (approximate - city center)",
+      "approximate": true
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "9pm-3:30am",
+    "title": "Demaya",
+    "url": "https://allineedevents-w-demaya.eventbrite.com/",
+    "venue": "Madarae",
+    "city": "San Francisco",
+    "genres": [
+      "afro house"
+    ],
+    "price": "$13 b4 11 / $18-40+",
+    "age": "21+",
+    "promoters": [
+      "All I Need Events"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "Madarae (approximate - city center)",
+      "approximate": true
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "9:30pm-2am",
+    "title": "Indie Sleaze Please",
+    "url": "https://www.dnalounge.com/calendar/2025/08-29d.html",
+    "venue": "DNA Lounge",
+    "city": "San Francisco",
+    "genres": [
+      "electroclash",
+      "indie rock",
+      "electro house"
+    ],
+    "price": "$10 pre / $15",
+    "age": "18+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7710875,
+      "lon": -122.4126126,
+      "display_name": "DNA Lounge, 375, 11th Street, West SoMa, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "9:30pm-2am",
+    "title": "Ookay",
+    "url": "https://ra.co/events/2241447",
+    "venue": "Audio",
+    "city": "San Francisco",
+    "genres": [
+      "big room",
+      "future bass",
+      "trap"
+    ],
+    "price": "$16.70-21",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Alternate Link",
+        "href": "https://www.eventbrite.com/e/ookay-tickets-1613195373789"
+      }
+    ],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7713709,
+      "lon": -122.4138077,
+      "display_name": "Audio Nightclub, 316, 11th Street, West SoMa, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "10pm",
+    "title": "Fletch, Stephyv, Josh Lee",
+    "url": "https://dice.fm/event/l8r32b-fletch-29th-aug-halcyon-sf-san-francisco-tickets?dice_source=ee15ecdb&eventref=fb_oea",
+    "venue": "Halcyon",
+    "city": "San Francisco",
+    "genres": [
+      "tech house"
+    ],
+    "price": "$12 b4 11 / $19-30",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Facebook Page",
+        "href": "https://www.facebook.com/events/1785931052353225/"
+      }
+    ],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.771445,
+      "lon": -122.4139284,
+      "display_name": "Halcyon, 314, 11th Street, West SoMa, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "10pm",
+    "title": "Hazardous Nemesis Ft. Miya Lowe, DJ Saratonin, Hellatallbaby, Xtcemi, Moonpie, Ident",
+    "url": "https://ra.co/events/2229189",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "jungle",
+      "ghetto tech"
+    ],
+    "price": "$5.50-17.15",
+    "age": null,
+    "promoters": [
+      "Hazardous Nemesis"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/hazardousnemesis/"
+      }
+    ],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "TBA (approximate - city center)",
+      "approximate": true
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "11pm-6am",
+    "title": "Loud & Clear Puro Sabor: Riobamba, Travieza, Erika, Tastemaker",
+    "url": "https://ra.co/events/2235063",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "reggaeton",
+      "latin bass"
+    ],
+    "price": "$11.20-39.15",
+    "age": "21+",
+    "promoters": [
+      "Yerbabuena SF"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DNULx-ZhrRQ/"
+      }
+    ],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "TBA (approximate - city center)",
+      "approximate": true
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Friday",
+    "url": "https://posh.vip/f/1c394",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "TBA (approximate - city center)",
+      "approximate": true
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "10pm",
+    "title": "Sbtrkt, Taiki Nulight, Adware, Amina Acid, EK, Felly Fell, Kaytree, ZZ",
+    "url": "https://ra.co/events/2199619",
+    "venue": "1015 Folsom",
+    "city": "San Francisco",
+    "genres": [
+      "bass house"
+    ],
+    "price": "$25.55-37.72",
+    "age": "21+",
+    "promoters": [
+      "DJ Dials"
+    ],
+    "extraLinks": [
+      {
+        "text": "Facebook Page",
+        "href": "https://www.facebook.com/events/706844689016413/"
+      }
+    ],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7780411,
+      "lon": -122.405683,
+      "display_name": "1015 Folsom, 1015, Folsom Street, West SoMa, South of Market, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "10pm-2am",
+    "title": "Anoluxx",
+    "url": "https://posh.vip/e/reverb-x-spin-destroy-presents-anoluxx",
+    "venue": "Reverb",
+    "city": "San Francisco",
+    "genres": [
+      "big room hard techno"
+    ],
+    "price": "free w/rsvp b4 11pm / $12",
+    "age": "21+",
+    "promoters": [
+      "Spin & Destroy"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "Reverb (approximate - city center)",
+      "approximate": true
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "10pm-2am",
+    "title": "Bhaskar",
+    "url": "https://www.tixr.com/groups/templesf/events/bhaskar-153360",
+    "venue": "Temple",
+    "city": "San Francisco",
+    "genres": [
+      "tech house"
+    ],
+    "price": "free w/rsvp b4 11pm / $19-25+",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7874082,
+      "lon": -122.4597091,
+      "display_name": "Temple Emanu-el, Lake Street, Presidio Terrace, Richmond District, San Francisco, California, 94118, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "10pm-2am",
+    "title": "Disco House Fridays: Oiwa, Pond",
+    "url": "https://ra.co/events/2243105",
+    "venue": "Paris 75",
+    "city": "San Francisco",
+    "genres": [
+      "disco",
+      "r&b",
+      "house"
+    ],
+    "price": "free",
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7978376,
+      "lon": -122.4058578,
+      "display_name": "Paris 75, 515-523, Broadway, Telegraph Hill, San Francisco, California, 94113, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Aug 29",
+    "timeRange": "10pm-2am",
+    "title": "Hawthorn Feat. Dirty Not Sorry Takeover",
+    "url": "https://www.eventbrite.com/e/hawthorn-feat-dirty-not-sorry-takeover-tickets-1528572273819",
+    "venue": "Hawthorn",
+    "city": "San Francisco",
+    "genres": [
+      "hip-hop",
+      "top 40",
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": "free w/rsvp b4 11pm / $15",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-08-29",
+    "coordinates": {
+      "lat": 37.7881428,
+      "lon": -122.4043199,
+      "display_name": "Hawthorn, 46, Grant Avenue, Union Square, South of Market, San Francisco, California, 94104, United States",
+      "approximate": false
+    }
+  }
+]

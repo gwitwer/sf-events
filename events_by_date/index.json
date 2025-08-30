@@ -1,0 +1,1576 @@
+{
+  "generated_at": "2025-08-30T09:20:02.852883",
+  "metadata": {
+    "date_range": {
+      "start": "2025-08-29",
+      "end": "2026-02-14",
+      "dates": [
+        "2025-08-29",
+        "2025-08-30",
+        "2025-08-31",
+        "2025-09-01",
+        "2025-09-03",
+        "2025-09-04",
+        "2025-09-05",
+        "2025-09-06",
+        "2025-09-07",
+        "2025-09-09",
+        "2025-09-10",
+        "2025-09-11",
+        "2025-09-12",
+        "2025-09-13",
+        "2025-09-17",
+        "2025-09-18",
+        "2025-09-19",
+        "2025-09-20",
+        "2025-09-21",
+        "2025-09-22",
+        "2025-09-25",
+        "2025-09-26",
+        "2025-09-27",
+        "2025-09-28",
+        "2025-10-02",
+        "2025-10-03",
+        "2025-10-04",
+        "2025-10-09",
+        "2025-10-10",
+        "2025-10-11",
+        "2025-10-14",
+        "2025-10-16",
+        "2025-10-17",
+        "2025-10-18",
+        "2025-10-19",
+        "2025-10-23",
+        "2025-10-24",
+        "2025-10-25",
+        "2025-10-26",
+        "2025-10-28",
+        "2025-10-31",
+        "2025-11-01",
+        "2025-11-02",
+        "2025-11-07",
+        "2025-11-08",
+        "2025-11-13",
+        "2025-11-14",
+        "2025-11-15",
+        "2025-11-20",
+        "2025-11-21",
+        "2025-11-22",
+        "2025-11-28",
+        "2025-11-29",
+        "2025-12-05",
+        "2025-12-06",
+        "2025-12-12",
+        "2025-12-13",
+        "2025-12-19",
+        "2025-12-20",
+        "2025-12-26",
+        "2025-12-27",
+        "2025-12-31",
+        "2026-01-01",
+        "2026-01-28",
+        "2026-01-30",
+        "2026-02-14"
+      ]
+    },
+    "available_filters": {
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "160 club",
+        "80s",
+        "90s",
+        "EBM",
+        "EDM",
+        "IDM",
+        "acid",
+        "acid breaks",
+        "acid house",
+        "afro house",
+        "afro house & deep house",
+        "afrobeats",
+        "alternative",
+        "amapiano",
+        "ambient",
+        "anime groove",
+        "baile funk",
+        "bands",
+        "bass",
+        "bass house",
+        "bass music",
+        "bassline",
+        "beats",
+        "big beat",
+        "big room",
+        "big room hard techno",
+        "big room house",
+        "big room techno",
+        "boogie",
+        "bounce",
+        "breaks",
+        "bubbling",
+        "chiptune",
+        "chug",
+        "cloud rap",
+        "club",
+        "club music",
+        "coldwave",
+        "cumbia",
+        "dancehall",
+        "dark techno",
+        "darkwave",
+        "deconstructed club",
+        "deep house",
+        "disco",
+        "disco house",
+        "downtempo",
+        "drum and bass",
+        "dub",
+        "dubstep",
+        "electro",
+        "electro house",
+        "electroclash",
+        "electronica",
+        "electropop",
+        "emo rock",
+        "eurodance",
+        "experimental",
+        "footwork",
+        "funk",
+        "funky house",
+        "future bass",
+        "future beats",
+        "future house",
+        "g-house",
+        "gabber",
+        "garage",
+        "ghetto tech",
+        "ghettotech",
+        "glam",
+        "glitch-hop",
+        "goth",
+        "happy hardcore",
+        "hard dance",
+        "hard house",
+        "hard techno",
+        "hard trance",
+        "hardcore",
+        "hardstyle",
+        "hip-hop",
+        "house",
+        "hybrid trap",
+        "hyperpop",
+        "indie dance",
+        "indie rock",
+        "industrial",
+        "italo",
+        "italo disco",
+        "jackin house",
+        "jersey club",
+        "juke",
+        "jungle",
+        "latin",
+        "latin EDM",
+        "latin bass",
+        "latin core",
+        "latin deep house",
+        "latin house",
+        "latin pop",
+        "leftfield",
+        "live electronic",
+        "live sax",
+        "mashups",
+        "melodic dubstep",
+        "melodic techno",
+        "midtempo",
+        "midtempo bass",
+        "minimal",
+        "minimal synth",
+        "multigenre EDM",
+        "neo rave",
+        "neoperreo",
+        "new wave",
+        "nu disco",
+        "nu-disco",
+        "organic house",
+        "perreo",
+        "playa tech",
+        "pop",
+        "pop EDM",
+        "pop house",
+        "post-punk",
+        "progressive house",
+        "psytrance",
+        "r&b",
+        "reggaeton",
+        "remixes",
+        "riddim",
+        "rock",
+        "soul",
+        "soulection",
+        "soulful house",
+        "synthpop",
+        "synthwave",
+        "tech house",
+        "tech trance",
+        "techno",
+        "techno psytrance experimental hiphop synth",
+        "top 40",
+        "trance",
+        "trap",
+        "trip-hop",
+        "tropical house",
+        "uk bass",
+        "uk funky",
+        "uk garage",
+        "uptempo",
+        "vogue",
+        "witch house"
+      ],
+      "venues": [
+        "1015 Folsom",
+        "401 Cesar Chavez",
+        "523 Broadway",
+        "620 Jones",
+        "888 Garage",
+        "888 Marin Street",
+        "Aracely Cafe",
+        "Audio",
+        "August Hall",
+        "Bar Part Time",
+        "Bergerac",
+        "Bill Graham Civic Auditorium",
+        "Bimbo's 365 Club",
+        "Blondie's Bar",
+        "Brick & Mortar Music Hall",
+        "Butter",
+        "Buzzworks",
+        "Cafe Du Nord",
+        "Cat Club",
+        "Cow Palace",
+        "DNA Lounge",
+        "Decodance",
+        "El Rio",
+        "Event Space At Metreon",
+        "F8 1192 Folsom",
+        "Gold Bar Treasure Island",
+        "Golden Gate Park Bandshell",
+        "Gray Area",
+        "Great American Music Hall",
+        "Halcyon",
+        "Hawthorn",
+        "Hibernia Bank",
+        "Hotel Via Rooftop",
+        "Lion's Den",
+        "Madarae",
+        "Madrone Art Bar",
+        "Mars Bar",
+        "Mercury Cafe Block Party",
+        "Mission Synths",
+        "Monarch",
+        "Monroe",
+        "Monument",
+        "Moscone Center",
+        "Mothership Bar",
+        "Mr. Mahjong's",
+        "Multiple Venues",
+        "Noc Noc",
+        "Oasis",
+        "Palace Of Fine Arts",
+        "Palace of Fine Arts",
+        "Paris 75",
+        "Peacock Lounge",
+        "Phoenix Hotel",
+        "Phonobar",
+        "Pop's Bar",
+        "Public Works",
+        "Public Works Loft",
+        "Qbar",
+        "Regency Ballroom",
+        "Reverb",
+        "Rickshaw Stop",
+        "Space 550",
+        "Storek - A Npu Venue",
+        "Svn West Rooftop",
+        "Swig Bar",
+        "TBA",
+        "TBA Soma",
+        "Temple",
+        "Temple Nightclub",
+        "The Center SF",
+        "The Chapel",
+        "The Endup",
+        "The Foundry",
+        "The Great Northern",
+        "The Great Northern Block",
+        "The Historic SF Mint",
+        "The Independent",
+        "The Midway",
+        "The Midway Gods and Monsters",
+        "The Palace of Fine Arts",
+        "The Phoenix Hotel",
+        "The Regency Ballroom",
+        "The Stud",
+        "The Warfield",
+        "Treasure Island GAA Field",
+        "Underground",
+        "Union Square",
+        "Valencia Room"
+      ],
+      "promoters": [
+        "& All Day All Night",
+        ".NET Framework",
+        "15Utah",
+        "ALL I NEED EVENTS",
+        "All Day All Night Events",
+        "All I Need Events",
+        "Another Planet",
+        "Another Planet Entertainment",
+        "B.A.S.S",
+        "BNKR",
+        "Bass Vault",
+        "Basscon",
+        "Bassrush",
+        "Bearracuda",
+        "Bearracuda SF",
+        "Big Muscle",
+        "Bootie Mashup",
+        "Bounce SF",
+        "Cat Club SF",
+        "Clb Intrncnl",
+        "Club Moniker",
+        "Club Triste",
+        "Concrete Cut",
+        "Contact Records",
+        "DJ Dials",
+        "Direct To Earth",
+        "Dj Dials",
+        "Dj Meikee Magnetic",
+        "Dj Patdat",
+        "Double Virgo",
+        "Dreamstate",
+        "Du1say",
+        "Duserock",
+        "Electroluxx",
+        "Elements",
+        "Emo Nite",
+        "Factory 93",
+        "Fatcap",
+        "Fluxions",
+        "Fuse Collective",
+        "Future Perfect",
+        "Generaiderz",
+        "Goldenvoice",
+        "Goldenvoice Bay Area",
+        "Goldenvoice and The Dare",
+        "Groove Global",
+        "Hanky Code",
+        "Hard Reset",
+        "Hazardous Nemesis",
+        "Hey I'm Sundance Productions",
+        "Hi Jvck Entertainment",
+        "Hubba Hubba Revue",
+        "Hump Events",
+        "Insomniac",
+        "KEXP",
+        "Konnekted x All Day All Night x Maj",
+        "LA DiscothFque & Runs Deep",
+        "Local 500",
+        "Love Supreme",
+        "More On The Floor",
+        "Mostly Cloudy",
+        "No Bias",
+        "Non Plus Ultra",
+        "Nu Tekno",
+        "OFFMAP Commons",
+        "Opel Productions",
+        "Orlove by Night",
+        "PROX.IM.I.TY",
+        "Parameter",
+        "Perfect Dark",
+        "Perfect Dark & Bcco",
+        "Pharmar Histamine",
+        "Piqued",
+        "Pisces Music",
+        "Planet Submerged",
+        "Popscene",
+        "Prive SF",
+        "Program",
+        "RaveGrave",
+        "Ravefurrest",
+        "Real Ignorant",
+        "SET Underground",
+        "Safra",
+        "Sato",
+        "Soulseek",
+        "Soundproof",
+        "Soundproof X Runs Deep",
+        "Sounudproof",
+        "Space Cowboys",
+        "Space Cowboys & Heavy Petting Zoo",
+        "Spaced Out",
+        "Speakerkidz",
+        "Spin & Destroy",
+        "Squish",
+        "Stamina DNB",
+        "Strapt",
+        "Supper Club",
+        "Texture Summit",
+        "The MVP",
+        "The Midway",
+        "Tropa",
+        "Vital",
+        "Vital Events",
+        "We Push Play",
+        "Wetouchgrass",
+        "Wormhole",
+        "Yerbabuena SF",
+        "Yes Yes Yes",
+        "folkYEAH",
+        "program"
+      ]
+    },
+    "statistics": {
+      "total_dates": 66,
+      "total_events": 330,
+      "unique_cities": 1,
+      "unique_genres": 149,
+      "unique_venues": 88,
+      "unique_promoters": 110
+    }
+  },
+  "dates": {
+    "2025-08-29": {
+      "day_of_week": "Friday",
+      "event_count": 29,
+      "tba_count": 3,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "dubstep",
+        "latin house",
+        "experimental",
+        "electroclash",
+        "multigenre EDM",
+        "trap",
+        "big room",
+        "future bass",
+        "indie rock",
+        "tech house"
+      ],
+      "has_events": true
+    },
+    "2025-08-30": {
+      "day_of_week": "Saturday",
+      "event_count": 30,
+      "tba_count": 4,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "hybrid trap",
+        "tropical house",
+        "dubstep",
+        "EBM",
+        "bassline",
+        "latin house",
+        "experimental",
+        "multigenre EDM",
+        "beats",
+        "latin pop"
+      ],
+      "has_events": true
+    },
+    "2025-08-31": {
+      "day_of_week": "Sunday",
+      "event_count": 13,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "alternative",
+        "tech house",
+        "italo",
+        "techno",
+        "synthpop",
+        "house",
+        "jungle",
+        "indie dance",
+        "disco",
+        "boogie"
+      ],
+      "has_events": true
+    },
+    "2025-09-01": {
+      "day_of_week": "Monday",
+      "event_count": 1,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "big room house",
+        "electro house"
+      ],
+      "has_events": true
+    },
+    "2025-09-03": {
+      "day_of_week": "Wednesday",
+      "event_count": 1,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "house"
+      ],
+      "has_events": true
+    },
+    "2025-09-04": {
+      "day_of_week": "Thursday",
+      "event_count": 4,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "club",
+        "EDM",
+        "house",
+        "hip-hop",
+        "techno",
+        "disco",
+        "tech house"
+      ],
+      "has_events": true
+    },
+    "2025-09-05": {
+      "day_of_week": "Friday",
+      "event_count": 16,
+      "tba_count": 3,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "synthwave",
+        "dubstep",
+        "experimental",
+        "trap",
+        "future bass",
+        "tech house",
+        "techno",
+        "house",
+        "jungle",
+        "glam"
+      ],
+      "has_events": true
+    },
+    "2025-09-06": {
+      "day_of_week": "Saturday",
+      "event_count": 20,
+      "tba_count": 2,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "synthwave",
+        "dubstep",
+        "midtempo bass",
+        "trap",
+        "hard dance",
+        "future bass",
+        "techno",
+        "tech house",
+        "mashups",
+        "riddim"
+      ],
+      "has_events": true
+    },
+    "2025-09-07": {
+      "day_of_week": "Sunday",
+      "event_count": 2,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "house",
+        "afro house",
+        "hip-hop",
+        "reggaeton",
+        "disco",
+        "jersey club",
+        "baile funk",
+        "amapiano"
+      ],
+      "has_events": true
+    },
+    "2025-09-09": {
+      "day_of_week": "Tuesday",
+      "event_count": 1,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "hard dance",
+        "gabber",
+        "happy hardcore"
+      ],
+      "has_events": true
+    },
+    "2025-09-10": {
+      "day_of_week": "Wednesday",
+      "event_count": 2,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "chiptune",
+        "tech house",
+        "house"
+      ],
+      "has_events": true
+    },
+    "2025-09-11": {
+      "day_of_week": "Thursday",
+      "event_count": 5,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "dubstep",
+        "EBM",
+        "house",
+        "experimental",
+        "live electronic",
+        "pop EDM",
+        "synthpop",
+        "industrial"
+      ],
+      "has_events": true
+    },
+    "2025-09-12": {
+      "day_of_week": "Friday",
+      "event_count": 20,
+      "tba_count": 3,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "dubstep",
+        "experimental",
+        "hard trance",
+        "glitch-hop",
+        "trap",
+        "future house",
+        "tech house",
+        "techno",
+        "synthpop",
+        "house"
+      ],
+      "has_events": true
+    },
+    "2025-09-13": {
+      "day_of_week": "Saturday",
+      "event_count": 13,
+      "tba_count": 2,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "synthwave",
+        "psytrance",
+        "hard trance",
+        "experimental",
+        "glitch-hop",
+        "trap",
+        "tech house",
+        "techno",
+        "synthpop",
+        "club music"
+      ],
+      "has_events": true
+    },
+    "2025-09-17": {
+      "day_of_week": "Wednesday",
+      "event_count": 1,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "synthpop",
+        "italo disco",
+        "pop"
+      ],
+      "has_events": true
+    },
+    "2025-09-18": {
+      "day_of_week": "Thursday",
+      "event_count": 2,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "house",
+        "vogue",
+        "hyperpop",
+        "jersey club",
+        "baile funk"
+      ],
+      "has_events": true
+    },
+    "2025-09-19": {
+      "day_of_week": "Friday",
+      "event_count": 8,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "boogie",
+        "bass house",
+        "mashups",
+        "EDM",
+        "house",
+        "pop EDM",
+        "trance",
+        "uk garage",
+        "bounce",
+        "tech house"
+      ],
+      "has_events": true
+    },
+    "2025-09-20": {
+      "day_of_week": "Saturday",
+      "event_count": 13,
+      "tba_count": 3,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "multigenre EDM",
+        "techno",
+        "tech house",
+        "synthpop",
+        "club music",
+        "house",
+        "electro",
+        "disco",
+        "footwork",
+        "funk"
+      ],
+      "has_events": true
+    },
+    "2025-09-21": {
+      "day_of_week": "Sunday",
+      "event_count": 2,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "dubstep",
+        "house",
+        "techno",
+        "bass music",
+        "tech house"
+      ],
+      "has_events": true
+    },
+    "2025-09-22": {
+      "day_of_week": "Monday",
+      "event_count": 1,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "breaks",
+        "big beat"
+      ],
+      "has_events": true
+    },
+    "2025-09-25": {
+      "day_of_week": "Thursday",
+      "event_count": 2,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "bass house",
+        "house",
+        "techno",
+        "pop",
+        "breaks",
+        "tech house"
+      ],
+      "has_events": true
+    },
+    "2025-09-26": {
+      "day_of_week": "Friday",
+      "event_count": 8,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "deep house",
+        "EDM",
+        "house",
+        "italo disco",
+        "hip-hop",
+        "jersey club",
+        "baile funk",
+        "hardstyle",
+        "club music",
+        "disco"
+      ],
+      "has_events": true
+    },
+    "2025-09-27": {
+      "day_of_week": "Saturday",
+      "event_count": 10,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "dubstep",
+        "EDM",
+        "house",
+        "afro house",
+        "progressive house",
+        "jackin house",
+        "soul",
+        "r&b",
+        "tech house",
+        "soulection"
+      ],
+      "has_events": true
+    },
+    "2025-09-28": {
+      "day_of_week": "Sunday",
+      "event_count": 3,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "dancehall",
+        "EDM",
+        "house",
+        "reggaeton",
+        "soul",
+        "techno psytrance experimental hiphop synth",
+        "r&b",
+        "anime groove",
+        "baile funk",
+        "amapiano"
+      ],
+      "has_events": true
+    },
+    "2025-10-02": {
+      "day_of_week": "Thursday",
+      "event_count": 3,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "progressive house",
+        "dubstep",
+        "future bass",
+        "trap"
+      ],
+      "has_events": true
+    },
+    "2025-10-03": {
+      "day_of_week": "Friday",
+      "event_count": 4,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "dubstep",
+        "EDM",
+        "house",
+        "drum and bass",
+        "bass music",
+        "uk garage",
+        "tech house",
+        "big room techno"
+      ],
+      "has_events": true
+    },
+    "2025-10-04": {
+      "day_of_week": "Saturday",
+      "event_count": 7,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "uptempo",
+        "dubstep",
+        "synthwave",
+        "mashups",
+        "EDM",
+        "house",
+        "witch house",
+        "hard techno",
+        "downtempo",
+        "bass music"
+      ],
+      "has_events": true
+    },
+    "2025-10-09": {
+      "day_of_week": "Thursday",
+      "event_count": 1,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "experimental",
+        "IDM"
+      ],
+      "has_events": true
+    },
+    "2025-10-10": {
+      "day_of_week": "Friday",
+      "event_count": 7,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "dubstep",
+        "EDM",
+        "house",
+        "deconstructed club",
+        "techno",
+        "emo rock",
+        "tech house",
+        "synthpop",
+        "industrial"
+      ],
+      "has_events": true
+    },
+    "2025-10-11": {
+      "day_of_week": "Saturday",
+      "event_count": 4,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "bass house",
+        "ambient",
+        "dubstep",
+        "EBM",
+        "EDM",
+        "house",
+        "techno",
+        "trap",
+        "breaks",
+        "tech house"
+      ],
+      "has_events": true
+    },
+    "2025-10-14": {
+      "day_of_week": "Tuesday",
+      "event_count": 1,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "downtempo",
+        "synthpop",
+        "future beats"
+      ],
+      "has_events": true
+    },
+    "2025-10-16": {
+      "day_of_week": "Thursday",
+      "event_count": 2,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "bass house",
+        "synthpop",
+        "tech house"
+      ],
+      "has_events": true
+    },
+    "2025-10-17": {
+      "day_of_week": "Friday",
+      "event_count": 5,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "EDM",
+        "house",
+        "techno",
+        "progressive house",
+        "tech house"
+      ],
+      "has_events": true
+    },
+    "2025-10-18": {
+      "day_of_week": "Saturday",
+      "event_count": 6,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "dubstep",
+        "EDM",
+        "house",
+        "techno",
+        "bass music",
+        "glitch-hop",
+        "trap",
+        "tech house"
+      ],
+      "has_events": true
+    },
+    "2025-10-19": {
+      "day_of_week": "Sunday",
+      "event_count": 2,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "dancehall",
+        "house",
+        "reggaeton",
+        "soul",
+        "r&b",
+        "baile funk",
+        "amapiano",
+        "afrobeats"
+      ],
+      "has_events": true
+    },
+    "2025-10-23": {
+      "day_of_week": "Thursday",
+      "event_count": 1,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "dubstep"
+      ],
+      "has_events": true
+    },
+    "2025-10-24": {
+      "day_of_week": "Friday",
+      "event_count": 6,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "bass house",
+        "dubstep",
+        "deep house",
+        "EDM",
+        "house",
+        "bassline",
+        "uk garage",
+        "disco house",
+        "tech house"
+      ],
+      "has_events": true
+    },
+    "2025-10-25": {
+      "day_of_week": "Saturday",
+      "event_count": 4,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "dubstep",
+        "EDM",
+        "house",
+        "afro house",
+        "progressive house",
+        "tech house"
+      ],
+      "has_events": true
+    },
+    "2025-10-26": {
+      "day_of_week": "Sunday",
+      "event_count": 1,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "deep house",
+        "afro house"
+      ],
+      "has_events": true
+    },
+    "2025-10-28": {
+      "day_of_week": "Tuesday",
+      "event_count": 1,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "hip-hop"
+      ],
+      "has_events": true
+    },
+    "2025-10-31": {
+      "day_of_week": "Friday",
+      "event_count": 10,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "synthwave",
+        "g-house",
+        "experimental",
+        "future house",
+        "beats",
+        "techno",
+        "tech house",
+        "synthpop",
+        "ambient",
+        "house"
+      ],
+      "has_events": true
+    },
+    "2025-11-01": {
+      "day_of_week": "Saturday",
+      "event_count": 5,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "synthwave",
+        "ambient",
+        "EDM",
+        "house",
+        "witch house",
+        "downtempo",
+        "progressive house",
+        "goth",
+        "midtempo",
+        "darkwave"
+      ],
+      "has_events": true
+    },
+    "2025-11-02": {
+      "day_of_week": "Sunday",
+      "event_count": 2,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "minimal synth",
+        "coldwave",
+        "progressive house",
+        "darkwave",
+        "tech house",
+        "synthpop"
+      ],
+      "has_events": true
+    },
+    "2025-11-07": {
+      "day_of_week": "Friday",
+      "event_count": 3,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "dubstep",
+        "EDM",
+        "house",
+        "progressive house",
+        "bass music",
+        "tech house",
+        "trip-hop"
+      ],
+      "has_events": true
+    },
+    "2025-11-08": {
+      "day_of_week": "Saturday",
+      "event_count": 2,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "dubstep",
+        "EDM",
+        "house",
+        "bass music",
+        "tech house"
+      ],
+      "has_events": true
+    },
+    "2025-11-13": {
+      "day_of_week": "Thursday",
+      "event_count": 1,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "synthpop",
+        "indie dance"
+      ],
+      "has_events": true
+    },
+    "2025-11-14": {
+      "day_of_week": "Friday",
+      "event_count": 2,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "tech house",
+        "EDM",
+        "house"
+      ],
+      "has_events": true
+    },
+    "2025-11-15": {
+      "day_of_week": "Saturday",
+      "event_count": 5,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "dubstep",
+        "riddim",
+        "EDM",
+        "house",
+        "bass music",
+        "pop EDM",
+        "big room",
+        "rock",
+        "tech house"
+      ],
+      "has_events": true
+    },
+    "2025-11-20": {
+      "day_of_week": "Thursday",
+      "event_count": 2,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "house",
+        "tech trance",
+        "techno",
+        "synthpop",
+        "eurodance"
+      ],
+      "has_events": true
+    },
+    "2025-11-21": {
+      "day_of_week": "Friday",
+      "event_count": 4,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "big room house",
+        "dubstep",
+        "EDM",
+        "jungle",
+        "house",
+        "drum and bass",
+        "pop EDM",
+        "uk bass",
+        "tech house"
+      ],
+      "has_events": true
+    },
+    "2025-11-22": {
+      "day_of_week": "Saturday",
+      "event_count": 5,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "hard house",
+        "EDM",
+        "house",
+        "bassline",
+        "hardstyle",
+        "pop EDM",
+        "trance",
+        "big room",
+        "uk garage",
+        "tech house"
+      ],
+      "has_events": true
+    },
+    "2025-11-28": {
+      "day_of_week": "Friday",
+      "event_count": 3,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "EDM",
+        "house",
+        "hard techno",
+        "hip-hop",
+        "downtempo",
+        "funk",
+        "tech house",
+        "big room techno"
+      ],
+      "has_events": true
+    },
+    "2025-11-29": {
+      "day_of_week": "Saturday",
+      "event_count": 3,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "EDM",
+        "house",
+        "hard techno",
+        "progressive house",
+        "big room techno",
+        "tech house",
+        "garage"
+      ],
+      "has_events": true
+    },
+    "2025-12-05": {
+      "day_of_week": "Friday",
+      "event_count": 1,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "tech house",
+        "EDM",
+        "house"
+      ],
+      "has_events": true
+    },
+    "2025-12-06": {
+      "day_of_week": "Saturday",
+      "event_count": 1,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "tech house",
+        "EDM",
+        "house"
+      ],
+      "has_events": true
+    },
+    "2025-12-12": {
+      "day_of_week": "Friday",
+      "event_count": 2,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "dubstep",
+        "EDM",
+        "house",
+        "bass music",
+        "tech house"
+      ],
+      "has_events": true
+    },
+    "2025-12-13": {
+      "day_of_week": "Saturday",
+      "event_count": 3,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "dubstep",
+        "EDM",
+        "house",
+        "trap",
+        "tech house"
+      ],
+      "has_events": true
+    },
+    "2025-12-19": {
+      "day_of_week": "Friday",
+      "event_count": 3,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "dubstep",
+        "EDM",
+        "house",
+        "electro",
+        "techno",
+        "trap",
+        "tech house",
+        "ghettotech"
+      ],
+      "has_events": true
+    },
+    "2025-12-20": {
+      "day_of_week": "Saturday",
+      "event_count": 3,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "EDM",
+        "house",
+        "progressive house",
+        "trance",
+        "tech house"
+      ],
+      "has_events": true
+    },
+    "2025-12-26": {
+      "day_of_week": "Friday",
+      "event_count": 2,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "EDM",
+        "house",
+        "trap",
+        "tech house",
+        "melodic dubstep"
+      ],
+      "has_events": true
+    },
+    "2025-12-27": {
+      "day_of_week": "Saturday",
+      "event_count": 1,
+      "tba_count": 1,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "tech house",
+        "EDM",
+        "house"
+      ],
+      "has_events": true
+    },
+    "2025-12-31": {
+      "day_of_week": "Wednesday",
+      "event_count": 1,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "80s",
+        "EDM",
+        "house",
+        "90s",
+        "top 40"
+      ],
+      "has_events": true
+    },
+    "2026-01-01": {
+      "day_of_week": "Thursday",
+      "event_count": 1,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "tech house",
+        "breaks",
+        "funky house"
+      ],
+      "has_events": true
+    },
+    "2026-01-28": {
+      "day_of_week": "Wednesday",
+      "event_count": 1,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "electropop",
+        "synthpop"
+      ],
+      "has_events": true
+    },
+    "2026-01-30": {
+      "day_of_week": "Friday",
+      "event_count": 1,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "synthpop",
+        "pop EDM"
+      ],
+      "has_events": true
+    },
+    "2026-02-14": {
+      "day_of_week": "Saturday",
+      "event_count": 1,
+      "tba_count": 0,
+      "cities": [
+        "San Francisco"
+      ],
+      "genres": [
+        "funk",
+        "disco",
+        "remixes"
+      ],
+      "has_events": true
+    }
+  }
+}

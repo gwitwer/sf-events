@@ -1,0 +1,575 @@
+[
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Fri: Sep 5-Sun: Sep 7",
+    "timeRange": "10am-10pm",
+    "title": "Lfieform Gathering",
+    "url": "https://www.eventbrite.com/e/lifeform-events-presents-lifeform-gathering-2025-tickets-1589619969119",
+    "venue": "TBA",
+    "city": "Nevada City",
+    "genres": [
+      "dubstep",
+      "bass music",
+      "house",
+      "drum and bass"
+    ],
+    "price": "$44.52",
+    "age": null,
+    "promoters": [
+      "Lifeform Events",
+      "Vibe Select Entertainment"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DNjZiuByGAU/"
+      }
+    ],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Fri: Sep 5-Sun: Sep 7",
+    "timeRange": "Fri: 12pm-Sun: 6pm",
+    "title": "Destination Festival",
+    "url": "https://theneighborhoodpta.com/store/p/destination-festival-2025-3-day-ga-pass",
+    "venue": "Black Oak Ranch",
+    "city": "Laytonville",
+    "genres": [
+      "multigenre EDM",
+      "disco",
+      "house",
+      "trap",
+      "indie dance"
+    ],
+    "price": "$175",
+    "age": "All",
+    "promoters": [
+      "The Neighborhood PTA (Psychedelic Travel Agency)"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/theneighborhoodpta/"
+      }
+    ],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "5pm-8:30pm",
+    "title": "Izaak S (Loveshadow) + Jeremy Castillo",
+    "url": "https://ra.co/events/2241495",
+    "venue": "Mercury Cafe Block Party",
+    "city": "San Francisco",
+    "genres": [
+      "house"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "6pm-12am",
+    "title": "Rave & Bowl: Doble, Idnas, Logan Conners, Hawn, S2pit",
+    "url": "https://ra.co/events/2236690",
+    "venue": "The X Bar",
+    "city": "Cupertino",
+    "genres": [
+      "tech house",
+      "uk funky"
+    ],
+    "price": "$11.45-17.15",
+    "age": "18+",
+    "promoters": [
+      "Impulsive Vibes",
+      "Book Of Groove"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DNYh6HxuBDK/"
+      }
+    ],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "6pm-12am",
+    "title": "Rave and Bowl",
+    "url": "https://ra.co/events/2236690",
+    "venue": "20990 Homestead Rd",
+    "city": "Cupertino",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": "$10-17",
+    "age": "18+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DNmESyxyVY9/"
+      }
+    ],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "7pm-1am",
+    "title": "Cyberdelia: Hackers Screening, Cyberpunk Dance",
+    "url": "https://www.dnalounge.com/calendar/2025/09-05.html",
+    "venue": "DNA Lounge",
+    "city": "San Francisco",
+    "genres": [
+      "industrial",
+      "big beat",
+      "trance",
+      "industrial",
+      "synthwave"
+    ],
+    "price": "$15-25 pre / $30-35",
+    "age": "18+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "8:30pm-2am",
+    "title": "Headroom: DJ Luvle b2b DJ Cira, Hydroplane, Slow Worship, Kaviera, Brian Emo",
+    "url": "https://ra.co/events/2230878",
+    "venue": "Underground",
+    "city": "San Francisco",
+    "genres": [
+      "experimental",
+      "acid breaks",
+      "uk garage",
+      "jungle"
+    ],
+    "price": "$13-20 pre / $25",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/reel/DNOn25nyZzY/"
+      }
+    ],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "9pm-1:30am",
+    "title": "House Head Ft Gianni Blu",
+    "url": "https://www.eventbrite.com/e/house-head-ft-gianni-blu-tickets-1577512605669",
+    "venue": "Bergerac",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "EDM"
+    ],
+    "price": "$9-13",
+    "age": "21+",
+    "promoters": [
+      "Hi Jvck Entertainment"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "9pm-1:30am",
+    "title": "Mark Grusane",
+    "url": "https://ra.co/events/2241495",
+    "venue": "Bar Part Time",
+    "city": "San Francisco",
+    "genres": [
+      "house"
+    ],
+    "price": null,
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "9pm-2am",
+    "title": "White Out: Skniblk, Sweet Tea, Sky Fear, Deduxion, Trunccz",
+    "url": "https://www.eventbrite.com/e/white-out-tickets-1580407855439",
+    "venue": "Ten Twelve Bar & Lounge",
+    "city": "Modesto",
+    "genres": [
+      "tech house",
+      "bass house",
+      "EDM"
+    ],
+    "price": "free w/ rsvp & white attire / $10",
+    "age": "21+",
+    "promoters": [
+      "Crave Raves"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/crave.raves/p/DNWVK_1Sasi/"
+      }
+    ],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "9pm-3am",
+    "title": "Dazegxd and Technopagan",
+    "url": "https://ra.co/events/2218990",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "drum and bass",
+      "jungle"
+    ],
+    "price": "$17-23 pre / $25",
+    "age": "21+",
+    "promoters": [
+      "Fatcap"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "9pm-4am",
+    "title": "Ravegrave: Moondance",
+    "url": "https://ra.co/events/2226548",
+    "venue": "F8 1192 Folsom",
+    "city": "San Francisco",
+    "genres": [
+      "tech house",
+      "bass",
+      "dubstep",
+      "uk garage"
+    ],
+    "price": "$12-20",
+    "age": "21+",
+    "promoters": [
+      "RaveGrave"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DNl9xmzSkV3/"
+      }
+    ],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "9:30pm",
+    "title": "The Widdler + Ternion Sound",
+    "url": "https://tixr.com/groups/publicsf/thewiddler",
+    "venue": "Public Works",
+    "city": "San Francisco",
+    "genres": [
+      "dubstep",
+      "bass music",
+      "trap"
+    ],
+    "price": "$26-32",
+    "age": "21+",
+    "promoters": [
+      "Wormhole"
+    ],
+    "extraLinks": [
+      {
+        "text": "Facebook Page",
+        "href": "https://www.facebook.com/events/1217924726237445/"
+      }
+    ],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "9:30pm-1:30am",
+    "title": "Evolv3 Drum and Bass w/ Lb & Konfusion + Khariszma",
+    "url": "https://www.facebook.com/events/1890709624833841/",
+    "venue": "Crazy Horse Saloon",
+    "city": "Nevada City",
+    "genres": [
+      "drum and bass",
+      "jungle"
+    ],
+    "price": "$15",
+    "age": "21+",
+    "promoters": [
+      "Evolv3 DnB"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "9:30pm-2:30am",
+    "title": "Dark Sparkle: Miz Margo, Sage, Chat Noir",
+    "url": "https://edmtrain.com/san-francisco-ca/sage-388955?get=tickets",
+    "venue": "DNA Lounge",
+    "city": "San Francisco",
+    "genres": [
+      "goth",
+      "glam",
+      "new wave",
+      "post-punk",
+      "electronica"
+    ],
+    "price": "$5 pre / $10",
+    "age": "18+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Alternate Link",
+        "href": "https://www.dnalounge.com/calendar/2025/09-05d.html"
+      }
+    ],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "9:30pm-2am",
+    "title": "DJ Boring",
+    "url": "https://ra.co/events/2210280",
+    "venue": "Audio",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "techno"
+    ],
+    "price": "$16.70",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Alternate Link",
+        "href": "https://www.eventbrite.com/e/dj-boring-tickets-1471641412079"
+      }
+    ],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "10pm",
+    "title": "Eptic",
+    "url": "https://wl.seetickets.us/event/eptic/654532?afflky=1015Folsom",
+    "venue": "1015 Folsom",
+    "city": "San Francisco",
+    "genres": [
+      "hip-hop",
+      "dubstep",
+      "trap",
+      "bass music"
+    ],
+    "price": "$20-31.13",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Alternate Link",
+        "href": "https://www.eventbrite.com/e/eptic-tickets-1419586153399"
+      }
+    ],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "10pm",
+    "title": "Tyga",
+    "url": "https://www.tixr.com/groups/purenightclub/events/tyga-149729",
+    "venue": "Pure Nightclub",
+    "city": "Sunnyvale",
+    "genres": [
+      "trap",
+      "hip-hop"
+    ],
+    "price": "$40",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Facebook Page",
+        "href": "https://www.facebook.com/events/746235684720571/"
+      }
+    ],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "10pm-2am",
+    "title": "Frank Walker",
+    "url": "https://www.tixr.com/groups/templesf/events/frank-walker-146736",
+    "venue": "Temple Nightclub",
+    "city": "San Francisco",
+    "genres": [
+      "pop EDM",
+      "future bass",
+      "trap"
+    ],
+    "price": "$10-600",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "10pm-2am",
+    "title": "Ninajirachi",
+    "url": "https://www.squadup.com/events/ninajirachi",
+    "venue": "Monarch",
+    "city": "San Francisco",
+    "genres": [
+      "EDM",
+      "house",
+      "dubstep",
+      "drum and bass"
+    ],
+    "price": null,
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "10pm-3am",
+    "title": "Happy Hardcore Friends: Tidy, Dro, Psymatik, Staffbox, Interzone",
+    "url": "https://www.ravesnearyou.com/events/happy-hardcore-friends",
+    "venue": "TBA",
+    "city": "Oakland",
+    "genres": [
+      "happy hardcore",
+      "hardcore",
+      "hard groove",
+      "drum and bass"
+    ],
+    "price": "$20.50",
+    "age": "18+",
+    "promoters": [
+      "ravesnearyou"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DM6fDKAJv9C/"
+      }
+    ],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "10pm-4am",
+    "title": "Discip, Jordy, Kenny Cordeiro",
+    "url": "https://dice.fm/event/3oemk8-discip-5th-sep-halcyon-sf-san-francisco-tickets",
+    "venue": "Halcyon",
+    "city": "San Francisco",
+    "genres": [
+      "tech house",
+      "minimal"
+    ],
+    "price": "$12 b4 11 / $19-30",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "10pm-5am",
+    "title": "14 Years of Direct to Earth with Joel Mull, Kr!z, Pfirter, Shinedoe, + Residents",
+    "url": "https://ra.co/events/2194731",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "techno"
+    ],
+    "price": "$38.55-55.05",
+    "age": "21+",
+    "promoters": [
+      "Direct To Earth"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DLDSvf2oTTz/"
+      }
+    ],
+    "dateISO": "2025-09-05"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 5",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Friday",
+    "url": "https://posh.vip/f/1c396",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-05"
+  }
+]

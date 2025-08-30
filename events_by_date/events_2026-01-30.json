@@ -1,0 +1,29 @@
+[
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Jan 30, 2026",
+    "timeRange": "8pm",
+    "title": "Ofenbach",
+    "url": "https://wl.seetickets.us/event/ofenbach/653841?afflky=POPSCENEPresents",
+    "venue": "Rickshaw Stop",
+    "city": "San Francisco",
+    "genres": [
+      "synthpop",
+      "pop EDM"
+    ],
+    "price": "$28.83",
+    "age": "18+",
+    "promoters": [
+      "Popscene"
+    ],
+    "extraLinks": [],
+    "dateISO": "2026-01-30",
+    "coordinates": {
+      "lat": 37.7759904,
+      "lon": -122.4204754,
+      "display_name": "Rickshaw Stop, 155, Fell Street, Hayes Valley, San Francisco, California, 94102, United States",
+      "approximate": false
+    }
+  }
+]

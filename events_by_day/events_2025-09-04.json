@@ -1,0 +1,177 @@
+[
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Thu: Sep 4",
+    "timeRange": "7pm",
+    "title": "Cave Rave: Neon Black Light Party",
+    "url": "https://www.instagram.com/p/DNjfUFoSTue/",
+    "venue": "The Stone House",
+    "city": "Nevada City",
+    "genres": [
+      "dubstep",
+      "bass music",
+      "uk garage",
+      "drum and bass",
+      "techno",
+      "house"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [
+      "Vibe Select Entertainment"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-04"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Thu: Sep 4",
+    "timeRange": "8pm",
+    "title": "Babytron",
+    "url": "https://www.axs.com/events/1011721/babytron-tickets?cid=afffboea",
+    "venue": "The Regency Ballroom",
+    "city": "San Francisco",
+    "genres": [
+      "hip-hop"
+    ],
+    "price": "$48",
+    "age": "All ages",
+    "promoters": [
+      "Goldenvoice"
+    ],
+    "extraLinks": [
+      {
+        "text": "Facebook Page",
+        "href": "https://www.facebook.com/events/719319293883484/"
+      }
+    ],
+    "dateISO": "2025-09-04"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Thu: Sep 4",
+    "timeRange": "8pm-12am",
+    "title": "Soulseek Magazine Release Party: Moonpie, DJ of the Week, safarihaidari",
+    "url": "https://ra.co/events/2244151",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "club"
+    ],
+    "price": "$5.50+",
+    "age": "21+",
+    "promoters": [
+      "Soulseek",
+      "Program"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DN6fpfmkhiy/"
+      }
+    ],
+    "dateISO": "2025-09-04"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Thu: Sep 4",
+    "timeRange": "8pm-2am",
+    "title": "Electric Bump! | Downtown First Thursdays After Party",
+    "url": "https://www.eventbrite.com/e/electric-bump-downtown-first-thursdays-after-party-tickets-1608124998159",
+    "venue": "Monarch",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "disco",
+      "tech house",
+      "techno",
+      "EDM"
+    ],
+    "price": "free w/rsvp / $11.05-16.60",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Alternate Link",
+        "href": "https://ra.co/events/2240395"
+      }
+    ],
+    "dateISO": "2025-09-04"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Thu: Sep 4",
+    "timeRange": "8pm-2am",
+    "title": "Technosis: Neon.Jelly, Prinsea, Estrella, RINx, Kosmikonic",
+    "url": "https://www.eventbrite.com/e/technosis-tickets-1579368255969",
+    "venue": "ReUnion Underground",
+    "city": "Sacramento",
+    "genres": [
+      "psytrance",
+      "techno"
+    ],
+    "price": "$10 pre / $15",
+    "age": "21+",
+    "promoters": [
+      "Space Cloud"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/spacecloudvibez/reel/DNtP_SF3pGV/"
+      }
+    ],
+    "dateISO": "2025-09-04"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Thu: Sep 4",
+    "timeRange": "9pm-1am",
+    "title": "Throbb House Thursday: Allen Perez, Aandrickk, Profecito",
+    "url": "https://ra.co/events/2240541",
+    "venue": "Caravan Lounge",
+    "city": "San Jose",
+    "genres": [
+      "techno",
+      "baile funk",
+      "latincore",
+      "house"
+    ],
+    "price": "free",
+    "age": "21+",
+    "promoters": [
+      "Throbb House"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DNmftclRTv5/"
+      }
+    ],
+    "dateISO": "2025-09-04"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Thu: Sep 4",
+    "timeRange": "9pm-2am",
+    "title": "Throttle Thursday: Reinier Zonneveld",
+    "url": "https://ra.co/events/2188902",
+    "venue": "1015 Folsom",
+    "city": "San Francisco",
+    "genres": [
+      "techno"
+    ],
+    "price": "$23-29",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-04"
+  }
+]

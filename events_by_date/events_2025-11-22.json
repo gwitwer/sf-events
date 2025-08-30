@@ -1,0 +1,133 @@
+[
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Nov 22",
+    "timeRange": "2pm",
+    "title": "Lenny Pearce's Usa Toddler Techno Tour - Part 2",
+    "url": "https://www.ticketmaster.com/event/1C0062CD87EC16C6",
+    "venue": "The Midway",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "big room",
+      "pop EDM"
+    ],
+    "price": "$129-173",
+    "age": "All ages",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-22",
+    "coordinates": {
+      "lat": 37.7495304,
+      "lon": -122.3860944,
+      "display_name": "The Midway, 900, Marin Street, San Francisco, California, 94124, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Nov 22",
+    "timeRange": "10pm",
+    "title": "Sam Alfred",
+    "url": "https://www.ticketmaster.com/event/1C00630CBC7B19B9",
+    "venue": "Monarch",
+    "city": "San Francisco",
+    "genres": [
+      "trance",
+      "eurodance",
+      "hard house"
+    ],
+    "price": "$13-29",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-22",
+    "coordinates": {
+      "lat": 37.7809714,
+      "lon": -122.4083336,
+      "display_name": "Monarch, 101, 6th Street, West SoMa, South of Market, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Nov 22",
+    "timeRange": "10pm-2:30am",
+    "title": "Yosuf",
+    "url": "https://www.dnalounge.com/calendar/2025/11-22.html",
+    "venue": "DNA Lounge",
+    "city": "San Francisco",
+    "genres": [
+      "hardstyle"
+    ],
+    "price": "$10-20 pre / $25",
+    "age": "21+",
+    "promoters": [
+      "Vital Events",
+      "Bassrush"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-11-22",
+    "coordinates": {
+      "lat": 37.7710875,
+      "lon": -122.4126126,
+      "display_name": "DNA Lounge, 375, 11th Street, West SoMa, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Nov 22",
+    "timeRange": "9:30pm-2am",
+    "title": "Silva Bumpa",
+    "url": "https://ra.co/events/2216643",
+    "venue": "Audio",
+    "city": "San Francisco",
+    "genres": [
+      "uk garage",
+      "bassline",
+      "house"
+    ],
+    "price": "$17-25",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-22",
+    "coordinates": {
+      "lat": 37.7713709,
+      "lon": -122.4138077,
+      "display_name": "Audio Nightclub, 316, 11th Street, West SoMa, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Nov 22",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Friday",
+    "url": "https://posh.vip/f/1c3b7",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-22",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "TBA (approximate - city center)",
+      "approximate": true
+    }
+  }
+]

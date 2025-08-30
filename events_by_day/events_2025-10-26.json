@@ -1,0 +1,55 @@
+[
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sun: Oct 26",
+    "timeRange": "2pm-7pm",
+    "title": "Alan Dixon",
+    "url": "https://www.eventbrite.com/e/alan-dixon-keinemusic-defected-at-via-hotel-tickets-1501808231849?aff=19hz",
+    "venue": "Hotel Via Rooftop",
+    "city": "San Francisco",
+    "genres": [
+      "afro house",
+      "deep house"
+    ],
+    "price": "$15+",
+    "age": "21+",
+    "promoters": [
+      "Safra",
+      "B.A.S.S"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/safraparties/"
+      }
+    ],
+    "dateISO": "2025-10-26"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Sun: Oct 26",
+    "timeRange": "5pm",
+    "title": "Halloween Sunset Party at The Barn: Hugel, Jlittle, Emilio, 3NZO",
+    "url": "https://www.tixr.com/groups/alldayallnight/events/hugel-halloween-sunset-party-at-the-barn-152267",
+    "venue": "The Barn",
+    "city": "Sacramento",
+    "genres": [
+      "latin house"
+    ],
+    "price": null,
+    "age": "21+",
+    "promoters": [
+      "All Day All Night",
+      "Earth1"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/soundproofus/p/DMs-B-pOgxN/?img_index=1"
+      }
+    ],
+    "dateISO": "2025-10-26"
+  }
+]

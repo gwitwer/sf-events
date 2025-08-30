@@ -1,0 +1,127 @@
+[
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Nov 1",
+    "timeRange": "6pm",
+    "title": "TR/ST, Pixel Grip, Night in Athens, Bestial Mouths, Automelodi, Normal Bias",
+    "url": "https://www.seetickets.us/event/id/647669",
+    "venue": "Great American Music Hall",
+    "city": "San Francisco",
+    "genres": [
+      "darkwave",
+      "ambient",
+      "goth",
+      "industrial"
+    ],
+    "price": "$55 pre / $70",
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-01"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Sat: Nov 1",
+    "timeRange": "8pm",
+    "title": "Lost Frequencies",
+    "url": "https://sanjosetheaters.org/theaters/san-jose-civic/#event=lost-frequencies;instance=20251101200000",
+    "venue": "San Jose Civic",
+    "city": "San Jose",
+    "genres": [
+      "progressive house",
+      "deep house",
+      "tropical house",
+      "melodic techno"
+    ],
+    "price": "$57.50+",
+    "age": "18+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-01"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Nov 1",
+    "timeRange": "9pm",
+    "title": "Zamna: Bakermat, Aluna, Parra For Cuva, Joezi, Natascha Polke, Topic",
+    "url": "https://www.tixr.com/groups/midwaysf/events/zamna-152914?laylo-fid=16897ee3467f90d1adcb51080d9646d1&laylo-pid=04e75252-4d40-486a-bbc8-6558704d674d",
+    "venue": "The Midway",
+    "city": "San Francisco",
+    "genres": [
+      "progressive house",
+      "tech house"
+    ],
+    "price": null,
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-01"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Nov 1",
+    "timeRange": "9:30pm",
+    "title": "Ghost Palace Halloween Party",
+    "url": "https://wl.seetickets.us/event/ghost-palace-halloween-party/639515?afflky=NonPlusUltra",
+    "venue": "The Palace of Fine Arts",
+    "city": "San Francisco",
+    "genres": [
+      "house"
+    ],
+    "price": "$70-100",
+    "age": null,
+    "promoters": [
+      "Non Plus Ultra",
+      "Electroluxx"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-11-01"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Nov 1",
+    "timeRange": "9:30pm-2am",
+    "title": "After Life: Grief Rave",
+    "url": "https://www.dnalounge.com/calendar/2025/11-01d.html",
+    "venue": "DNA Lounge",
+    "city": "San Francisco",
+    "genres": [
+      "downtempo",
+      "witch house",
+      "midtempo",
+      "darkwave",
+      "industrial",
+      "synthwave"
+    ],
+    "price": "$10 pre / $15",
+    "age": "18+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-01"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Nov 1",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Friday",
+    "url": "https://posh.vip/f/1c3af",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-01"
+  }
+]

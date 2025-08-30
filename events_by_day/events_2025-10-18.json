@@ -1,0 +1,209 @@
+[
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Oct 18",
+    "timeRange": "1pm-6pm",
+    "title": "Westend",
+    "url": "https://www.eventbrite.com/e/westend-phoenix-hotel-tickets-1407878665989",
+    "venue": "The Phoenix Hotel",
+    "city": "San Francisco",
+    "genres": [
+      "tech house"
+    ],
+    "price": "$25-35",
+    "age": "21+",
+    "promoters": [
+      "15Utah"
+    ],
+    "extraLinks": [
+      {
+        "text": "Alternate Link",
+        "href": "https://ra.co/events/2196092"
+      }
+    ],
+    "dateISO": "2025-10-18"
+  },
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Sat: Oct 18-Sun: Oct 19",
+    "timeRange": "1pm-9pm",
+    "title": "Air.: Dombresky, Boys Noize, Felix Da Housecat, Sistek, Dreya V, Honey, Sh!bby, Frankie Jayy, Green Velvet, Patrick Topping, Ayybo, Jackie Hollander, Leisan, FS, MS. HA, JU",
+    "url": "https://www.tixr.com/groups/alldayallnight/events/air-2025-153036",
+    "venue": "The Grand on The Bluffs",
+    "city": "Fresno",
+    "genres": [
+      "tech house",
+      "techno"
+    ],
+    "price": "$49.44+",
+    "age": "18+",
+    "promoters": [
+      "All Day All Night",
+      "LMC",
+      "Maj"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DN4bVajifJj/"
+      }
+    ],
+    "dateISO": "2025-10-18"
+  },
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Sat: Oct 18",
+    "timeRange": "2pm-3am",
+    "title": "Burning Man Decompression 2025",
+    "url": "https://here.burningman.org/event/decompression2025",
+    "venue": "The Loom",
+    "city": "Oakland",
+    "genres": [
+      "house",
+      "progressive house",
+      "tech house",
+      "playa tech"
+    ],
+    "price": "$40-75",
+    "age": "All ages",
+    "promoters": [
+      "Burning Man Community Events"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DL9LDinuz50/"
+      }
+    ],
+    "dateISO": "2025-10-18"
+  },
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Sat: Oct 18",
+    "timeRange": "8pm",
+    "title": "Adventure Club - Throwback Tour",
+    "url": "https://sanjosetheaters.org/theaters/san-jose-civic/#event=adventure-club-throwback-tour;instance=20251018200000",
+    "venue": "San Jose Civic",
+    "city": "San Jose",
+    "genres": [
+      "melodic dubstep"
+    ],
+    "price": "$60+",
+    "age": "18+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-18"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Oct 18",
+    "timeRange": "8pm",
+    "title": "Eli Brown",
+    "url": "https://wl.seetickets.us/event/eli-brown/653583?afflky=NonPlusUltra",
+    "venue": "The Palace of Fine Arts",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "techno"
+    ],
+    "price": "$59.05-162.67",
+    "age": "21+",
+    "promoters": [
+      "Non Plus Ultra"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-18"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Oct 18",
+    "timeRange": "9:30pm",
+    "title": "Alex Wann + Notre Dame: Us Tour 2025",
+    "url": "https://www.eventbrite.com/e/alex-wann-notre-dame-us-tour-2025-tickets-1592732027369",
+    "venue": "The Great Northern",
+    "city": "San Francisco",
+    "genres": [
+      "house"
+    ],
+    "price": null,
+    "age": "21+",
+    "promoters": [
+      "15Utah"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-18"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Oct 18",
+    "timeRange": "9:30pm-2am",
+    "title": "The Ahee Wubcraft Tour",
+    "url": "https://www.tixr.com/groups/publicsf/events/insomniac-presents-the-ahee-wubcraft-tour-150519",
+    "venue": "Public Works",
+    "city": "San Francisco",
+    "genres": [
+      "bass music",
+      "glitch-hop",
+      "dubstep",
+      "trap"
+    ],
+    "price": "$25-35",
+    "age": "21+",
+    "promoters": [
+      "Insomniac"
+    ],
+    "extraLinks": [
+      {
+        "text": "Alternate Link",
+        "href": "https://ra.co/events/2211209"
+      }
+    ],
+    "dateISO": "2025-10-18"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Oct 18",
+    "timeRange": "10pm",
+    "title": "DJ Habibeats: Culture Shock",
+    "url": "https://www.eventbrite.com/e/dj-habibeats-culture-shock-sf-takeover-550-underground-tickets-1514221249519",
+    "venue": "Space 550",
+    "city": "San Francisco",
+    "genres": [],
+    "price": "$48+",
+    "age": "21+",
+    "promoters": [
+      "DJ Dials",
+      "15Utah"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-18"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Oct 18",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Friday",
+    "url": "https://posh.vip/f/1c3a9",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-18"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sun: Sep 21",
+    "timeRange": "10pm",
+    "title": "Hamdi",
+    "url": "https://www.squadup.com/events/hamdi?axssid=token_b95a06f35d83&locale=en-GB&originalReferringURL=&cid=edmtrain",
+    "venue": "Monarch",
+    "city": "San Francisco",
+    "genres": [
+      "dubstep",
+      "bass music"
+    ],
+    "price": "$45 pre",
+    "age": "21+",
+    "promoters": [
+      "Goldenvoice"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-21",
+    "coordinates": {
+      "lat": 37.7809714,
+      "lon": -122.4083336,
+      "display_name": "Monarch, 101, 6th Street, West SoMa, South of Market, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sun: Sep 21",
+    "timeRange": "11pm-5am",
+    "title": "BNKR: Special Guest",
+    "url": "https://posh.vip/f/2bb10",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "tech house",
+      "techno",
+      "house"
+    ],
+    "price": "$53",
+    "age": "21+",
+    "promoters": [
+      "BNKR"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-21",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "TBA (approximate - city center)",
+      "approximate": true
+    }
+  }
+]

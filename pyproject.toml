@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "sf-events"
+version = "0.1.0"
+description = "SF Bay Area events map viewer with geocoding and data parsing"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "sf_events"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+lxml = "^5.0.0"
+fastapi = "^0.109.0"
+uvicorn = {extras = ["standard"], version = "^0.27.0"}
+sqlalchemy = "^2.0.0"
+alembic = "^1.13.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.0"
+ruff = "^0.1.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+target-version = ['py39']
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "W", "I"]

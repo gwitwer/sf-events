@@ -1,0 +1,139 @@
+[
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Oct 24",
+    "timeRange": "7pm",
+    "title": "Subtronics, Inzo, Eazybaked, Nayan, Know Good",
+    "url": "https://www.ticketmaster.com/event/1C0062CAFA4E5C6D",
+    "venue": "Bill Graham Civic Auditorium",
+    "city": "San Francisco",
+    "genres": [
+      "dubstep"
+    ],
+    "price": "$67-89",
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-24"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Fri: Oct 24",
+    "timeRange": "8pm",
+    "title": "KRS-One",
+    "url": "https://secure.thefreight.org/15329/15330-krs-one-251024",
+    "venue": "The Freight",
+    "city": "Berkeley",
+    "genres": [
+      "hip-hop"
+    ],
+    "price": "$44/49",
+    "age": "All ages",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-24"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Oct 24",
+    "timeRange": "8pm",
+    "title": "Zulan",
+    "url": "https://www.axs.com/events/1112740/zulan-tickets",
+    "venue": "Regency Ballroom",
+    "city": "San Francisco",
+    "genres": [
+      "house"
+    ],
+    "price": null,
+    "age": "18+",
+    "promoters": [
+      "Goldenvoice"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-24"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Oct 24",
+    "timeRange": "9:30pm-2am",
+    "title": "The Magician",
+    "url": "https://www.eventbrite.com/e/the-magician-tickets-1373806675749",
+    "venue": "Audio",
+    "city": "San Francisco",
+    "genres": [
+      "deep house",
+      "disco house",
+      "bass house"
+    ],
+    "price": "$21.07",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-24"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Oct 24",
+    "timeRange": "10pm",
+    "title": "Jigitz",
+    "url": "https://wl.seetickets.us/event/jigitz/651102?afflky=1015Folsom",
+    "venue": "1015 Folsom",
+    "city": "San Francisco",
+    "genres": [
+      "uk garage",
+      "bassline",
+      "house"
+    ],
+    "price": "$25.05-31.13",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-24"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Oct 24",
+    "timeRange": "10:30pm-3am",
+    "title": "Og Nixin, Benda",
+    "url": "https://www.dnalounge.com/calendar/2025/10-24.html",
+    "venue": "DNA Lounge",
+    "city": "San Francisco",
+    "genres": [
+      "dubstep"
+    ],
+    "price": "$15-20 pre / $25",
+    "age": "21+",
+    "promoters": [
+      "Bassrush",
+      "Vital"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-24"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Oct 24",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Saturday",
+    "url": "https://posh.vip/f/1c3ab",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-24"
+  }
+]

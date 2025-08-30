@@ -1,0 +1,109 @@
+[
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Nov 21",
+    "timeRange": "9pm-2am",
+    "title": "Timmy Trumpet",
+    "url": "https://www.tixr.com/groups/midwaysf/events/insomniac-and-the-midway-present-timmy-trumpet-150427",
+    "venue": "The Midway",
+    "city": "San Francisco",
+    "genres": [
+      "big room house",
+      "pop EDM"
+    ],
+    "price": "$52+",
+    "age": "21+",
+    "promoters": [
+      "Insomniac"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-11-21",
+    "coordinates": {
+      "lat": 37.7495304,
+      "lon": -122.3860944,
+      "display_name": "The Midway, 900, Marin Street, San Francisco, California, 94124, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Nov 21",
+    "timeRange": "9pm-2am",
+    "title": "Vastive: New Levels New Devils Tour",
+    "url": "https://www.tixr.com/groups/midwaysf/events/vastive-new-levels-new-devils-tour-147585",
+    "venue": "The Midway",
+    "city": "San Francisco",
+    "genres": [
+      "dubstep"
+    ],
+    "price": "$20-25",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-21",
+    "coordinates": {
+      "lat": 37.7495304,
+      "lon": -122.3860944,
+      "display_name": "The Midway, 900, Marin Street, San Francisco, California, 94124, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Nov 21",
+    "timeRange": "9pm-3am",
+    "title": "20 Years of Exit Records & 10 Years of Timedance",
+    "url": "https://ra.co/events/2178840",
+    "venue": "Public Works",
+    "city": "San Francisco",
+    "genres": [
+      "drum and bass",
+      "jungle",
+      "uk bass"
+    ],
+    "price": "$28-34",
+    "age": "21+",
+    "promoters": [
+      "Parameter",
+      "Club Moniker",
+      "Fluxions"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-11-21",
+    "coordinates": {
+      "lat": 37.7688931,
+      "lon": -122.4192651,
+      "display_name": "Public Works, 161, Erie Street, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Nov 21",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Saturday",
+    "url": "https://posh.vip/f/1c3b5",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-21",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "TBA (approximate - city center)",
+      "approximate": true
+    }
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Fri: Oct 10",
+    "timeRange": "8pm",
+    "title": "DJ Pauly D",
+    "url": "https://www.ticketmaster.com/event/1C0062FCE106625F",
+    "venue": "Ace Of Spades",
+    "city": "Sacramento",
+    "genres": [
+      "pop EDM"
+    ],
+    "price": "$187+",
+    "age": "All ages",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-10"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Oct 10",
+    "timeRange": "8pm",
+    "title": "Iamx",
+    "url": "https://www.seetickets.us/event/id/643741",
+    "venue": "The Chapel",
+    "city": "San Francisco",
+    "genres": [
+      "synthpop",
+      "industrial"
+    ],
+    "price": "$32",
+    "age": "All ages",
+    "promoters": [
+      "folkYEAH"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-10"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Oct 10",
+    "timeRange": "8pm",
+    "title": "Iamx: Fault Lines2 Tour",
+    "url": "https://www.seetickets.us/event/id/643741",
+    "venue": "The Chapel",
+    "city": "San Francisco",
+    "genres": [
+      "synthpop",
+      "industrial"
+    ],
+    "price": "$32 pre",
+    "age": "All ages",
+    "promoters": [
+      "folkYEAH"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-10"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Oct 10",
+    "timeRange": "9pm-1am",
+    "title": "Mph",
+    "url": "https://www.tixr.com/groups/templedenver/events/mph-150850",
+    "venue": "Temple Nightclub",
+    "city": "San Francisco",
+    "genres": [
+      "tech house"
+    ],
+    "price": "$15-20",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-10"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Oct 10",
+    "timeRange": "9pm-2:30am",
+    "title": "PhaseOne, Beastboi",
+    "url": "https://www.dnalounge.com/calendar/2025/10-10.html",
+    "venue": "DNA Lounge",
+    "city": "San Francisco",
+    "genres": [
+      "dubstep"
+    ],
+    "price": "$15-25 pre / $29",
+    "age": "21+",
+    "promoters": [
+      "Bassrush",
+      "Vital"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-10"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Oct 10",
+    "timeRange": "9pm-2am",
+    "title": "Grave Rave w/ Riot",
+    "url": "https://www.tixr.com/groups/midwaysf/events/the-midway-and-emo-nite-present-grave-rave-w-riot-146514",
+    "venue": "The Midway Gods and Monsters",
+    "city": "San Francisco",
+    "genres": [
+      "emo rock",
+      "dubstep",
+      "EDM"
+    ],
+    "price": null,
+    "age": "21+",
+    "promoters": [
+      "Emo Nite"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-10"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Oct 10",
+    "timeRange": "9:30pm-3:30am",
+    "title": "Peach, DJ Babatr, Gabrielle Kwarteng, Syz, Farsight, Skiis, likeholywine, Papa Xanny, Sholim Eso, nonsuit",
+    "url": "https://ra.co/events/2181349",
+    "venue": "The Great Northern",
+    "city": "San Francisco",
+    "genres": [
+      "deconstructed club",
+      "house",
+      "techno"
+    ],
+    "price": "$14-17 b4 11 / $23-29",
+    "age": "21+",
+    "promoters": [
+      "Squish"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-10"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Oct 10",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Friday",
+    "url": "https://posh.vip/f/1c3a6",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-10"
+  }
+]

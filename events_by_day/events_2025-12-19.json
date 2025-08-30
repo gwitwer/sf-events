@@ -1,0 +1,64 @@
+[
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Dec 19",
+    "timeRange": "7pm",
+    "title": "Fisher, Chris Lorenzo, Partiboi69",
+    "url": "https://www.axs.com/events/1068169/fisher-tickets",
+    "venue": "Moscone Center",
+    "city": "San Francisco",
+    "genres": [
+      "tech house",
+      "electro",
+      "techno",
+      "ghettotech"
+    ],
+    "price": null,
+    "age": "18+",
+    "promoters": [
+      "Goldenvoice"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-12-19"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Dec 19",
+    "timeRange": "9pm-2am",
+    "title": "NGHTMRE",
+    "url": "https://www.tixr.com/groups/midwaysf/events/nghtmre-153299",
+    "venue": "The Midway",
+    "city": "San Francisco",
+    "genres": [
+      "dubstep",
+      "trap"
+    ],
+    "price": "$37.50-90",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-12-19"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Dec 19",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Saturday",
+    "url": "https://posh.vip/f/1c3c0",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-12-19"
+  }
+]

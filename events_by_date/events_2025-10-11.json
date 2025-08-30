@@ -1,0 +1,111 @@
+[
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Oct 11",
+    "timeRange": "8:30pm-2am",
+    "title": "It's Murph: Through My System Tour",
+    "url": "https://www.tixr.com/groups/midwaysf/events/it-s-murph-through-my-system-tour-147592",
+    "venue": "The Midway",
+    "city": "San Francisco",
+    "genres": [
+      "tech house"
+    ],
+    "price": "$30-75",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-11",
+    "coordinates": {
+      "lat": 37.7495304,
+      "lon": -122.3860944,
+      "display_name": "The Midway, 900, Marin Street, San Francisco, California, 94124, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Oct 11",
+    "timeRange": "9pm",
+    "title": "Dr. Gabba, Nextdimensional, DJ Caro",
+    "url": "https://www.tixr.com/groups/publicsf/events/dr-gabba-nextdimensional-dj-caro-presented-by-public-works-strapt-no-bias-154163?utm_source=publicsf&utm_medium=venuewebsite",
+    "venue": "Public Works",
+    "city": "San Francisco",
+    "genres": [
+      "acid house",
+      "club music",
+      "EBM",
+      "ambient",
+      "techno",
+      "breaks"
+    ],
+    "price": "$26-32",
+    "age": "21+",
+    "promoters": [
+      "Strapt",
+      "No Bias"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-11",
+    "coordinates": {
+      "lat": 37.7688931,
+      "lon": -122.4192651,
+      "display_name": "Public Works, 161, Erie Street, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Oct 11",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Saturday",
+    "url": "https://posh.vip/f/1c3a7",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-11",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "TBA (approximate - city center)",
+      "approximate": true
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Oct 11",
+    "timeRange": "7pm",
+    "title": "Crankdat, Jauz, Cyclops, Usaybflow, DJ Kang",
+    "url": "https://www.ticketmaster.com/event/1C0062F1A597409E",
+    "venue": "Bill Graham Civic Auditorium",
+    "city": "San Francisco",
+    "genres": [
+      "bass house",
+      "electro house",
+      "dubstep",
+      "trap"
+    ],
+    "price": "$67-89",
+    "age": "18+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-11",
+    "coordinates": {
+      "lat": 37.7780501,
+      "lon": -122.4173077,
+      "display_name": "Bill Graham Civic Auditorium, 99, Grove Street, Civic Center, South of Market, San Francisco, California, 94102, United States",
+      "approximate": false
+    }
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Nov 15",
+    "timeRange": "7:30pm",
+    "title": "Chris Lake",
+    "url": "https://www.ticketmaster.com/event/1C0062E199904AF2",
+    "venue": "Bill Graham Civic Auditorium",
+    "city": "San Francisco",
+    "genres": [
+      "tech house"
+    ],
+    "price": "$80",
+    "age": "18+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-15"
+  },
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Sat: Nov 15",
+    "timeRange": "8pm",
+    "title": "Kai Wachi presents Nekrosis",
+    "url": "https://sanjosetheaters.org/event/kai-wachi/",
+    "venue": "San Jose Civic",
+    "city": "San Jose",
+    "genres": [
+      "dubstep",
+      "bass music"
+    ],
+    "price": "$60+",
+    "age": "18+",
+    "promoters": [
+      "Insomniac"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DNi1haGJJtd/?img_index=1"
+      }
+    ],
+    "dateISO": "2025-11-15"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Nov 15",
+    "timeRange": "8pm",
+    "title": "SPCA Benefit: Tributes to Coldplay, Avicii, Chainsmokers & Daft Punk",
+    "url": "https://www.ticketmaster.com/spca-benefit-tributes-to-coldplay-avicii-san-francisco-california-11-15-2025/event/1C006307A65D77F7",
+    "venue": "August Hall",
+    "city": "San Francisco",
+    "genres": [
+      "rock",
+      "big room",
+      "pop EDM",
+      "house"
+    ],
+    "price": "$29-35",
+    "age": "5+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-15"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Sat: Nov 15",
+    "timeRange": "9pm-1am",
+    "title": "Dimension",
+    "url": "https://www.tixr.com/groups/alldayallnight/events/dimension-north-america-tour-147730",
+    "venue": "The Gold Bar Hangar",
+    "city": "Alameda",
+    "genres": [
+      "drum and bass"
+    ],
+    "price": "$55-174",
+    "age": "21+",
+    "promoters": [
+      "Dj Dials",
+      "Insomniac",
+      "All Day All Night"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-11-15"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Nov 15",
+    "timeRange": "9:30pm-2:30am",
+    "title": "Booka Shade (Live)",
+    "url": "https://www.eventbrite.com/e/booka-shade-live-tickets-1119244042059",
+    "venue": "The Great Northern",
+    "city": "San Francisco",
+    "genres": [
+      "house"
+    ],
+    "price": "$13.63-48.95",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-15"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Nov 15",
+    "timeRange": "10:30pm-2:30am",
+    "title": "Sanzu: Ashina Tour",
+    "url": "https://www.dnalounge.com/calendar/2025/11-15.html",
+    "venue": "DNA Lounge",
+    "city": "San Francisco",
+    "genres": [
+      "dubstep",
+      "bass music",
+      "riddim"
+    ],
+    "price": "$15-20 pre / $25",
+    "age": "18+",
+    "promoters": [
+      "Vital Events",
+      "Bassrush"
+    ],
+    "extraLinks": [
+      {
+        "text": "Facebook Page",
+        "href": "https://www.facebook.com/events/24043375628669889/"
+      }
+    ],
+    "dateISO": "2025-11-15"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Nov 15",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Friday",
+    "url": "https://posh.vip/f/1c3b4",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-11-15"
+  }
+]

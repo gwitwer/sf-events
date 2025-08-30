@@ -1,0 +1,41 @@
+[
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Dec 12",
+    "timeRange": "7:30pm",
+    "title": "Tape B: The Soundtrack to Everything You Forgot with Cool Customer, Phrva, Cozy Kev",
+    "url": "https://www.axs.com/events/1106335/tape-b-tickets",
+    "venue": "The Warfield",
+    "city": "San Francisco",
+    "genres": [
+      "dubstep",
+      "bass music"
+    ],
+    "price": "$43-67",
+    "age": "18+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-12-12"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Dec 12",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Saturday",
+    "url": "https://posh.vip/f/1c3be",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-12-12"
+  }
+]

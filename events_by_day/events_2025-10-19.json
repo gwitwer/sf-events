@@ -1,0 +1,71 @@
+[
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sun: Oct 19",
+    "timeRange": "2pm-7pm",
+    "title": "DJ Habibeats: Culture Shock",
+    "url": "https://www.eventbrite.com/e/dj-habibeats-culture-shock-sf-takeover-phoenix-hotel-tickets-1514227468119",
+    "venue": "The Phoenix Hotel",
+    "city": "San Francisco",
+    "genres": [
+      "house"
+    ],
+    "price": "$42.37-115.94",
+    "age": "21+",
+    "promoters": [
+      "DJ Dials",
+      "15Utah"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-19"
+  },
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Sun: Oct 19",
+    "timeRange": "2pm-7pm",
+    "title": "Sultan + Shepard DJ Set",
+    "url": "https://www.tixr.com/groups/alldayallnight/events/sultan-shepard-dj-set-social-dayclub-145489",
+    "venue": "Social",
+    "city": "Sacramento",
+    "genres": [
+      "house"
+    ],
+    "price": "$20-30",
+    "age": "21+",
+    "promoters": [
+      "All Day All Night",
+      "Earth1"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-19"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sun: Oct 19",
+    "timeRange": "2pm-8pm",
+    "title": "LOVE SUPREME Summer Day Party Series: Travie Bobbito, King Most, Bella D, & Friends",
+    "url": "https://www.seetickets.us/event/LOVE-SUPREME-Summer-Day-Party-Series/656375",
+    "venue": "The Chapel",
+    "city": "San Francisco",
+    "genres": [
+      "afrobeats",
+      "amapiano",
+      "baile funk",
+      "dancehall",
+      "house",
+      "r&b",
+      "reggaeton",
+      "soul"
+    ],
+    "price": "$14.84+",
+    "age": "21+",
+    "promoters": [
+      "Love Supreme"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-19"
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Thu: Sep 18",
+    "timeRange": "9pm-1:45am",
+    "title": "Queen Out Portola Preparty",
+    "url": "https://needto.queenout.com/before-portola-19hz",
+    "venue": "Public Works",
+    "city": "San Francisco",
+    "genres": [
+      "hyperpop",
+      "baile funk",
+      "vogue",
+      "jersey club"
+    ],
+    "price": "$16 b4 10 / $27-40",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/queenoutsf/"
+      }
+    ],
+    "dateISO": "2025-09-18"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Thu: Sep 18",
+    "timeRange": "9pm-2am",
+    "title": "House Havoc: Neon.Jelly, Deecoon, Kosmikonic, Markiv, Prinsea",
+    "url": "https://www.eventbrite.com/e/house-havoc-tickets-1579385186609",
+    "venue": "ReUnion Underground",
+    "city": "Sacramento",
+    "genres": [
+      "house",
+      "drum and bass",
+      "hardstyle"
+    ],
+    "price": "$10 pre / $15",
+    "age": "21+",
+    "promoters": [
+      "Space Cloud"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-18"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Thu: Sep 18",
+    "timeRange": "9:30pm",
+    "title": "Lp Giobbi",
+    "url": "https://www.axs.com/events/1087011/lp-giobbi-tickets",
+    "venue": "The Great Northern",
+    "city": "San Francisco",
+    "genres": [
+      "house"
+    ],
+    "price": null,
+    "age": "21+",
+    "promoters": [
+      "Goldenvoice",
+      "Yes Yes Yes"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-18"
+  }
+]

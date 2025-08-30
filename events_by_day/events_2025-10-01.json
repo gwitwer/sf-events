@@ -1,0 +1,22 @@
+[
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Wed: Oct 1",
+    "timeRange": "8pm",
+    "title": "Polo & Pan",
+    "url": "https://www.ticketmaster.com/event/1C0062F6B1017FCC",
+    "venue": "Channel 24",
+    "city": "Sacramento",
+    "genres": [
+      "tropical house",
+      "synthpop",
+      "electro"
+    ],
+    "price": "$64-192",
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-01"
+  }
+]

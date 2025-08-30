@@ -1,0 +1,77 @@
+[
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Thu: Oct 16",
+    "timeRange": "8pm",
+    "title": "MICTL-N - Night Of The Dead",
+    "url": "https://www.ticketweb.com/event/mictln-night-of-the-ritz-tickets/13942574",
+    "venue": "The Ritz",
+    "city": "San Jose",
+    "genres": [
+      "goth",
+      "dark wave",
+      "cumbia"
+    ],
+    "price": "$19",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-16"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Thu: Oct 16",
+    "timeRange": "8pm",
+    "title": "Smerz",
+    "url": "https://www.ticketweb.com/event/smerz-cafe-du-nord-tickets/13761604",
+    "venue": "Cafe Du Nord",
+    "city": "San Francisco",
+    "genres": [
+      "synthpop"
+    ],
+    "price": "$29.28",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-16"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Thu: Oct 16",
+    "timeRange": "9pm",
+    "title": "DJ Pauly D",
+    "url": "https://catalystclub.com/event/dj-pauly-d-2/the-catalyst/santa-cruz-california/",
+    "venue": "The Catalyst",
+    "city": "Santa Cruz",
+    "genres": [
+      "pop EDM"
+    ],
+    "price": "$62.70-68.64",
+    "age": "18+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-16"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Thu: Oct 16",
+    "timeRange": "9pm-2:30am",
+    "title": "Throttle Thursday: Marie Vaunt",
+    "url": "https://ra.co/events/2219679#tickets",
+    "venue": "1015 Folsom",
+    "city": "San Francisco",
+    "genres": [
+      "bass house",
+      "tech house"
+    ],
+    "price": "$19-23",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-16"
+  }
+]

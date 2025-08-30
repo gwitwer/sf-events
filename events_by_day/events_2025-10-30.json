@@ -1,0 +1,22 @@
+[
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Thu: Oct 30",
+    "timeRange": "8pm",
+    "title": "Marc Rebillet",
+    "url": "https://www.ticketmaster.com/event/1C0062C3C46E2DDC",
+    "venue": "Channel 24",
+    "city": "Sacramento",
+    "genres": [
+      "hip-hop",
+      "future beats",
+      "experimental"
+    ],
+    "price": "$54-174",
+    "age": "All ages",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-30"
+  }
+]

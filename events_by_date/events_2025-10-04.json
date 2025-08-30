@@ -1,0 +1,193 @@
+[
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Oct 4",
+    "timeRange": "9pm",
+    "title": "Acraze, Deeper Purpose, Fallon",
+    "url": "https://www.tixr.com/groups/midwaysf/events/the-midway-and-insomniac-present-acraze-150648?laylo-fid=16897ee3467f90d1adcb51080d9646d1&laylo-pid=fe559da5-2957-4966-b17f-dec3959829f4",
+    "venue": "The Midway",
+    "city": "San Francisco",
+    "genres": [
+      "tech house",
+      "pop EDM"
+    ],
+    "price": "$31+",
+    "age": "21+",
+    "promoters": [
+      "Insomniac"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-04",
+    "coordinates": {
+      "lat": 37.7495304,
+      "lon": -122.3860944,
+      "display_name": "The Midway, 900, Marin Street, San Francisco, California, 94124, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Oct 4",
+    "timeRange": "9:30pm-2am",
+    "title": "Wreckno, Sippy",
+    "url": "https://ra.co/events/2221772",
+    "venue": "Public Works",
+    "city": "San Francisco",
+    "genres": [
+      "dubstep",
+      "bass music"
+    ],
+    "price": "$34",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-04",
+    "coordinates": {
+      "lat": 37.7688931,
+      "lon": -122.4192651,
+      "display_name": "Public Works, 161, Erie Street, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Oct 4",
+    "timeRange": "9pm-3am",
+    "title": "Halloween Havoc:Midnight Circus - LNY TNZ, J. Slai, Bass of Spades, Viciios, Detonatorz, Maznoize b2b DJ Fernie, Ghostcode, El Yonnie",
+    "url": "https://ra.co/events/2241498",
+    "venue": "F8 1192 Folsom",
+    "city": "San Francisco",
+    "genres": [
+      "hardstyle",
+      "hard techno",
+      "uptempo",
+      "EDM"
+    ],
+    "price": "$11-40",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-04",
+    "coordinates": {
+      "lat": 37.7752814,
+      "lon": -122.4099546,
+      "display_name": "F8, 1192, Folsom Street, West SoMa, South of Market, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Oct 4",
+    "timeRange": "9pm-2am",
+    "title": "Garage Access: Bushbaby, Dan Frandisco, DJ Staley, Nightware, Legrant, DJ Superavit93",
+    "url": "https://ra.co/events/2238743",
+    "venue": "Monarch",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "uk garage"
+    ],
+    "price": "$19-31",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-04",
+    "coordinates": {
+      "lat": 37.7809714,
+      "lon": -122.4083336,
+      "display_name": "Monarch, 101, 6th Street, West SoMa, South of Market, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Oct 4",
+    "timeRange": "9:30pm-2am",
+    "title": "After Life: Night of a Thousand Witches",
+    "url": "https://www.dnalounge.com/calendar/2025/10-04d.html",
+    "venue": "DNA Lounge",
+    "city": "San Francisco",
+    "genres": [
+      "downtempo",
+      "witch house",
+      "midtempo",
+      "darkwave",
+      "industrial",
+      "synthwave"
+    ],
+    "price": "$10 pre / $15",
+    "age": "18+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-04",
+    "coordinates": {
+      "lat": 37.7710875,
+      "lon": -122.4126126,
+      "display_name": "DNA Lounge, 375, 11th Street, West SoMa, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Oct 4",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Saturday",
+    "url": "https://posh.vip/f/1c3a4",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-04",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "TBA (approximate - city center)",
+      "approximate": true
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Oct 4",
+    "timeRange": "9pm-2am",
+    "title": "Feeling 22: A Taylor Swift Bootie Mashup Anniversary Party",
+    "url": "https://www.eventbrite.com/e/feeling-22-a-taylor-swift-bootie-mashup-anniversary-party-tickets-1592652760279",
+    "venue": "Cat Club",
+    "city": "San Francisco",
+    "genres": [
+      "mashups",
+      "pop EDM"
+    ],
+    "price": "$10 pre / $15",
+    "age": "21+",
+    "promoters": [
+      "Bootie Mashup"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://instagram.com/bootiemashup"
+      }
+    ],
+    "dateISO": "2025-10-04",
+    "coordinates": {
+      "lat": 37.7753288,
+      "lon": -122.4098955,
+      "display_name": "Cat Club, 1190, Folsom Street, West SoMa, South of Market, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  }
+]

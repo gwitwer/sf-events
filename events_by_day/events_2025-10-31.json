@@ -1,0 +1,321 @@
+[
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Fri: Oct 31",
+    "timeRange": "5:30pm",
+    "title": "Slander",
+    "url": "https://www.ticketmaster.com/event/1C0062C1F0CB6B9B",
+    "venue": "Heart Health Park",
+    "city": "Sacramento",
+    "genres": [
+      "trap",
+      "dubstep",
+      "bass music"
+    ],
+    "price": "$71",
+    "age": "18+",
+    "promoters": [
+      "Insomnaic"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-31"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Oct 31-Sun: Nov 2",
+    "timeRange": "6pm",
+    "title": "Substance 2025: ADULT, A Place to Bury Strangers, Geneva Jacuzzi, Still Ruins, Sleek Teeth, Pink Stilleto, TR/ST, Pixel Grip, Night in Athens, Bestial Mouths, Automelodi, Normal Bias, TR/ST, Martin Dupont, Xeno & Oaklander, Sacred Skin, Topographies, Shoto",
+    "url": "https://wl.seetickets.us/event/3-day-pass/647677?afflky=GreatAmericanMusicHall",
+    "venue": "Great American Music Hall",
+    "city": "San Francisco",
+    "genres": [
+      "minimal synth",
+      "synthpop",
+      "darkwave",
+      "coldwave",
+      "goth",
+      "industrial"
+    ],
+    "price": null,
+    "age": "$150+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-31"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Oct 31",
+    "timeRange": "8pm-3am",
+    "title": "Amelie Lens, Dax J, Klangkuenstler, Max Gardner, SPFDJ",
+    "url": "https://dice.fm/event/eoenlw-factory-93-presents-halloween-warehouse-at-the-cow-palace-31st-oct-cow-palace-daly-city-tickets",
+    "venue": "Cow Palace",
+    "city": "San Francisco",
+    "genres": [
+      "techno"
+    ],
+    "price": "$70.50-140.95",
+    "age": "21+",
+    "promoters": [
+      "Insomniac",
+      "Factory 93"
+    ],
+    "extraLinks": [
+      {
+        "text": "Alternate Link",
+        "href": "https://ra.co/events/2212180"
+      }
+    ],
+    "dateISO": "2025-10-31"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Oct 31",
+    "timeRange": "9pm",
+    "title": "All Hallow's Eve: OtebNSolrac, Danny Delorean, Death Guild, Michael Liu",
+    "url": "https://www.dnalounge.com/calendar/2025/10-31.html",
+    "venue": "DNA Lounge",
+    "city": "San Francisco",
+    "genres": [
+      "indie dance",
+      "pop",
+      "synthwave",
+      "goth",
+      "hip-hop"
+    ],
+    "price": "$13-25 pre / $30-35",
+    "age": "18+",
+    "promoters": [
+      "Hubba Hubba Revue"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-31"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Fri: Oct 31",
+    "timeRange": "9pm",
+    "title": "Club Kinetic 1 Year Anniversary",
+    "url": "https://www.facebook.com/events/2490523251305577/",
+    "venue": "705 Lounge",
+    "city": "Sacramento",
+    "genres": [
+      "industrial",
+      "EBM",
+      "aggrotech",
+      "powernoise",
+      "goth"
+    ],
+    "price": "$15",
+    "age": "21+",
+    "promoters": [
+      "Club Kinetic"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-31"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Oct 31",
+    "timeRange": "9pm",
+    "title": "Daft Disko Halloween",
+    "url": "https://www.eventbrite.com/e/daft-disko-halloween-san-francisco-tickets-1489670276899?",
+    "venue": "Bergerac",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "disco"
+    ],
+    "price": "$19+",
+    "age": "21+",
+    "promoters": [
+      "Orlove by Night"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-31"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Oct 31",
+    "timeRange": "9pm",
+    "title": "Sama' Abdulhadi, Overland, Caleesi & Sarah Kreis",
+    "url": "https://www.tixr.com/groups/publicsf/events/halloween-with-sama-abdulhadi-overland-caleesi-sarah-kreis-presented-by-public-works-texture-summit-154148",
+    "venue": "Public Works",
+    "city": "San Francisco",
+    "genres": [
+      "techno",
+      "tech house",
+      "minimal"
+    ],
+    "price": "$26-43",
+    "age": "21+",
+    "promoters": [
+      "Texture Summit"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-31"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Fri: Oct 31",
+    "timeRange": "9pm",
+    "title": "Spooky Rave",
+    "url": "https://catalystclub.com/event/spooky-rave/the-catalyst/santa-cruz-california/",
+    "venue": "The Catalyst",
+    "city": "Santa Cruz",
+    "genres": [
+      "multigenre EDM"
+    ],
+    "price": "$15-35",
+    "age": "18+",
+    "promoters": [
+      "Shrek Rave",
+      "Big Bubble Rave"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-31"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Oct 31",
+    "timeRange": "9pm",
+    "title": "Vandelux",
+    "url": "https://www.ticketweb.com/event/vandelux-bimbos-365-club-tickets/13894744",
+    "venue": "Bimbo's 365 Club",
+    "city": "San Francisco",
+    "genres": [
+      "hip-hop",
+      "beats",
+      "synthpop"
+    ],
+    "price": "$38.12",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-31"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Oct 31",
+    "timeRange": "9pm-4am",
+    "title": "Green Gorilla Lounge w/ Mark Farina, Doc Martin, DJ M3, Anthony Mansfield",
+    "url": "https://www.eventbrite.com/e/halloween-night-green-gorilla-lounge-w-mark-farina-doc-martin-and-more-tickets-1493570943899",
+    "venue": "The Great Northern",
+    "city": "San Francisco",
+    "genres": [
+      "deep house",
+      "jackin house"
+    ],
+    "price": "$13.63-48.95",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Facebook Page",
+        "href": "https://www.facebook.com/events/634837032999320/"
+      }
+    ],
+    "dateISO": "2025-10-31"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Fri: Oct 31",
+    "timeRange": "10pm",
+    "title": "Demon Time IV: Halloween Rave",
+    "url": "https://posh.vip/f/3941a?t=website",
+    "venue": "TBA",
+    "city": "Bay Area",
+    "genres": [
+      "EDM"
+    ],
+    "price": "$29.24+",
+    "age": "18+",
+    "promoters": [
+      "Bad Apple Records"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DM_rVx8PNKV/"
+      }
+    ],
+    "dateISO": "2025-10-31"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Oct 31",
+    "timeRange": "10pm-3am",
+    "title": "Dusk2dawn: Malaa",
+    "url": "https://www.tixr.com/groups/midwaysf/events/dusk2dawn-malaa-152343",
+    "venue": "The Midway",
+    "city": "San Francisco",
+    "genres": [
+      "g-house",
+      "tech house",
+      "future house"
+    ],
+    "price": "$37-62",
+    "age": "21+",
+    "promoters": [
+      "Opel Productions"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-31"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Oct 31",
+    "timeRange": "10pm-4am",
+    "title": "Midland, Laurel Halo, Jonny From Space, MILANA, likeholywine, Milos Gilic, nonsuit, Papa Xanny",
+    "url": "https://ra.co/events/2159613",
+    "venue": "F8 1192 Folsom",
+    "city": "San Francisco",
+    "genres": [
+      "techno",
+      "tech house",
+      "progressive house",
+      "experimental",
+      "ambient",
+      "synthpop"
+    ],
+    "price": "$17-23 b4 11 / $34-40",
+    "age": "21+",
+    "promoters": [
+      "Squish"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-31"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Oct 31",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Saturday",
+    "url": "https://posh.vip/f/1c3ae",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-31"
+  }
+]

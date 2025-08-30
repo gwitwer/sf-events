@@ -1,0 +1,82 @@
+[
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Tue: Sep 9",
+    "timeRange": "7pm",
+    "title": "Anamanaguchi: The Buckwild Tour, with sobs",
+    "url": "https://www.etix.com/ticket/p/71136655",
+    "venue": "Harlow's",
+    "city": "Sacramento",
+    "genres": [
+      "chiptune"
+    ],
+    "price": "$39",
+    "age": "All ages",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-09"
+  },
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Tue: Sep 9",
+    "timeRange": "7pm",
+    "title": "Thievery Corporation",
+    "url": "https://concerts.livenation.com/event/1C00629CEBF655CB",
+    "venue": "Ace Of Spades",
+    "city": "Sacramento",
+    "genres": [
+      "downtempo",
+      "trip-hop",
+      "dub"
+    ],
+    "price": "$98",
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-09"
+  },
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Tue: Sep 9",
+    "timeRange": "8pm",
+    "title": "Anamanaguchi: The Buckwild Tour, with sobs and Instant Crush",
+    "url": "https://www.etix.com/ticket/p/71136655",
+    "venue": "Harlow's",
+    "city": "Sacramento",
+    "genres": [
+      "chiptune",
+      "bands",
+      "rock"
+    ],
+    "price": "$39",
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-09"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 9",
+    "timeRange": "10:30pm-3:15am",
+    "title": "Du1say's Birthday Bash Rave: Ketamineprincess, Estellita, Gemstonebullets, DJ iHAVEABOMB, Moxbpm",
+    "url": "https://www.instagram.com/p/DN62QkBiSs4/?img_index=1",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "happy hardcore",
+      "gabber",
+      "hard dance"
+    ],
+    "price": "$10",
+    "age": "18+",
+    "promoters": [
+      "Du1say"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-09"
+  }
+]

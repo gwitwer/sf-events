@@ -1,0 +1,109 @@
+[
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Oct 3",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Friday",
+    "url": "https://posh.vip/f/1c3a2",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-03",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "TBA (approximate - city center)",
+      "approximate": true
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Oct 3",
+    "timeRange": "10pm",
+    "title": "Chan: Te Invito A Mi Pari - Album Tour",
+    "url": "https://posh.vip/e/chan-te-invito-a-mi-party-album-tour",
+    "venue": "Reverb",
+    "city": "San Francisco",
+    "genres": [
+      "house"
+    ],
+    "price": "$17+",
+    "age": "21+",
+    "promoters": [
+      "Real Ignorant"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-03",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "Reverb (approximate - city center)",
+      "approximate": true
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Oct 3",
+    "timeRange": "8pm",
+    "title": "Chase and Status, Mary Droppinz, Whethan",
+    "url": "https://www.ticketmaster.com/chase-status-san-francisco-california-10-03-2025/event/1C0062B7B084384B",
+    "venue": "Bill Graham Civic Auditorium",
+    "city": "San Francisco",
+    "genres": [
+      "drum and bass",
+      "dubstep",
+      "bass music",
+      "uk garage"
+    ],
+    "price": null,
+    "age": "18+",
+    "promoters": [
+      "Another Planet Entertainment"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-03",
+    "coordinates": {
+      "lat": 37.7780501,
+      "lon": -122.4173077,
+      "display_name": "Bill Graham Civic Auditorium, 99, Grove Street, Civic Center, South of Market, San Francisco, California, 94102, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Oct 3",
+    "timeRange": "10pm-2am",
+    "title": "Hi-Lo",
+    "url": "https://www.eventbrite.com/e/hi-lo-hibernia-bank-sf-tickets-1553235552349",
+    "venue": "Hibernia Bank",
+    "city": "San Francisco",
+    "genres": [
+      "big room techno"
+    ],
+    "price": "$59.29-138.01",
+    "age": "21+",
+    "promoters": [
+      "15Utah"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-03",
+    "coordinates": {
+      "lat": 37.7814366,
+      "lon": -122.4124484,
+      "display_name": "The Hibernia Bank Building, 1;45, Jones Street, Tenderloin, South of Market, San Francisco, California, 94102, United States",
+      "approximate": false
+    }
+  }
+]

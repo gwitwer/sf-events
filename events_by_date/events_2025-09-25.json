@@ -1,0 +1,60 @@
+[
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Thu: Sep 25",
+    "timeRange": "8pm-2am",
+    "title": "Slurrp: Folsom - Sequoixa, Galvanize, DJ Luv-Le, Ralph Scott",
+    "url": "https://www.dnalounge.com/calendar/2025/09-25d.html",
+    "venue": "DNA Lounge",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "pop",
+      "techno",
+      "breaks"
+    ],
+    "price": "$10-14 pre / $20",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-25",
+    "coordinates": {
+      "lat": 37.7710875,
+      "lon": -122.4126126,
+      "display_name": "DNA Lounge, 375, 11th Street, West SoMa, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Thu: Sep 25",
+    "timeRange": "9pm",
+    "title": "Throttle: Chris Liebing",
+    "url": "https://ra.co/events/2224616",
+    "venue": "1015 Folsom",
+    "city": "San Francisco",
+    "genres": [
+      "bass house",
+      "tech house"
+    ],
+    "price": "$21-27",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Alternate Link",
+        "href": "https://www.eventbrite.com/e/throttle-chris-liebing-tickets-1545671758839"
+      }
+    ],
+    "dateISO": "2025-09-25",
+    "coordinates": {
+      "lat": 37.7780411,
+      "lon": -122.405683,
+      "display_name": "1015 Folsom, 1015, Folsom Street, West SoMa, South of Market, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  }
+]

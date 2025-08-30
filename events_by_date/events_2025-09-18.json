@@ -1,0 +1,61 @@
+[
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Thu: Sep 18",
+    "timeRange": "9pm-1:45am",
+    "title": "Queen Out Portola Preparty",
+    "url": "https://needto.queenout.com/before-portola-19hz",
+    "venue": "Public Works",
+    "city": "San Francisco",
+    "genres": [
+      "hyperpop",
+      "baile funk",
+      "vogue",
+      "jersey club"
+    ],
+    "price": "$16 b4 10 / $27-40",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/queenoutsf/"
+      }
+    ],
+    "dateISO": "2025-09-18",
+    "coordinates": {
+      "lat": 37.7688931,
+      "lon": -122.4192651,
+      "display_name": "Public Works, 161, Erie Street, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Thu: Sep 18",
+    "timeRange": "9:30pm",
+    "title": "Lp Giobbi",
+    "url": "https://www.axs.com/events/1087011/lp-giobbi-tickets",
+    "venue": "The Great Northern",
+    "city": "San Francisco",
+    "genres": [
+      "house"
+    ],
+    "price": null,
+    "age": "21+",
+    "promoters": [
+      "Goldenvoice",
+      "Yes Yes Yes"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-18",
+    "coordinates": {
+      "lat": 37.7676612,
+      "lon": -122.4065246,
+      "display_name": "The Great Northern, 119, Utah Street, South of Market, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  }
+]

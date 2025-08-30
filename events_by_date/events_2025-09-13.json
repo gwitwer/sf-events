@@ -1,0 +1,357 @@
+[
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Sep 13",
+    "timeRange": "9:30pm-2am",
+    "title": "Ott (Live), kLL sMTH & ratchaelbeats",
+    "url": "https://www.eventbrite.com/e/ott-live-presented-by-public-works-tickets-1218305156519",
+    "venue": "Public Works",
+    "city": "San Francisco",
+    "genres": [
+      "glitch-hop",
+      "bass music"
+    ],
+    "price": "$38.02",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-13",
+    "coordinates": {
+      "lat": 37.7688931,
+      "lon": -122.4192651,
+      "display_name": "Public Works, 161, Erie Street, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Sep 13",
+    "timeRange": "9pm-3am",
+    "title": "Raffa Guido",
+    "url": "https://allineedevents-w-raffaguido.eventbrite.com/",
+    "venue": "Madarae",
+    "city": "San Francisco",
+    "genres": [
+      "afro house",
+      "latin deep house"
+    ],
+    "price": "$12.51 w rsvp b4 11 / $18-40+",
+    "age": "21+",
+    "promoters": [
+      "All I Need Events"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/allineedevents/"
+      }
+    ],
+    "dateISO": "2025-09-13",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "Madarae (approximate - city center)",
+      "approximate": true
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Sep 13",
+    "timeRange": "9pm-2am",
+    "title": "Secret Psychedelica Virgo: Visc3ral, Psybertone, The Juice Box DJs, Athena, The Harem King, Leon Cook, Peter Go-Zania",
+    "url": "https://www.dnalounge.com/calendar/2025/09-13d.html",
+    "venue": "DNA Lounge",
+    "city": "San Francisco",
+    "genres": [
+      "psytrance",
+      "synthwave",
+      "breaks",
+      "hard trance"
+    ],
+    "price": "$9-18 pre / $25",
+    "age": "18+",
+    "promoters": [
+      "Pisces Music"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-13",
+    "coordinates": {
+      "lat": 37.7710875,
+      "lon": -122.4126126,
+      "display_name": "DNA Lounge, 375, 11th Street, West SoMa, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Sep 13",
+    "timeRange": "10pm-4am",
+    "title": "Pegassi, Cat Liu, Jawba",
+    "url": "https://dice.fm/event/ry6gkw-pegassi-13th-sep-halcyon-sf-san-francisco-tickets",
+    "venue": "Halcyon",
+    "city": "San Francisco",
+    "genres": [
+      "tech house",
+      "progressive house"
+    ],
+    "price": "$12 b4 11 / $19-30",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-13",
+    "coordinates": {
+      "lat": 37.771445,
+      "lon": -122.4139284,
+      "display_name": "Halcyon, 314, 11th Street, West SoMa, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Sep 13",
+    "timeRange": "10pm-3am",
+    "title": "Bambii, Anz, jcore, jmo corleone, likeholywine, Just Another Bitch, RITCHRD",
+    "url": "https://ra.co/events/2159655",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "club music",
+      "uk garage",
+      "electro",
+      "drum and bass"
+    ],
+    "price": "$17 b4 11 / $23-29",
+    "age": "21+",
+    "promoters": [
+      "DJ Dials",
+      "Squish",
+      "15Utah"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-13",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "TBA (approximate - city center)",
+      "approximate": true
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Sep 13",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Saturday",
+    "url": "https://posh.vip/f/1c399",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-13",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "TBA (approximate - city center)",
+      "approximate": true
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Sep 13",
+    "timeRange": "10pm-2am",
+    "title": "Cash Cash",
+    "url": "https://www.tixr.com/groups/templesf/events/cash-cash-150546",
+    "venue": "Temple",
+    "city": "San Francisco",
+    "genres": [
+      "big room house",
+      "electro house",
+      "trap",
+      "pop EDM"
+    ],
+    "price": "$19-37",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-13",
+    "coordinates": {
+      "lat": 37.7874082,
+      "lon": -122.4597091,
+      "display_name": "Temple Emanu-el, Lake Street, Presidio Terrace, Richmond District, San Francisco, California, 94118, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Sep 13",
+    "timeRange": "9:30pm-2am",
+    "title": "Young Franco",
+    "url": "https://www.squadup.com/events/young-franco-1",
+    "venue": "The Great Northern",
+    "city": "San Francisco",
+    "genres": [
+      "funk",
+      "r&b",
+      "hip-hop",
+      "pop EDM"
+    ],
+    "price": "$20",
+    "age": "21+",
+    "promoters": [
+      "Goldenvoice Bay Area"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-13",
+    "coordinates": {
+      "lat": 37.7676612,
+      "lon": -122.4065246,
+      "display_name": "The Great Northern, 119, Utah Street, South of Market, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Sep 13",
+    "timeRange": "7:30pm",
+    "title": "Gray Area Festival: To the Maxx! Kevin Peter He + Fitnesss, Debit, Authentically Plastic",
+    "url": "https://grayarea.org/event/2025-gray-area-festival-saturday-performances/",
+    "venue": "Gray Area",
+    "city": "San Francisco",
+    "genres": [
+      "live electronic",
+      "experimental"
+    ],
+    "price": "$18-25 pre/ $35",
+    "age": "All ages",
+    "promoters": [],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DNayAtYNaUt/?img_index=1"
+      }
+    ],
+    "dateISO": "2025-09-13",
+    "coordinates": {
+      "lat": 37.7544372,
+      "lon": -122.4182629,
+      "display_name": "Home - Gray Area, 2665, Mission Street, Mission District, San Francisco, California, 94110, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Sep 13",
+    "timeRange": "8pm",
+    "title": "Toro Y Moi",
+    "url": "https://www.ticketweb.com/event/toro-y-moi-2-nights-bimbos-365-club-tickets/13910534",
+    "venue": "Bimbo's 365 Club",
+    "city": "San Francisco",
+    "genres": [
+      "synthpop"
+    ],
+    "price": "$62.58",
+    "age": "18+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-13",
+    "coordinates": {
+      "lat": 37.8037307,
+      "lon": -122.4156458,
+      "display_name": "Bimbo's 365 Club, 1025, Columbus Avenue, Fisherman's Wharf, San Francisco, California, 94133, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Sep 13",
+    "timeRange": "1pm-6pm",
+    "title": "Sultan + Shepard",
+    "url": "https://www.tixr.com/groups/alldayallnight/events/sultan-shepard-at-the-phoenix-hotel-146182",
+    "venue": "Phoenix Hotel",
+    "city": "San Francisco",
+    "genres": [
+      "house"
+    ],
+    "price": "$30",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-13",
+    "coordinates": {
+      "lat": 37.7829268,
+      "lon": -122.4178665,
+      "display_name": "Phoenix Hotel, 601;605, Eddy Street, Little Saigon, San Francisco, California, 94102, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Sep 13",
+    "timeRange": "4pm",
+    "title": "Fatima Hajji",
+    "url": "https://wl.seetickets.us/event/fatima-hajji/654276?afflky=NonPlusUltra",
+    "venue": "The Historic SF Mint",
+    "city": "San Francisco",
+    "genres": [
+      "techno"
+    ],
+    "price": "$32.64-48.18",
+    "age": "21+",
+    "promoters": [
+      "Non Plus Ultra"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-13",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "The Historic SF Mint (approximate - city center)",
+      "approximate": true
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Sep 13",
+    "timeRange": "4pm-2am",
+    "title": "Guy J's We Are Lost Festival w/Guy Mantzur b2b Khen, Sahar Z, Budakid",
+    "url": "https://ra.co/events/2216803",
+    "venue": "888 Garage",
+    "city": "San Francisco",
+    "genres": [
+      "tech house",
+      "progressive house"
+    ],
+    "price": "$23-46",
+    "age": "21+",
+    "promoters": [
+      "SET Underground"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-13",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "888 Garage (approximate - city center)",
+      "approximate": true
+    }
+  }
+]

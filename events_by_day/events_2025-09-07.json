@@ -1,0 +1,79 @@
+[
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sun: Sep 7",
+    "timeRange": "2pm-6pm",
+    "title": "Poolside's Daytime Disco",
+    "url": "https://laylo.com/poolside/DaytimeDiscoSF",
+    "venue": "Union Square",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "disco"
+    ],
+    "price": "free",
+    "age": "all ages",
+    "promoters": [
+      "Another Planet"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DMgQ9MRhbs1/"
+      }
+    ],
+    "dateISO": "2025-09-07"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sun: Sep 7",
+    "timeRange": "3pm-8pm",
+    "title": "Sweet Tooth : Black Leather",
+    "url": "https://www.eventbrite.com/e/sweet-tooth-black-leather-tickets-1563967692469",
+    "venue": "The Stud",
+    "city": "San Francisco",
+    "genres": [
+      "hip-hop",
+      "jersey club",
+      "baile funk",
+      "afro house",
+      "amapiano",
+      "reggaeton"
+    ],
+    "price": "$10-50",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-07"
+  },
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Sun: Sep 7",
+    "timeRange": "4pm-12am",
+    "title": "Galactic Gardens: Crankdat, Alleycvt, GorillaT, Machaki, NotLo, Pyro, Twstdzoo, Baby Kush",
+    "url": "https://posh.vip/e/crankdat-galactic-gardens",
+    "venue": "Chukchansi Park",
+    "city": "Fresno",
+    "genres": [
+      "dubstep",
+      "bass music",
+      "EDM",
+      "riddim"
+    ],
+    "price": "$57.92+",
+    "age": "18+",
+    "promoters": [
+      "Bounce Beat"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/p/DNTmcL_y5_H/?img_index=1"
+      }
+    ],
+    "dateISO": "2025-09-07"
+  }
+]

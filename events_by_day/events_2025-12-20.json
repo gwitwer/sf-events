@@ -1,0 +1,89 @@
+[
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Dec 20",
+    "timeRange": "7pm",
+    "title": "Fisher, Max Styler, Genesi, Amprs&nd",
+    "url": "https://www.axs.com/events/1068168/fisher-tickets",
+    "venue": "Moscone Center",
+    "city": "San Francisco",
+    "genres": [
+      "tech house"
+    ],
+    "price": null,
+    "age": "18+",
+    "promoters": [
+      "Goldenvoice"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-12-20"
+  },
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Sat: Dec 20",
+    "timeRange": "8pm",
+    "title": "NGHTMRE v Mindfull Tour",
+    "url": "https://sanjosetheaters.org/theaters/san-jose-civic/#event=nghtmare-mindfull-tour",
+    "venue": "San Jose Civic",
+    "city": "San Jose",
+    "genres": [
+      "dubstep",
+      "bass music",
+      "future bass",
+      "trap"
+    ],
+    "price": "$60+",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-12-20"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Dec 20",
+    "timeRange": "9pm",
+    "title": "Cosmic Gate - 360 Stage",
+    "url": "https://www.tixr.com/groups/midwaysf/events/cosmic-gate-360-stage-154547",
+    "venue": "The Midway",
+    "city": "San Francisco",
+    "genres": [
+      "trance",
+      "progressive house"
+    ],
+    "price": "$27-85",
+    "age": "21+",
+    "promoters": [
+      "Dreamstate"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/reel/DNV9cVDun0I/"
+      }
+    ],
+    "dateISO": "2025-12-20"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Dec 20",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Friday",
+    "url": "https://posh.vip/f/1c3c2",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-12-20"
+  }
+]

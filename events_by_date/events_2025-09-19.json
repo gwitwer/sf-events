@@ -1,0 +1,227 @@
+[
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 19",
+    "timeRange": "9pm",
+    "title": "Prospa",
+    "url": "https://www.axs.com/events/1087948/prospa-tickets",
+    "venue": "The Midway",
+    "city": "San Francisco",
+    "genres": [
+      "house"
+    ],
+    "price": null,
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-19",
+    "coordinates": {
+      "lat": 37.7495304,
+      "lon": -122.3860944,
+      "display_name": "The Midway, 900, Marin Street, San Francisco, California, 94124, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 19",
+    "timeRange": "9pm",
+    "title": "salute presents infinite passion w/Haai, Zero Idea",
+    "url": "https://www.axs.com/events/1087302/salute-presents-infinite-passion-tickets",
+    "venue": "Public Works",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "uk garage",
+      "techno"
+    ],
+    "price": null,
+    "age": "21+",
+    "promoters": [
+      "Goldenvoice"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-19",
+    "coordinates": {
+      "lat": 37.7688931,
+      "lon": -122.4192651,
+      "display_name": "Public Works, 161, Erie Street, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 19",
+    "timeRange": "9pm-2am",
+    "title": "Bounce SF: Cargo, Dogtooth, Just Tosh",
+    "url": "https://ra.co/events/2219755",
+    "venue": "Underground",
+    "city": "San Francisco",
+    "genres": [
+      "bounce",
+      "trance",
+      "eurodance"
+    ],
+    "price": "$15-29",
+    "age": "21+",
+    "promoters": [
+      "Bounce SF"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://www.instagram.com/bouncesf"
+      }
+    ],
+    "dateISO": "2025-09-19",
+    "coordinates": {
+      "lat": 37.728251,
+      "lon": -122.4759334,
+      "display_name": "Underground Parking Entrance, Balboa Terrace, San Francisco, California, 94312, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 19",
+    "timeRange": "10pm",
+    "title": "Saytek, Subjacent, SilentJ",
+    "url": "https://dice.fm/event/2wb7wp-saytek-live-19th-sep-halcyon-sf-san-francisco-tickets",
+    "venue": "Halcyon",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "techno"
+    ],
+    "price": "$12 b4 11 / $19-30",
+    "age": "21+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-19",
+    "coordinates": {
+      "lat": 37.771445,
+      "lon": -122.4139284,
+      "display_name": "Halcyon, 314, 11th Street, West SoMa, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Fri: Sep 19",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Friday",
+    "url": "https://posh.vip/f/1c39b",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-09-19",
+    "coordinates": {
+      "lat": 37.7792588,
+      "lon": -122.4193286,
+      "display_name": "TBA (approximate - city center)",
+      "approximate": true
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 19",
+    "timeRange": "8pm",
+    "title": "Dabeull Live Band",
+    "url": "https://www.axs.com/uk/events/1024514/dabeull-live-band-tickets?skin=goldenvoice",
+    "venue": "The Regency Ballroom",
+    "city": "San Francisco",
+    "genres": [
+      "funk",
+      "r&b",
+      "boogie",
+      "synthpop"
+    ],
+    "price": "$42.28",
+    "age": "All ages",
+    "promoters": [
+      "Goldenvoice"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-19",
+    "coordinates": {
+      "lat": 37.7878176,
+      "lon": -122.4215762,
+      "display_name": "The Regency Ballroom, 1300, Van Ness Avenue, Polk Gulch, San Francisco, California, 94109, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 19",
+    "timeRange": "10pm",
+    "title": "Chris Lorenzo",
+    "url": "https://www.axs.com/events/1089464/chris-lorenzo-tickets",
+    "venue": "888 Marin Street",
+    "city": "San Francisco",
+    "genres": [
+      "tech house",
+      "bass house"
+    ],
+    "price": null,
+    "age": "21+",
+    "promoters": [
+      "Goldenvoice"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-09-19",
+    "coordinates": {
+      "lat": 37.7491776,
+      "lon": -122.3859317,
+      "display_name": "888, Marin Street, San Francisco, California, 94124, United States",
+      "approximate": false
+    }
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Fri: Sep 19",
+    "timeRange": "10pm-2am",
+    "title": "The Powerpop Girls: Sabrina, Chappell, Charli + Billie, Olivia",
+    "url": "https://www.eventbrite.com/e/the-powerpop-girls-sabrina-chappell-charli-billie-olivia-tickets-1573864534189",
+    "venue": "Oasis",
+    "city": "San Francisco",
+    "genres": [
+      "mashups",
+      "pop EDM"
+    ],
+    "price": "$15 pre / $20",
+    "age": "21+",
+    "promoters": [
+      "Bootie Mashup"
+    ],
+    "extraLinks": [
+      {
+        "text": "Instagram Page",
+        "href": "https://instagram.com/bootiemashup"
+      }
+    ],
+    "dateISO": "2025-09-19",
+    "coordinates": {
+      "lat": 37.7719147,
+      "lon": -122.4144356,
+      "display_name": "Oasis, 298, 11th Street, West SoMa, Mission District, San Francisco, California, 94103, United States",
+      "approximate": false
+    }
+  }
+]

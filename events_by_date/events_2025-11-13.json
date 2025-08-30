@@ -1,0 +1,30 @@
+[
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Thu: Nov 13",
+    "timeRange": "8pm",
+    "title": "Cut Copy, Ora The Molecule",
+    "url": "https://www.axs.com/uk/events/1022157/cut-copy-tickets",
+    "venue": "Regency Ballroom",
+    "city": "San Francisco",
+    "genres": [
+      "synthpop",
+      "indie dance"
+    ],
+    "price": null,
+    "age": "All ages",
+    "promoters": [
+      "Goldenvoice",
+      "KEXP"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-11-13",
+    "coordinates": {
+      "lat": 37.7878176,
+      "lon": -122.4215762,
+      "display_name": "The Regency Ballroom, 1300, Van Ness Avenue, Polk Gulch, San Francisco, California, 94109, United States",
+      "approximate": false
+    }
+  }
+]

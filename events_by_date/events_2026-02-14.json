@@ -1,0 +1,30 @@
+[
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Sat: Feb 14, 2026",
+    "timeRange": "9pm",
+    "title": "Fleetmac Wood presents Chiffon Dreams",
+    "url": "https://www.axs.com/events/1067207/fleetmac-wood-tickets",
+    "venue": "Regency Ballroom",
+    "city": "San Francisco",
+    "genres": [
+      "disco",
+      "funk",
+      "remixes"
+    ],
+    "price": "$37-54",
+    "age": "18+",
+    "promoters": [
+      "Goldenvoice"
+    ],
+    "extraLinks": [],
+    "dateISO": "2026-02-14",
+    "coordinates": {
+      "lat": 37.7878176,
+      "lon": -122.4215762,
+      "display_name": "The Regency Ballroom, 1300, Van Ness Avenue, Polk Gulch, San Francisco, California, 94109, United States",
+      "approximate": false
+    }
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Thu: Oct 2",
+    "timeRange": "7pm",
+    "title": "Polo & Pan",
+    "url": "https://www.axs.com/events/933627/polo-pan-tickets",
+    "venue": "Frost Amphitheater At Stanford",
+    "city": "Palo Alto",
+    "genres": [
+      "tropical house",
+      "synthpop",
+      "electro"
+    ],
+    "price": null,
+    "age": "18+",
+    "promoters": [
+      "Goldenvoice"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-02"
+  },
+  {
+    "hidden": true,
+    "className": "odd",
+    "dayLabel": "Thu: Oct 2",
+    "timeRange": "8pm",
+    "title": "Big Wild",
+    "url": "https://www.ticketmaster.com/event/1C0062960F1F6E81",
+    "venue": "Channel 24",
+    "city": "Sacramento",
+    "genres": [
+      "glitch-hop",
+      "synthpop",
+      "indie dance"
+    ],
+    "price": null,
+    "age": "18+",
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-10-02"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Thu: Oct 2",
+    "timeRange": "8pm",
+    "title": "Sam Gellaitry Live",
+    "url": "https://www.axs.com/uk/events/1087513/sam-gellaitry-tickets?skin=goldenvoice",
+    "venue": "The Regency Ballroom",
+    "city": "San Francisco",
+    "genres": [
+      "future bass",
+      "trap"
+    ],
+    "price": "$39",
+    "age": "18+",
+    "promoters": [
+      "Goldenvoice"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-02"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Thu: Oct 2",
+    "timeRange": "9pm",
+    "title": "Two Lanes",
+    "url": "https://www.seetickets.us/event/id/647097",
+    "venue": "1015 Folsom",
+    "city": "San Francisco",
+    "genres": [
+      "progressive house"
+    ],
+    "price": "$20-25",
+    "age": "21+",
+    "promoters": [
+      "DJ Dials"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-02"
+  },
+  {
+    "hidden": false,
+    "className": "odd",
+    "dayLabel": "Thu: Oct 2",
+    "timeRange": "9:30pm-2:30am",
+    "title": "Ydg, Dazzle, Nessli, Hiraeth",
+    "url": "https://www.dnalounge.com/calendar/2025/10-02.html",
+    "venue": "DNA Lounge",
+    "city": "San Francisco",
+    "genres": [
+      "dubstep"
+    ],
+    "price": "$15-25",
+    "age": "21+",
+    "promoters": [
+      "Bassrush",
+      "Vital"
+    ],
+    "extraLinks": [],
+    "dateISO": "2025-10-02"
+  }
+]

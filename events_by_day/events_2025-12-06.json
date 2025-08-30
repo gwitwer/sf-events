@@ -1,0 +1,42 @@
+[
+  {
+    "hidden": true,
+    "className": "even",
+    "dayLabel": "Sat: Dec 6",
+    "timeRange": "8pm",
+    "title": "The Floozies, Dirtwire",
+    "url": "https://www.etix.com/ticket/p/43716658",
+    "venue": "Uc Theatre",
+    "city": "Berkeley",
+    "genres": [
+      "funk",
+      "synthpop",
+      "electropop"
+    ],
+    "price": "$41",
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-12-06"
+  },
+  {
+    "hidden": false,
+    "className": "even",
+    "dayLabel": "Sat: Dec 6",
+    "timeRange": "11:59pm-6am",
+    "title": "Two-Am: Warehouse Afters Friday",
+    "url": "https://posh.vip/f/1c3bd",
+    "venue": "TBA",
+    "city": "San Francisco",
+    "genres": [
+      "house",
+      "tech house",
+      "EDM"
+    ],
+    "price": null,
+    "age": null,
+    "promoters": [],
+    "extraLinks": [],
+    "dateISO": "2025-12-06"
+  }
+]
