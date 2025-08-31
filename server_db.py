@@ -591,8 +591,8 @@ async def trigger_scrape():
     finally:
         scraping_status["is_scraping"] = False
 
-# Run with: poetry run python server_db.py
-if __name__ == "__main__":
+def main():
+    """Main entry point for the application."""
     import os
     port = int(os.environ.get("PORT", 8001))
     is_production = os.environ.get("RENDER", False)
@@ -614,3 +614,7 @@ if __name__ == "__main__":
         reload=not is_production,
         log_level="info"
     )
+
+# Run with: poetry run start
+if __name__ == "__main__":
+    main()
