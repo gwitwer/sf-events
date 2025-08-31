@@ -13,6 +13,44 @@
         
         #map { height: 100vh; width: 100%; }
         
+        /* Mobile filter toggle button */
+        .mobile-filter-toggle {
+            display: none;
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            z-index: 1001;
+            background: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            border: 2px solid #2196F3;
+            color: #2196F3;
+        }
+        
+        .mobile-filter-toggle:hover {
+            background: #f0f8ff;
+        }
+        
+        .mobile-filter-toggle.active {
+            background: #2196F3;
+            color: white;
+        }
+        
+        /* Filter count badge */
+        .filter-badge {
+            display: inline-block;
+            background: #ff9800;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 10px;
+            font-size: 12px;
+            margin-left: 5px;
+        }
+        
         .controls {
             position: absolute;
             top: 10px;
@@ -25,6 +63,29 @@
             max-width: 350px;
             max-height: 90vh;
             overflow-y: auto;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+        
+        /* Close button for mobile */
+        .mobile-close {
+            display: none;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 24px;
+            cursor: pointer;
+            color: #666;
+            background: white;
+            border: none;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            line-height: 1;
+        }
+        
+        .mobile-close:hover {
+            background: #f0f0f0;
         }
         
         .controls h2 { 
@@ -33,6 +94,8 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            position: relative;
+            padding-right: 35px;
         }
         
         .tba-badge {
@@ -303,12 +366,92 @@
             height: 10px;
             margin: -5px 0 0 -5px;
         }
+        
+        /* Mobile styles */
+        @media (max-width: 768px) {
+            .mobile-filter-toggle {
+                display: block;
+            }
+            
+            .controls {
+                position: fixed;
+                top: 0;
+                right: 0;
+                left: 0;
+                bottom: 0;
+                max-width: 100%;
+                max-height: 100%;
+                border-radius: 0;
+                z-index: 2001;
+                transform: translateX(100%);
+                opacity: 0;
+                display: block !important;
+            }
+            
+            .controls.mobile-visible {
+                transform: translateX(0);
+                opacity: 1;
+            }
+            
+            .mobile-close {
+                display: block;
+            }
+            
+            .controls h2 {
+                font-size: 20px;
+                padding-right: 40px;
+            }
+            
+            .filter-section {
+                margin-bottom: 20px;
+                padding-bottom: 20px;
+            }
+            
+            .genre-tags {
+                max-height: 250px;
+            }
+            
+            .date-selector {
+                flex-wrap: wrap;
+            }
+            
+            .date-nav {
+                flex: 1;
+            }
+            
+            #selectedDate {
+                width: 100%;
+                margin-top: 10px;
+            }
+            
+            .action-buttons {
+                position: sticky;
+                bottom: 0;
+                background: white;
+                padding: 15px 0;
+                margin-top: 20px;
+                border-top: 2px solid #eee;
+            }
+        }
+        
+        /* Tablet styles */
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .controls {
+                max-width: 300px;
+            }
+        }
     </style>
 </head>
 <body>
     <div id="map"></div>
     
-    <div class="controls">
+    <button class="mobile-filter-toggle" id="mobileFilterToggle" onclick="toggleMobileFilters()">
+        🎯 Filters
+        <span class="filter-badge" id="activeFilterCount" style="display: none;">0</span>
+    </button>
+    
+    <div class="controls" id="filterControls">
+        <button class="mobile-close" onclick="closeMobileFilters()" aria-label="Close filters">×</button>
         <h2>
             SF Bay Area Events 🎵
             <span class="tba-badge" id="tbaCount">0 TBA</span>
@@ -394,6 +537,27 @@
         let availableFilters = {};
         let eventIndex = {};
         
+        // Helper function to get current date in Pacific Time
+        function getPacificDateString() {
+            // Get the current time in Pacific timezone
+            const now = new Date();
+            
+            // Format the date in Pacific Time and extract components
+            const pacificDateParts = new Intl.DateTimeFormat('en-US', {
+                timeZone: 'America/Los_Angeles',
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit'
+            }).formatToParts(now);
+            
+            // Extract year, month, day from the parts
+            const year = pacificDateParts.find(part => part.type === 'year').value;
+            const month = pacificDateParts.find(part => part.type === 'month').value;
+            const day = pacificDateParts.find(part => part.type === 'day').value;
+            
+            return `${year}-${month}-${day}`;
+        }
+        
         // Initialize map centered on SF Bay Area
         function initMap() {
             map = L.map('map').setView([37.7749, -122.4194], 11);
@@ -438,8 +602,8 @@
                 
                 console.log(`Loaded ${allEvents.length} total events, ${tbaEvents.length} TBA`);
                 
-                // Set initial date to today or first available date
-                const today = new Date().toISOString().split('T')[0];
+                // Set initial date to today in Pacific Time
+                const today = getPacificDateString();
                 const dates = Object.keys(eventsByDate).sort();
                 const initialDate = dates.includes(today) ? today : dates[0];
                 document.getElementById('selectedDate').value = initialDate;
@@ -451,6 +615,7 @@
                 updateFilters(initialDate);
                 loadDateEvents(initialDate);
                 updateTBACount(initialDate);
+                updateActiveFilterCount();
                 
             } catch (error) {
                 console.error('Failed to load events:', error);
@@ -674,10 +839,17 @@
         // Change date
         function changeDate(direction) {
             const dateInput = document.getElementById('selectedDate');
-            const currentDate = new Date(dateInput.value || new Date());
+            // If no date selected, use today in Pacific Time
+            const currentDateStr = dateInput.value || getPacificDateString();
+            const currentDate = new Date(currentDateStr + 'T12:00:00'); // Use noon to avoid timezone issues
             currentDate.setDate(currentDate.getDate() + direction);
             
-            const newDateStr = currentDate.toISOString().split('T')[0];
+            // Format as YYYY-MM-DD
+            const year = currentDate.getFullYear();
+            const month = String(currentDate.getMonth() + 1).padStart(2, '0');
+            const day = String(currentDate.getDate()).padStart(2, '0');
+            const newDateStr = `${year}-${month}-${day}`;
+            
             dateInput.value = newDateStr;
             
             updateFilters(newDateStr);
@@ -685,32 +857,56 @@
             updateTBACount(newDateStr);
         }
         
+        // Helper function to add days to a date string in Pacific Time
+        function addDaysToPacificDate(dateStr, days) {
+            // Parse the date and add days
+            const [year, month, day] = dateStr.split('-').map(Number);
+            const date = new Date(year, month - 1, day);
+            date.setDate(date.getDate() + days);
+            
+            // Format back to YYYY-MM-DD
+            const newYear = date.getFullYear();
+            const newMonth = String(date.getMonth() + 1).padStart(2, '0');
+            const newDay = String(date.getDate()).padStart(2, '0');
+            
+            return `${newYear}-${newMonth}-${newDay}`;
+        }
+        
         // Handle date presets
         document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('datePresets').addEventListener('change', (e) => {
                 const preset = e.target.value;
                 const dateInput = document.getElementById('selectedDate');
-                const today = new Date();
+                
+                // Get today in Pacific Time
+                const todayStr = getPacificDateString();
                 
                 switch(preset) {
                     case 'today':
-                        dateInput.value = today.toISOString().split('T')[0];
+                        dateInput.value = todayStr;
                         break;
                     case 'tomorrow':
-                        const tomorrow = new Date(today);
-                        tomorrow.setDate(tomorrow.getDate() + 1);
-                        dateInput.value = tomorrow.toISOString().split('T')[0];
+                        dateInput.value = addDaysToPacificDate(todayStr, 1);
                         break;
                     case 'weekend':
-                        // Find next Friday
-                        const friday = new Date(today);
-                        const dayOfWeek = friday.getDay();
-                        const daysUntilFriday = (5 - dayOfWeek + 7) % 7 || 7;
-                        friday.setDate(friday.getDate() + daysUntilFriday);
-                        dateInput.value = friday.toISOString().split('T')[0];
+                        // Find next Friday in Pacific Time
+                        const now = new Date();
+                        const pacificDateParts = new Intl.DateTimeFormat('en-US', {
+                            timeZone: 'America/Los_Angeles',
+                            weekday: 'narrow'
+                        }).formatToParts(now);
+                        
+                        // Get day of week (0 = Sunday, 6 = Saturday)
+                        const weekdayMap = {'S': 0, 'M': 1, 'T': 2, 'W': 3, 'T': 4, 'F': 5, 'S': 6};
+                        const pacificWeekday = new Date(todayStr + 'T12:00:00').getDay();
+                        
+                        // Calculate days until Friday
+                        const daysUntilFriday = pacificWeekday <= 5 ? (5 - pacificWeekday) : (7 - pacificWeekday + 5);
+                        const fridayDate = daysUntilFriday === 0 ? todayStr : addDaysToPacificDate(todayStr, daysUntilFriday);
+                        dateInput.value = fridayDate;
                         break;
                     case 'week':
-                        dateInput.value = today.toISOString().split('T')[0];
+                        dateInput.value = todayStr;
                         // Would need to implement week range
                         break;
                     case 'all':
@@ -740,6 +936,7 @@
                 currentFilters.city = e.target.value;
                 const date = document.getElementById('selectedDate').value;
                 loadDateEvents(date || 'all');
+                updateActiveFilterCount();
             });
             
             // Genre search functionality
@@ -770,6 +967,7 @@
             
             const date = document.getElementById('selectedDate').value;
             loadDateEvents(date || 'all');
+            updateActiveFilterCount();
         }
         
         // Update TBA count based on selected date
@@ -858,12 +1056,79 @@
             
             const date = document.getElementById('selectedDate').value;
             loadDateEvents(date || 'all');
+            updateActiveFilterCount();
+        }
+        
+        // Toggle mobile filters
+        function toggleMobileFilters() {
+            const controls = document.getElementById('filterControls');
+            const toggle = document.getElementById('mobileFilterToggle');
+            
+            if (controls.classList.contains('mobile-visible')) {
+                closeMobileFilters();
+            } else {
+                controls.classList.add('mobile-visible');
+                toggle.classList.add('active');
+                document.body.style.overflow = 'hidden'; // Prevent background scrolling
+            }
+        }
+        
+        // Close mobile filters
+        function closeMobileFilters() {
+            const controls = document.getElementById('filterControls');
+            const toggle = document.getElementById('mobileFilterToggle');
+            
+            controls.classList.remove('mobile-visible');
+            toggle.classList.remove('active');
+            document.body.style.overflow = ''; // Restore scrolling
+        }
+        
+        // Update active filter count badge
+        function updateActiveFilterCount() {
+            const badge = document.getElementById('activeFilterCount');
+            let count = 0;
+            
+            if (currentFilters.city) count++;
+            count += currentFilters.genres.size;
+            
+            if (count > 0) {
+                badge.textContent = count;
+                badge.style.display = 'inline-block';
+            } else {
+                badge.style.display = 'none';
+            }
         }
         
         // Initialize everything
         window.addEventListener('load', () => {
             initMap();
             loadEvents();
+            updateActiveFilterCount();
+            
+            // Close filters when clicking outside on mobile
+            document.addEventListener('click', (e) => {
+                const controls = document.getElementById('filterControls');
+                const toggle = document.getElementById('mobileFilterToggle');
+                
+                if (window.innerWidth <= 768 && 
+                    controls.classList.contains('mobile-visible') &&
+                    !controls.contains(e.target) && 
+                    !toggle.contains(e.target)) {
+                    closeMobileFilters();
+                }
+            });
+            
+            // Handle window resize
+            window.addEventListener('resize', () => {
+                if (window.innerWidth > 768) {
+                    // Reset mobile state when returning to desktop
+                    const controls = document.getElementById('filterControls');
+                    const toggle = document.getElementById('mobileFilterToggle');
+                    controls.classList.remove('mobile-visible');
+                    toggle.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+            });
         });
     </script>
 </body>
