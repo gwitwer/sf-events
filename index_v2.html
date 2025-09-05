@@ -293,6 +293,25 @@
             color: #777;
         }
         
+        .tba-item-links {
+            margin-top: 8px;
+            font-size: 13px;
+        }
+        
+        .tba-item-links a {
+            color: #2196F3;
+            text-decoration: none;
+            margin-right: 10px;
+            padding: 2px 6px;
+            background: rgba(33, 150, 243, 0.1);
+            border-radius: 3px;
+        }
+        
+        .tba-item-links a:hover {
+            background: rgba(33, 150, 243, 0.2);
+            text-decoration: underline;
+        }
+        
         .venue-hints {
             margin-top: 8px;
             padding: 8px;
@@ -889,6 +908,15 @@
                 html += `<a href="${event.url}" target="_blank" class="event-link">More Info</a>`;
             }
             
+            // Add extra links for both TBA and regular events
+            if (event.extraLinks && event.extraLinks.length > 0) {
+                event.extraLinks.forEach(link => {
+                    if (link.href) {
+                        html += `<a href="${link.href}" target="_blank" class="event-link">${link.text || 'Additional Info'}</a>`;
+                    }
+                });
+            }
+            
             html += '</div>';
             
             return html;
@@ -1084,6 +1112,15 @@
                             ${event.venue_hints.map(hint => 
                                 `<div class="venue-hint">• ${hint.text}</div>`
                             ).join('')}
+                        </div>
+                    ` : ''}
+                    ${event.url || (event.extraLinks && event.extraLinks.length > 0) ? `
+                        <div class="tba-item-links">
+                            ${event.url ? `<a href="${event.url}" target="_blank" onclick="event.stopPropagation()">Info</a>` : ''}
+                            ${event.extraLinks && event.extraLinks.length > 0 ? 
+                                event.extraLinks.map(link => 
+                                    link.href ? `<a href="${link.href}" target="_blank" onclick="event.stopPropagation()">${link.text || 'Link'}</a>` : ''
+                                ).join(' ') : ''}
                         </div>
                     ` : ''}
                 </div>
