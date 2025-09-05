@@ -5,6 +5,7 @@ Background scraper service for fetching and geocoding events
 
 import asyncio
 import json
+import os
 import re
 import time
 from datetime import datetime, timedelta
@@ -348,6 +349,7 @@ class DatabaseUpdater:
             # Get or create venue
             venue = None
             if event_data.get('venue'):
+                # Only pass coordinates if we need to update them
                 venue = self.get_or_create_venue(
                     event_data['venue'],
                     event_data.get('city', 'San Francisco'),
@@ -428,9 +430,17 @@ class DatabaseUpdater:
             raise
 
 
-async def scrape_and_update():
-    """Main function to scrape events and update database"""
-    logger.info("Starting scrape and update process...")
+async def scrape_and_update(days_ahead: Optional[int] = None):
+    """Main function to scrape events and update database
+    
+    Args:
+        days_ahead: Number of days ahead to process events (default from env or 14 days)
+    """
+    # Get days_ahead from environment variable or use default
+    if days_ahead is None:
+        days_ahead = int(os.environ.get('SCRAPE_DAYS_AHEAD', '14'))
+    
+    logger.info(f"Starting scrape and update process (next {days_ahead} days)...")
     
     try:
         # Initialize scraper
@@ -441,8 +451,27 @@ async def scrape_and_update():
         html_content = scraper.fetch_html()
         
         logger.info("Parsing events...")
-        events = scraper.parse_events(html_content)
-        logger.info(f"Parsed {len(events)} events")
+        all_events = scraper.parse_events(html_content)
+        
+        # Filter events to only process those within the specified timeframe
+        cutoff_date = (datetime.now() + timedelta(days=days_ahead)).date()
+        today = datetime.now().date()
+        events = []
+        for event in all_events:
+            date_str = event.get('dateISO')
+            if date_str:
+                try:
+                    event_date = datetime.strptime(date_str, '%Y-%m-%d').date()
+                    if today <= event_date <= cutoff_date:
+                        events.append(event)
+                except ValueError:
+                    # If date parsing fails, include it anyway
+                    events.append(event)
+            else:
+                # If no date, include it
+                events.append(event)
+        
+        logger.info(f"Filtered to {len(events)} events (out of {len(all_events)} total) for next {days_ahead} days")
         
         # Connect to database
         engine = create_engine("sqlite:///events.db", echo=False)
@@ -452,22 +481,50 @@ async def scrape_and_update():
         # Initialize database updater
         updater = DatabaseUpdater(session)
         
+        # Load existing venues to check if we already have coordinates
+        venue_coords_cache = {}
+        existing_venues = session.query(Venue).filter(
+            Venue.latitude.isnot(None),
+            Venue.longitude.isnot(None)
+        ).all()
+        for v in existing_venues:
+            cache_key = f"{v.name}|{v.city}"
+            venue_coords_cache[cache_key] = {
+                'lat': v.latitude,
+                'lon': v.longitude,
+                'display_name': v.display_name,
+                'approximate': v.is_approximate
+            }
+        logger.info(f"Loaded {len(venue_coords_cache)} venues with existing coordinates")
+        
         # Process events
         new_count = 0
         updated_count = 0
+        geocoded_count = 0
         
         for i, event_data in enumerate(events, 1):
             if i % 10 == 0:
                 logger.info(f"Processing event {i}/{len(events)}...")
             
             try:
-                # Geocode venue if needed
+                # Check if we need to geocode the venue
                 coordinates = None
-                if event_data.get('venue') and 'TBA' not in event_data['venue']:
-                    coordinates = scraper.geocode_venue(
-                        event_data['venue'],
-                        event_data.get('city', 'San Francisco')
-                    )
+                venue_name = event_data.get('venue')
+                city = event_data.get('city', 'San Francisco')
+                
+                if venue_name and 'TBA' not in venue_name:
+                    cache_key = f"{venue_name}|{city}"
+                    
+                    # Check if we already have coordinates for this venue
+                    if cache_key in venue_coords_cache:
+                        coordinates = venue_coords_cache[cache_key]
+                        logger.debug(f"Using cached coordinates for {venue_name}")
+                    else:
+                        # Only geocode if we don't have coordinates yet
+                        coordinates = scraper.geocode_venue(venue_name, city)
+                        if coordinates:
+                            venue_coords_cache[cache_key] = coordinates
+                            geocoded_count += 1
                 
                 # Update or create event
                 is_new = updater.update_or_create_event(event_data, coordinates)
@@ -489,7 +546,7 @@ async def scrape_and_update():
         session.commit()
         session.close()
         
-        logger.info(f"Scraping complete! New events: {new_count}, Updated: {updated_count}")
+        logger.info(f"Scraping complete! New events: {new_count}, Updated: {updated_count}, Geocoded venues: {geocoded_count}")
         
         # Clean up old events (older than 6 months)
         cutoff_date = datetime.now().date() - timedelta(days=180)
@@ -511,6 +568,7 @@ async def run_periodic_scraping():
     """Run scraping periodically"""
     while True:
         try:
+            # Process events based on configured days ahead (defaults to 14)
             await scrape_and_update()
         except Exception as e:
             logger.error(f"Periodic scraping error: {e}")

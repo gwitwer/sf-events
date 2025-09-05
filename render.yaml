@@ -11,6 +11,8 @@ services:
         value: sqlite:///events.db
       - key: RENDER
         value: "true"
+      - key: SCRAPE_DAYS_AHEAD
+        value: "14"  # Only scrape next 2 weeks of events for faster processing
     autoDeploy: false
 
   # Cron job to trigger scraping via API
@@ -25,3 +27,5 @@ services:
         value: 3.11.0
       - key: SERVICE_URL
         value: https://sf-events.onrender.com  # Update with your actual URL
+      - key: SCRAPE_DAYS_AHEAD
+        value: "14"  # Only scrape next 2 weeks of events for faster processing

@@ -23,14 +23,14 @@ def trigger_scrape():
             logger.info(f"Attempting to trigger scrape at {service_url}/api/scrape (attempt {attempt + 1})")
             
             # Wake up the service first if it's sleeping
-            wake_response = requests.get(f"{service_url}/health", timeout=30)
+            wake_response = requests.get(f"{service_url}/health", timeout=60)
             logger.info(f"Health check response: {wake_response.status_code}")
             
             # Give it a moment to fully wake up
             time.sleep(2)
             
-            # Trigger the scrape
-            response = requests.post(f"{service_url}/api/scrape", timeout=300)
+            # Trigger the scrape with longer timeout (10 minutes)
+            response = requests.post(f"{service_url}/api/scrape", timeout=600)
             response.raise_for_status()
             
             logger.info(f"Scrape triggered successfully: {response.json()}")

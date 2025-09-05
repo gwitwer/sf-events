@@ -76,6 +76,7 @@ async def startup_event():
         logger.info("Running initial scraping...")
         scraping_status["is_scraping"] = True
         try:
+            # Scrape based on configured days ahead (defaults to 14)
             await scrape_and_update()
             logger.info("Initial scraping completed successfully")
             scraping_status["last_scrape"] = datetime.now().isoformat()
@@ -93,7 +94,7 @@ async def startup_event():
     background_tasks.add(task)
     task.add_done_callback(background_tasks.discard)
     
-    # Start periodic scraping task
+    # Start periodic scraping task (will process next 14 days every 12 hours)
     task = asyncio.create_task(run_periodic_scraping())
     background_tasks.add(task)
     task.add_done_callback(background_tasks.discard)
@@ -571,6 +572,7 @@ async def trigger_scrape():
     try:
         logger.info("Manual scraping triggered via API")
         scraping_status["is_scraping"] = True
+        # Manual scrape via API uses configured days ahead
         await scrape_and_update()
         scraping_status["last_scrape"] = datetime.now().isoformat()
         
