@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 from datetime import datetime, date, timedelta
 from typing import List, Optional, Dict, Any
-from fastapi import FastAPI, HTTPException, Query, Depends
+from fastapi import FastAPI, HTTPException, Query, Depends, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse, HTMLResponse
@@ -16,6 +16,7 @@ from pydantic import BaseModel
 from sqlalchemy import create_engine, and_, or_, func
 from sqlalchemy.orm import Session, sessionmaker, joinedload
 import uvicorn
+import logfire
 
 from models import (
     Event, Venue, Genre, Promoter, EventLink, TBAVenueHint,
@@ -27,12 +28,23 @@ from scraper_service import scrape_and_update, run_periodic_scraping
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# Configure Logfire if token is available
+if os.environ.get('LOGFIRE_WRITE_TOKEN'):
+    logfire.configure()
+    logger.info('Logfire initialized')
+else:
+    logger.info('Logfire not configured (no LOGFIRE_WRITE_TOKEN)')
+
 # Initialize FastAPI app
 app = FastAPI(
     title="SF Events API (SQLite)",
     description="API for SF Bay Area events using SQLAlchemy and SQLite",
     version="2.0.0"
 )
+
+# Instrument FastAPI with Logfire if configured
+if os.environ.get('LOGFIRE_WRITE_TOKEN'):
+    logfire.instrument_fastapi(app)
 
 # Add CORS middleware
 app.add_middleware(
@@ -65,6 +77,7 @@ def get_db():
 async def startup_event():
     """Run on application startup"""
     logger.info("Starting up SF Events API...")
+    logfire.info('SF Events API starting up', service='api', event_type='startup')
     
     # Create database if it doesn't exist
     create_database("events.db")
@@ -77,13 +90,22 @@ async def startup_event():
         scraping_status["is_scraping"] = True
         try:
             # Scrape based on configured days ahead (defaults to 14)
-            await scrape_and_update()
+            result = await scrape_and_update()
             logger.info("Initial scraping completed successfully")
             scraping_status["last_scrape"] = datetime.now().isoformat()
             # Get event count
             db = SessionLocal()
-            scraping_status["events_count"] = db.query(Event).count()
+            event_count = db.query(Event).count()
+            scraping_status["events_count"] = event_count
             db.close()
+            
+            logfire.info(
+                'Initial scraping completed',
+                service='scraper',
+                event_type='startup_scrape',
+                total_events=event_count,
+                scrape_result=result if isinstance(result, dict) else {'status': 'completed'}
+            )
         except Exception as e:
             logger.error(f"Initial scraping failed: {e}")
         finally:
@@ -135,8 +157,17 @@ class EventResponse(BaseModel):
 
 # API Routes
 @app.get("/")
-async def read_root():
+async def read_root(request: Request):
     """Serve the main HTML file"""
+    # Log page visit
+    logfire.info(
+        'Page visit',
+        service='web',
+        event_type='page_view',
+        path='/',
+        user_agent=request.headers.get('user-agent', 'unknown')[:200],  # Truncate long user agents
+        ip=request.client.host if request.client else 'unknown'
+    )
     # Try the new version first
     if Path("index_v2.html").exists():
         return FileResponse("index_v2.html")
@@ -465,8 +496,14 @@ async def search_events(
 
 # Serve static files (keep compatibility with JSON endpoints)
 @app.get("/events_organized.json")
-async def get_organized_json(db: Session = Depends(get_db)):
+async def get_organized_json(request: Request, db: Session = Depends(get_db)):
     """Generate organized JSON from database"""
+    logfire.info(
+        'Legacy JSON endpoint accessed',
+        service='api',
+        event_type='api_request',
+        endpoint='/events_organized.json'
+    )
     events = db.query(Event).filter(
         Event.hidden == False
     ).options(
@@ -560,9 +597,25 @@ async def health_check(db: Session = Depends(get_db)):
         }
 
 @app.post("/api/scrape")
-async def trigger_scrape():
+async def trigger_scrape(request: Request):
     """Manually trigger a scraping run"""
+    # Log the scrape trigger - detect if it's from cron job
+    trigger_source = 'cron' if 'python' in request.headers.get('user-agent', '').lower() else 'manual'
+    logfire.info(
+        'Scrape triggered',
+        service='scraper',
+        event_type='scrape_trigger',
+        source=trigger_source,
+        ip=request.client.host if request.client else 'unknown'
+    )
+    
     if scraping_status["is_scraping"]:
+        logfire.info(
+            'Scrape skipped - already running',
+            service='scraper',
+            event_type='scrape_skipped',
+            source=trigger_source
+        )
         return {
             "status": "already_running",
             "message": "Scraping is already in progress",
@@ -573,13 +626,23 @@ async def trigger_scrape():
         logger.info("Manual scraping triggered via API")
         scraping_status["is_scraping"] = True
         # Manual scrape via API uses configured days ahead
-        await scrape_and_update()
+        result = await scrape_and_update()
         scraping_status["last_scrape"] = datetime.now().isoformat()
         
         # Get event count
         db = SessionLocal()
-        scraping_status["events_count"] = db.query(Event).count()
+        event_count = db.query(Event).count()
+        scraping_status["events_count"] = event_count
         db.close()
+        
+        logfire.info(
+            'Scraping completed via API',
+            service='scraper',
+            event_type='scrape_completed',
+            source=trigger_source,
+            total_events=event_count,
+            scrape_result=result if isinstance(result, dict) else {'status': 'completed'}
+        )
         
         return {
             "status": "success",
@@ -589,6 +652,13 @@ async def trigger_scrape():
         }
     except Exception as e:
         logger.error(f"Manual scraping failed: {e}")
+        logfire.error(
+            'Scraping failed',
+            service='scraper',
+            event_type='scrape_error',
+            source=trigger_source,
+            error=str(e)
+        )
         raise HTTPException(status_code=500, detail=str(e))
     finally:
         scraping_status["is_scraping"] = False

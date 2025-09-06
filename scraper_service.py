@@ -16,6 +16,7 @@ import requests
 from bs4 import BeautifulSoup
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, Session
+import logfire
 
 from models import (
     Base, Event, Venue, Genre, Promoter, EventLink,
@@ -25,6 +26,11 @@ from models import (
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+# Configure Logfire if token is available
+if os.environ.get('LOGFIRE_WRITE_TOKEN'):
+    logfire.configure()
+    logger.info('Logfire initialized for scraper service')
 
 
 class EventScraper:
@@ -379,7 +385,7 @@ class DatabaseUpdater:
                         promoter = self.get_or_create_promoter(promoter_name)
                         existing.promoters.append(promoter)
                 
-                logger.info(f"Updated event: {existing.title}")
+                logger.debug(f"Updated event: {existing.title}")
                 return False  # Not new
             
             else:
@@ -422,7 +428,7 @@ class DatabaseUpdater:
                 self.session.add(event)
                 # Flush after adding the event with all its relationships
                 self.session.flush()
-                logger.info(f"Created new event: {event.title}")
+                logger.debug(f"Created new event: {event.title}")
                 return True  # New event
                 
         except Exception as e:
@@ -430,17 +436,26 @@ class DatabaseUpdater:
             raise
 
 
-async def scrape_and_update(days_ahead: Optional[int] = None):
+async def scrape_and_update(days_ahead: Optional[int] = None) -> Dict:
     """Main function to scrape events and update database
     
     Args:
         days_ahead: Number of days ahead to process events (default from env or 14 days)
+        
+    Returns:
+        Dictionary with scraping statistics
     """
     # Get days_ahead from environment variable or use default
     if days_ahead is None:
         days_ahead = int(os.environ.get('SCRAPE_DAYS_AHEAD', '14'))
     
     logger.info(f"Starting scrape and update process (next {days_ahead} days)...")
+    logfire.info(
+        'Scraping started',
+        service='scraper',
+        event_type='scrape_start',
+        days_ahead=days_ahead
+    )
     
     try:
         # Initialize scraper
@@ -472,6 +487,15 @@ async def scrape_and_update(days_ahead: Optional[int] = None):
                 events.append(event)
         
         logger.info(f"Filtered to {len(events)} events (out of {len(all_events)} total) for next {days_ahead} days")
+        
+        logfire.info(
+            'Events filtered',
+            service='scraper',
+            event_type='events_filtered',
+            total_events=len(all_events),
+            filtered_events=len(events),
+            days_ahead=days_ahead
+        )
         
         # Connect to database
         engine = create_engine("sqlite:///events.db", echo=False)
@@ -548,6 +572,17 @@ async def scrape_and_update(days_ahead: Optional[int] = None):
         
         logger.info(f"Scraping complete! New events: {new_count}, Updated: {updated_count}, Geocoded venues: {geocoded_count}")
         
+        logfire.info(
+            'Scraping completed',
+            service='scraper',
+            event_type='scrape_complete',
+            new_events=new_count,
+            updated_events=updated_count,
+            geocoded_venues=geocoded_count,
+            total_processed=len(events),
+            days_ahead=days_ahead
+        )
+        
         # Clean up old events (older than 6 months)
         cutoff_date = datetime.now().date() - timedelta(days=180)
         session = get_session(engine)
@@ -556,10 +591,32 @@ async def scrape_and_update(days_ahead: Optional[int] = None):
             session.query(Event).filter(Event.date < cutoff_date).delete()
             session.commit()
             logger.info(f"Cleaned up {old_events} old events")
+            logfire.info(
+                'Old events cleaned',
+                service='scraper',
+                event_type='cleanup',
+                events_removed=old_events,
+                cutoff_date=cutoff_date.isoformat()
+            )
         session.close()
+        
+        # Return statistics
+        return {
+            'new_events': new_count,
+            'updated_events': updated_count,
+            'geocoded_venues': geocoded_count,
+            'total_processed': len(events),
+            'days_ahead': days_ahead
+        }
         
     except Exception as e:
         logger.error(f"Scraping failed: {e}")
+        logfire.error(
+            'Scraping failed',
+            service='scraper',
+            event_type='scrape_error',
+            error=str(e)
+        )
         raise
 
 

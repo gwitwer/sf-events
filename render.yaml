@@ -13,6 +13,8 @@ services:
         value: "true"
       - key: SCRAPE_DAYS_AHEAD
         value: "14"  # Only scrape next 2 weeks of events for faster processing
+      - key: LOGFIRE_WRITE_TOKEN
+        sync: false  # This will use the value from Render dashboard
     autoDeploy: false
 
   # Cron job to trigger scraping via API
@@ -29,3 +31,5 @@ services:
         value: https://sf-events.onrender.com  # Update with your actual URL
       - key: SCRAPE_DAYS_AHEAD
         value: "14"  # Only scrape next 2 weeks of events for faster processing
+      - key: LOGFIRE_WRITE_TOKEN
+        sync: false  # This will use the value from Render dashboard
