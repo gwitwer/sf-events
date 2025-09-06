@@ -19,8 +19,13 @@ import logfire
 
 # Configure Logfire
 try:
-    logfire.configure()
-    print("✅ Logfire configured successfully")
+    token = os.environ.get('LOGFIRE_WRITE_TOKEN')
+    if token:
+        logfire.configure(token=token)
+        print("✅ Logfire configured successfully with token")
+    else:
+        logfire.configure()  # Will use development mode
+        print("✅ Logfire configured in development mode (no token)")
 except Exception as e:
     print(f"❌ Failed to configure Logfire: {e}")
     sys.exit(1)

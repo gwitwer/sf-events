@@ -29,7 +29,7 @@ logger = logging.getLogger(__name__)
 
 # Configure Logfire if token is available
 if os.environ.get('LOGFIRE_WRITE_TOKEN'):
-    logfire.configure()
+    logfire.configure(token=os.environ.get('LOGFIRE_WRITE_TOKEN'))
     logger.info('Logfire initialized for scraper service')
 
 
