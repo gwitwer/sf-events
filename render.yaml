@@ -22,7 +22,7 @@ services:
     name: sf-events-scraper
     runtime: python
     schedule: "0 */12 * * *"  # Every 12 hours at minute 0
-    buildCommand: "pip install requests"
+    buildCommand: "pip install requests logfire"
     startCommand: "python run_scraper.py"
     envVars:
       - key: PYTHON_VERSION
