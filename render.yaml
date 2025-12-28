@@ -23,7 +23,7 @@ services:
     runtime: python
     schedule: "0 */12 * * *"  # Every 12 hours at minute 0
     buildCommand: "pip install requests logfire"
-    startCommand: "python run_scraper.py"
+    startCommand: "pip install requests logfire && python run_scraper.py"
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.0
